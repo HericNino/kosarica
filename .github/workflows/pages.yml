@@ -30,7 +30,7 @@ jobs:
       - name: Assemble site
         run: |
           mkdir -p _site/data
-          cp site/* _site/
+          cp -r site/. _site/
           cp data/report.json data/products.json _site/data/
       - uses: actions/upload-pages-artifact@v3
         with:
