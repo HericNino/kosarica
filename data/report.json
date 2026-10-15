@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T15:50:41+00:00",
+ "generated_at": "2026-10-15T18:16:35+00:00",
  "summary": {
   "as_of": "2026-10-15",
   "chains": 5,
@@ -30,10 +30,10 @@
    "stores": 41,
    "products": 20830,
    "offer_share": 0.125,
-   "compared": 484339,
+   "compared": 492471,
    "median_change_since_anchor": 0.0,
-   "share_up_since_anchor": 0.3148,
-   "share_down_since_anchor": 0.0818
+   "share_up_since_anchor": 0.315,
+   "share_down_since_anchor": 0.0825
   },
   {
    "chain": "lidl",
@@ -8732,9 +8732,9 @@
   {
    "category": "Kruh i pekarski",
    "chain": "kaufland",
-   "products": 68,
-   "index_vs_average": -0.0305,
-   "cheapest_share": 0.5882
+   "products": 69,
+   "index_vs_average": -0.0288,
+   "cheapest_share": 0.5797
   },
   {
    "category": "Kruh i pekarski",
@@ -8753,16 +8753,16 @@
   {
    "category": "Kruh i pekarski",
    "chain": "plodine",
-   "products": 88,
-   "index_vs_average": 0.0159,
-   "cheapest_share": 0.5114
+   "products": 89,
+   "index_vs_average": 0.0133,
+   "cheapest_share": 0.5169
   },
   {
    "category": "Kruh i pekarski",
    "chain": "spar",
-   "products": 79,
-   "index_vs_average": 0.0095,
-   "cheapest_share": 0.481
+   "products": 80,
+   "index_vs_average": 0.0105,
+   "cheapest_share": 0.475
   },
   {
    "category": "Kućanstvo",
@@ -8907,72 +8907,72 @@
   {
    "category": "Osnovne namirnice",
    "chain": "kaufland",
-   "products": 914,
-   "index_vs_average": 0.0013,
-   "cheapest_share": 0.5996
+   "products": 922,
+   "index_vs_average": 0.001,
+   "cheapest_share": 0.5965
   },
   {
    "category": "Osnovne namirnice",
    "chain": "konzum",
-   "products": 1134,
-   "index_vs_average": -0.014,
-   "cheapest_share": 0.5185
+   "products": 1145,
+   "index_vs_average": -0.0143,
+   "cheapest_share": 0.517
   },
   {
    "category": "Osnovne namirnice",
    "chain": "lidl",
-   "products": 119,
-   "index_vs_average": -0.1699,
-   "cheapest_share": 0.7731
+   "products": 121,
+   "index_vs_average": -0.16,
+   "cheapest_share": 0.7603
   },
   {
    "category": "Osnovne namirnice",
    "chain": "plodine",
-   "products": 1158,
-   "index_vs_average": 0.01,
-   "cheapest_share": 0.532
+   "products": 1169,
+   "index_vs_average": 0.0097,
+   "cheapest_share": 0.5304
   },
   {
    "category": "Osnovne namirnice",
    "chain": "spar",
-   "products": 1156,
-   "index_vs_average": -0.002,
-   "cheapest_share": 0.5346
+   "products": 1167,
+   "index_vs_average": -0.0033,
+   "cheapest_share": 0.5373
   },
   {
    "category": "Ostalo",
    "chain": "kaufland",
-   "products": 441,
-   "index_vs_average": -0.0205,
-   "cheapest_share": 0.6327
+   "products": 454,
+   "index_vs_average": -0.0196,
+   "cheapest_share": 0.6344
   },
   {
    "category": "Ostalo",
    "chain": "konzum",
-   "products": 561,
-   "index_vs_average": 0.0,
-   "cheapest_share": 0.4492
+   "products": 575,
+   "index_vs_average": -0.0009,
+   "cheapest_share": 0.4557
   },
   {
    "category": "Ostalo",
    "chain": "lidl",
-   "products": 48,
-   "index_vs_average": -0.1165,
-   "cheapest_share": 0.7292
+   "products": 49,
+   "index_vs_average": -0.118,
+   "cheapest_share": 0.7347
   },
   {
    "category": "Ostalo",
    "chain": "plodine",
-   "products": 563,
-   "index_vs_average": 0.0094,
-   "cheapest_share": 0.5027
+   "products": 577,
+   "index_vs_average": 0.0092,
+   "cheapest_share": 0.5078
   },
   {
    "category": "Ostalo",
    "chain": "spar",
-   "products": 544,
-   "index_vs_average": -0.0072,
-   "cheapest_share": 0.5699
+   "products": 559,
+   "index_vs_average": -0.0064,
+   "cheapest_share": 0.5707
   },
   {
    "category": "Pića",
@@ -9012,86 +9012,86 @@
   {
    "category": "Slatkiši i grickalice",
    "chain": "kaufland",
-   "products": 1033,
-   "index_vs_average": -0.0113,
-   "cheapest_share": 0.5247
+   "products": 1060,
+   "index_vs_average": -0.0104,
+   "cheapest_share": 0.5255
   },
   {
    "category": "Slatkiši i grickalice",
    "chain": "konzum",
-   "products": 1178,
+   "products": 1204,
    "index_vs_average": -0.0082,
-   "cheapest_share": 0.4525
+   "cheapest_share": 0.4543
   },
   {
    "category": "Slatkiši i grickalice",
    "chain": "lidl",
-   "products": 216,
-   "index_vs_average": -0.1423,
-   "cheapest_share": 0.75
+   "products": 218,
+   "index_vs_average": -0.1411,
+   "cheapest_share": 0.7523
   },
   {
    "category": "Slatkiši i grickalice",
    "chain": "plodine",
-   "products": 1168,
+   "products": 1190,
    "index_vs_average": 0.0032,
-   "cheapest_share": 0.5094
+   "cheapest_share": 0.5118
   },
   {
    "category": "Slatkiši i grickalice",
    "chain": "spar",
-   "products": 1178,
-   "index_vs_average": 0.0104,
-   "cheapest_share": 0.4406
+   "products": 1204,
+   "index_vs_average": 0.0095,
+   "cheapest_share": 0.4468
   },
   {
    "category": "Smrznuto",
    "chain": "kaufland",
-   "products": 263,
-   "index_vs_average": -0.0247,
-   "cheapest_share": 0.7186
+   "products": 213,
+   "index_vs_average": -0.0331,
+   "cheapest_share": 0.7606
   },
   {
    "category": "Smrznuto",
    "chain": "konzum",
-   "products": 289,
-   "index_vs_average": 0.0187,
-   "cheapest_share": 0.4844
+   "products": 237,
+   "index_vs_average": 0.0286,
+   "cheapest_share": 0.4684
   },
   {
    "category": "Smrznuto",
    "chain": "lidl",
-   "products": 32,
-   "index_vs_average": -0.1108,
-   "cheapest_share": 0.875
+   "products": 27,
+   "index_vs_average": -0.1569,
+   "cheapest_share": 0.9259
   },
   {
    "category": "Smrznuto",
    "chain": "plodine",
-   "products": 295,
-   "index_vs_average": 0.0038,
-   "cheapest_share": 0.6
+   "products": 246,
+   "index_vs_average": 0.0062,
+   "cheapest_share": 0.5976
   },
   {
    "category": "Smrznuto",
    "chain": "spar",
-   "products": 307,
-   "index_vs_average": -0.0095,
-   "cheapest_share": 0.6221
+   "products": 253,
+   "index_vs_average": -0.0038,
+   "cheapest_share": 0.6047
   },
   {
    "category": "Voće i povrće",
    "chain": "kaufland",
-   "products": 139,
+   "products": 140,
    "index_vs_average": 0.0052,
-   "cheapest_share": 0.5036
+   "cheapest_share": 0.5071
   },
   {
    "category": "Voće i povrće",
    "chain": "konzum",
-   "products": 161,
+   "products": 162,
    "index_vs_average": 0.0001,
-   "cheapest_share": 0.5093
+   "cheapest_share": 0.5123
   },
   {
    "category": "Voće i povrće",
@@ -9103,16 +9103,16 @@
   {
    "category": "Voće i povrće",
    "chain": "plodine",
-   "products": 175,
+   "products": 176,
    "index_vs_average": -0.0036,
-   "cheapest_share": 0.5486
+   "cheapest_share": 0.5511
   },
   {
    "category": "Voće i povrće",
    "chain": "spar",
-   "products": 164,
-   "index_vs_average": -0.0082,
-   "cheapest_share": 0.5671
+   "products": 165,
+   "index_vs_average": -0.0081,
+   "cheapest_share": 0.5697
   }
  ]
 }

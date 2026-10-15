@@ -13,23 +13,23 @@
   "rows_duplicate": 5,
   "unknown_columns": [],
   "rejected": {},
-  "seconds": 17.1
+  "seconds": 10.1
  },
  {
   "chain": "konzum",
   "status": "ok",
   "error": null,
   "files_listed": 188,
-  "files_in_area": 50,
-  "files_failed": 1,
+  "files_in_area": 51,
+  "files_failed": 0,
   "files_rejected": 0,
-  "stores": 50,
-  "rows": 553586,
+  "stores": 51,
+  "rows": 562936,
   "rows_skipped": 0,
   "rows_duplicate": 0,
   "unknown_columns": [],
   "rejected": {},
-  "seconds": 272.5
+  "seconds": 202.0
  },
  {
   "chain": "lidl",
@@ -45,7 +45,7 @@
   "rows_duplicate": 202919,
   "unknown_columns": [],
   "rejected": {},
-  "seconds": 13.9
+  "seconds": 14.7
  },
  {
   "chain": "plodine",
@@ -61,7 +61,7 @@
   "rows_duplicate": 0,
   "unknown_columns": [],
   "rejected": {},
-  "seconds": 41.1
+  "seconds": 40.3
  },
  {
   "chain": "spar",
@@ -77,7 +77,7 @@
   "rows_duplicate": 0,
   "unknown_columns": [],
   "rejected": {},
-  "seconds": 6.4
+  "seconds": 15.6
  },
  {
   "chain": "studenac",
@@ -93,6 +93,6 @@
   "rows_duplicate": 0,
   "unknown_columns": [],
   "rejected": {},
-  "seconds": 1.9
+  "seconds": 1.5
  }
 ]
