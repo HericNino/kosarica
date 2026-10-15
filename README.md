@@ -68,7 +68,7 @@ The first runs against the live sites turned up things no sample file would have
 - **The same product many times.** Lidl lists a product once per barcode, about 200,000 extra rows a day. They are counted separately from rows without a price, so the run report still shows real data loss.
 - **A street name is not a city.** A Plodine store on Zagrebačka ulica in Zadar was counted as Zagreb. The postal code now decides when the file name has one.
 - **Prices written as sentences.** Kaufland's anchor price column holds `MPC 2.5.2025=7,99€`, Plodine writes `,75`. Prices are read as the last number in the cell.
-- **Line breaks inside product names.** DuckDB's parallel CSV reader refused one day's combined file, and the run stopped before saving anything, which is what the quality gate is for.
+- **A file the fast reader refused.** DuckDB's parallel CSV reader gave up on one day's combined rows (quoted fields it couldn't split), and the run stopped before saving anything, which is what the quality gate is for. It now reads that file single-threaded.
 - **Random failures.** Konzum answers some requests with 404 and the same file a minute later. Files that fail get a second pass at the end instead of more retries in a row.
 - **Partial days.** Studenac's daily archive held 20 stores, none in Zagreb. Stores missing from a day keep their prices, so a partial publication doesn't look like closed stores.
 
