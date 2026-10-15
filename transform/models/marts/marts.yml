@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: int_current_prices
+    description: Current price of every product in every store that is still publishing.
+  - name: int_price_changes
+    description: Back-to-back price changes per store and product.
+  - name: mart_summary
+    description: Headline numbers.
+  - name: mart_chains
+    description: Per chain size, offers, and price movement since the anchor date of 2 May 2025.
+    columns:
+      - name: chain
+        data_tests: [unique, not_null]
+  - name: mart_basket
+    description: The same basket of identical products (by barcode) priced in every chain.
+    columns:
+      - name: chain
+        data_tests: [unique, not_null]
+  - name: mart_cheapest
+    description: How often each chain has the lowest price, among products sold by at least two chains.
+    columns:
+      - name: chain
+        data_tests: [unique, not_null]
+  - name: mart_daily_changes
+    description: Price increases and decreases per chain and day.
+  - name: mart_shrinkflation
+    description: Products whose price per unit rose by more than 5% while the price did not.

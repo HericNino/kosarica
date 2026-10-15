@@ -1,0 +1,71 @@
+name: Collect prices
+
+on:
+  schedule:
+    - cron: "41 7 * * *" # daily, after the chains publish (Spar ~03:30, Lidl ~07:15 local time)
+  workflow_dispatch:
+    inputs:
+      day:
+        description: "Day to collect, YYYY-MM-DD (empty: today in Zagreb)"
+        required: false
+      chains:
+        description: "Comma separated chains (empty: all)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      GH_TOKEN: ${{ github.token }}
+      DAY: ${{ inputs.day }}
+      CHAINS: ${{ inputs.chains }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --locked --no-dev
+
+      # The price history lives in a release, not in git: it is rewritten every day.
+      - name: Restore state
+        run: |
+          mkdir -p lake/state
+          gh release download state --dir lake/state --pattern '*.parquet' || echo "No state yet; starting fresh."
+
+      - name: Collect, update history, build report
+        run: |
+          args=()
+          [ -n "$DAY" ] && args+=(--day "$DAY")
+          [ -n "$CHAINS" ] && args+=(--chains "$CHAINS")
+          uv run kosarica run "${args[@]}"
+
+      # Only reached when every step above succeeded, including the dbt data tests,
+      # so a run that produced bad data never overwrites the good state.
+      - name: Save state and the day's silver files
+        run: |
+          gh release view state >/dev/null 2>&1 || gh release create state --title "Pipeline state" \
+            --notes "Price history and lookup tables, rewritten by every run. Not a software release." --latest=false
+          gh release upload state lake/state/*.parquet --clobber
+          for f in lake/silver/prices/day=*/chain=*/data.parquet; do
+            day=$(echo "$f" | sed -E 's|.*day=([0-9-]+)/chain=([a-z]+)/.*|\1|')
+            chain=$(echo "$f" | sed -E 's|.*day=([0-9-]+)/chain=([a-z]+)/.*|\2|')
+            month=${day:0:7}
+            gh release view "silver-$month" >/dev/null 2>&1 || gh release create "silver-$month" --title "Silver $month" \
+              --notes "Cleaned daily prices per chain, for rebuilding the history." --latest=false
+            cp "$f" "prices-$day-$chain.parquet"
+            gh release upload "silver-$month" "prices-$day-$chain.parquet" --clobber
+          done
+
+      - name: Commit report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Prices $(date -u +%F)"
+          git push

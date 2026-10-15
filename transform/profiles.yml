@@ -1,0 +1,7 @@
+kosarica:
+  target: local
+  outputs:
+    local:
+      type: duckdb
+      path: "{{ env_var('KOSARICA_WAREHOUSE', '../.dbt/warehouse.duckdb') }}"
+      threads: 4

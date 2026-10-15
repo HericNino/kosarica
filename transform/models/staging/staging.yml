@@ -1,0 +1,40 @@
+version: 2
+
+models:
+  - name: stg_price_history
+    description: Price periods per store and product (SCD type 2), kept by src/kosarica/state.py.
+    columns:
+      - name: chain
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: [konzum, lidl, plodine, spar, studenac]
+      - name: store_key
+        data_tests: [not_null]
+      - name: product_id
+        data_tests: [not_null]
+      - name: valid_from
+        data_tests: [not_null]
+      - name: paid_price
+        data_tests: [not_null]
+
+  - name: stg_products
+    description: Latest known attributes of each chain's products.
+    columns:
+      - name: product_id
+        data_tests: [not_null]
+      - name: name
+        data_tests: [not_null]
+
+  - name: stg_stores
+    description: Stores seen in the price lists, with the first and last day they published.
+    columns:
+      - name: store_key
+        data_tests: [not_null]
+
+  - name: stg_loads
+    description: One row per chain and day applied to the state.
+    columns:
+      - name: day
+        data_tests: [not_null]

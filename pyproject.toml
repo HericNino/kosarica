@@ -1,0 +1,38 @@
+[project]
+name = "kosarica"
+version = "0.1.0"
+description = "Daily retail prices from Croatian supermarket chains, as a small lakehouse."
+readme = "README.md"
+authors = [
+    { name = "Nino Heric" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "dbt-duckdb>=1.10.0",
+    "duckdb>=1.4.0",
+    "httpx>=0.28.1",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.32,<0.12.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.0",
+    "ruff>=0.15.0",
+]
+
+[project.scripts]
+kosarica = "kosarica.cli:main"
+
+[tool.ruff]
+line-length = 140
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["tests"]

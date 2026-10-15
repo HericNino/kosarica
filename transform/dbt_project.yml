@@ -1,0 +1,19 @@
+name: kosarica
+version: "1.0"
+profile: kosarica
+
+model-paths: ["models"]
+macro-paths: ["macros"]
+test-paths: ["tests"]
+
+flags:
+  send_anonymous_usage_stats: false
+
+vars:
+  lake: "../lake"
+  # stores that haven't published for this many days are treated as closed
+  store_grace_days: 3
+
+models:
+  kosarica:
+    +materialized: table

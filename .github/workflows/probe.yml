@@ -1,0 +1,29 @@
+name: Probe chains
+
+# Run by hand to see what a chain publishes today and how its columns are read.
+on:
+  workflow_dispatch:
+    inputs:
+      day:
+        description: "YYYY-MM-DD (empty: today in Zagreb)"
+        required: false
+      chains:
+        description: "Comma separated chains (empty: all)"
+        required: false
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --locked --no-dev
+      - run: |
+          args=()
+          [ -n "${{ inputs.day }}" ] && args+=(--day "${{ inputs.day }}")
+          [ -n "${{ inputs.chains }}" ] && args+=(--chains "${{ inputs.chains }}")
+          uv run kosarica probe "${args[@]}" | tee probe.jsonl
+          { echo '```json'; cat probe.jsonl; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
