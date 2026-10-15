@@ -17,7 +17,8 @@ with cases as (
         ('LASAGNE ŠPINAT/RICOTA 400 g', 'Gotova jela'),
         ('PILEĆA KRILA PIKANTNA 450 g', 'Meso i riba'),
         ('TJES.FLAVIO PIPE RIGATE 500 g', 'Osnovne namirnice'),
-        ('Češnjak domaći 200g', 'Voće i povrće')
+        ('Češnjak domaći 200g', 'Voće i povrće'),
+        ('Dolcela Vanilin šećer 8g', 'Osnovne namirnice')
     ) as t(name, expected)
 ),
 
