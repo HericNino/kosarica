@@ -2,6 +2,8 @@
 
 How much does the same shopping basket cost in Konzum, Lidl, Kaufland, Spar, Plodine and Studenac, and how are prices moving? Since May 2025 every supermarket chain in Croatia has to publish its full price list every day, per store (Odluka o objavi cjenika, NN 75/2025). kosarica collects those lists for stores in the Zagreb area and turns them into a price history.
 
+**Site: [hericnino.github.io/kosarica](https://hericnino.github.io/kosarica/)**: search about 17,000 products sold by at least two chains, see which chain is cheaper for which kind of product, and build a basket to see where it costs least.
+
 It's built as a small lakehouse, the way the same job would be done on Azure or Databricks, but running on DuckDB and GitHub Actions for free.
 
 ## How it works
@@ -44,6 +46,10 @@ This is what a dbt snapshot does, written by hand because dbt snapshots stamp pe
 | `mart_chains` | How many stores and products, what share is on offer, and how have prices moved since the anchor date of 2 May 2025? |
 | `mart_daily_changes` | How many prices went up or down each day, and by how much? |
 | `mart_shrinkflation` | Which products got more expensive per kilo or litre while the price stayed the same? |
+| `mart_products` | Every product sold by at least two chains, priced per chain, for the product search |
+| `mart_categories` | Per category, how each chain's prices compare with the average chain for the same products |
+
+**Categories.** Chains' own categories don't help (Konzum files everything under "HRANA", Plodine has none), so `transform/seeds/category_rules.csv` sorts products by words in their names, abbreviations included ("ČOK.", "TJES.", "ULO."). Rules have priorities, so "napolitanke naranča" is a sweet, not a fruit. About 7% of comparable products end up in "Ostalo". A dbt test checks the rules against real product names.
 
 ## First numbers
 
@@ -95,7 +101,7 @@ The tests run the whole pipeline, dbt included, against a fake set of chain webs
 | Raw files | only during a run | a full day is gigabytes; the chains keep them online |
 | Silver | release `silver-YYYY-MM`, one Parquet file per chain and day | to rebuild the history or backfill |
 | State | release `state` | rewritten daily, too big and too churny for git |
-| Report | `data/report.json` in git | small, and each day's commit is a readable diff |
+| Report | `data/report.json`, `data/products.json` in git | what the site reads; one product per line, so each day's commit is a readable diff |
 
 On Azure the same layout maps directly: releases become a Data Lake container, the GitHub Actions schedule becomes a Data Factory pipeline, and the dbt project runs unchanged against Synapse or Databricks with a different adapter.
 
@@ -109,8 +115,9 @@ src/kosarica/
   stores.py   store, postal code and city from file names
   ingest.py   bronze → silver, with the run report
   state.py    price history as SCD type 2 periods
-  report.py   runs dbt, writes report.json
-transform/    dbt project: staging, marts, data tests, the barcode macro
+  report.py   runs dbt, writes report.json and products.json
+transform/    dbt project: staging, marts, data tests, the barcode macro, category rules
+site/         the website: HTML, CSS and JavaScript, no build step
 tests/        pytest, with a fake web of chain sites
 ```
 

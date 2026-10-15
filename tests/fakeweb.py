@@ -52,7 +52,7 @@ def spar_csv(milk: str, bread: str | None, coffee_special: str = "") -> bytes:
     lines = [SPAR_HEADER, f"Mlijeko 2,8% 1 l;1001;Dukat;1;l;{milk};{milk};;1,19;1,09;3850102123452;Mlijeko"]
     if bread is not None:
         lines.append(f"Kruh bijeli 500 g;1002;Spar;0,5;kg;{bread};{bread};;0,99;0,95;;Kruh")
-    lines.append(f"Kava mljevena 250 g;1003;Franck;0,25;kg;4,49;17,96;{coffee_special};4,29;3,99;3850104004009;Kava")
+    lines.append(f"Kava mljevena 250 g;1003;Franck;0,25;kg;4,49;17,96;{coffee_special};4,29;3,99;3850104004001;Kava")
     lines.append(";;;;;;;;;;;")  # blank line
     lines.append("Bez cijene;1004;X;1;kom;;;;;;;Ostalo")  # no price: skipped
     return "\n".join(lines).encode("utf-8")
@@ -100,11 +100,11 @@ def kaufland_csv(milk: str) -> bytes:
             "15,16",
             "",
             "MPC 2.5.2025=3,99€",
-            "3850104004009",
+            "3850104004001",
             "Kava",
             "Dostupan",
         ],
-        ["Sir 1 kg", "9003", "Kaufland", "1", "KOM", "    7,99", "", "7,99", "", "", "3850999000001", "Sir", "Nedostupan"],
+        ["Sir 1 kg", "9003", "Kaufland", "1", "KOM", "    7,99", "", "7,99", "", "", "3850999000003", "Sir", "Nedostupan"],
     ]
     return "\n".join("\t".join(r) for r in [columns, *rows]).encode()
 

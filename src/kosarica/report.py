@@ -50,12 +50,13 @@ def run_dbt(lake: Path, warehouse: Path) -> None:
         raise DbtError(f"dbt build failed: {result.exception or 'see the dbt output above'}")
 
 
-def build(lake: Path) -> dict:
+def build(lake: Path) -> tuple[dict, dict]:
+    """(report.json, products.json): the summary the dashboard opens with, and the product catalog."""
     with tempfile.TemporaryDirectory() as tmp:
         warehouse = Path(tmp) / "warehouse.duckdb"
         run_dbt(lake, warehouse)
         with duckdb.connect(str(warehouse)) as db:
-            return assemble(db)
+            return assemble(db), products(db)
 
 
 def rows(db: duckdb.DuckDBPyConnection, sql: str) -> list[dict]:
@@ -80,7 +81,38 @@ def assemble(db: duckdb.DuckDBPyConnection) -> dict:
         "summary": rows(db, "select * from mart_summary")[0],
         "chains": rows(db, "select * from mart_chains"),
         "basket": rows(db, "select * from mart_basket"),
+        "basket_items": basket_items(db),
         "cheapest": rows(db, "select * from mart_cheapest"),
         "daily_changes": rows(db, "select * from mart_daily_changes where day >= current_date - 90"),
         "shrinkflation": rows(db, "select * from mart_shrinkflation limit 100"),
+        "categories": rows(db, "select * from mart_categories"),
     }
+
+
+def basket_items(db: duckdb.DuckDBPyConnection) -> list[dict]:
+    """[{"gtin", "name", "prices": {chain: price}}], one entry per product, for the product search."""
+    items: dict[str, dict] = {}
+    for row in rows(db, "select gtin, name, chain, price from mart_basket_items"):
+        item = items.setdefault(row["gtin"], {"gtin": row["gtin"], "name": row["name"], "prices": {}})
+        item["prices"][row["chain"]] = row["price"]
+    return list(items.values())
+
+
+def products(db: duckdb.DuckDBPyConnection) -> dict:
+    """The product catalog in a compact form: ~20,000 products as arrays, not objects.
+
+    {"chains": [...], "categories": [...],
+     "products": [[gtin, name, category index, [price per chain or null], [anchor per chain or null]], ...]}
+    """
+    chains = [r["chain"] for r in rows(db, "select distinct chain from mart_products order by chain")]
+    categories = [r["category"] for r in rows(db, "select category from mart_products group by category order by count(*) desc")]
+    position = {c: i for i, c in enumerate(chains)}
+    category_index = {c: i for i, c in enumerate(categories)}
+    catalog: dict[str, list] = {}
+    for r in rows(db, "select gtin, name, category, chain, price, anchor_price from mart_products order by name, gtin"):
+        entry = catalog.setdefault(
+            r["gtin"], [r["gtin"], r["name"], category_index[r["category"]], [None] * len(chains), [None] * len(chains)]
+        )
+        entry[3][position[r["chain"]]] = r["price"]
+        entry[4][position[r["chain"]]] = r["anchor_price"]
+    return {"chains": chains, "categories": categories, "products": list(catalog.values())}

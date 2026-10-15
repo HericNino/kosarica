@@ -54,9 +54,13 @@ def main(argv: list[str] | None = None) -> int:
         applied = state.apply_day(args.lake, day)
         log.info("state: applied %s", applied or "nothing")
     if args.command in ("report", "run"):
-        result = report.build(args.lake)
+        result, catalog = report.build(args.lake)
         args.data.mkdir(parents=True, exist_ok=True)
         (args.data / "report.json").write_text(json.dumps(result, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+        # one product per line: small diffs from day to day, and still loads as one JSON document
+        lines = ",\n".join(json.dumps(p, ensure_ascii=False, separators=(",", ":")) for p in catalog["products"])
+        head = json.dumps({k: v for k, v in catalog.items() if k != "products"}, ensure_ascii=False)[:-1]
+        (args.data / "products.json").write_text(f'{head}, "products": [\n{lines}\n]}}\n', encoding="utf-8")
         log.info("report: %s prices as of %s", result["summary"]["prices"], result["summary"]["as_of"])
     return exit_code
 

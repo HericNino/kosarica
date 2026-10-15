@@ -12,6 +12,8 @@ models:
     columns:
       - name: chain
         data_tests: [unique, not_null]
+  - name: mart_basket_items
+    description: Products every chain sells (by barcode), with each chain's median price.
   - name: mart_basket
     description: The same basket of identical products (by barcode) priced in every chain.
     columns:
@@ -26,3 +28,14 @@ models:
     description: Price increases and decreases per chain and day.
   - name: mart_shrinkflation
     description: Products whose price per unit rose by more than 5% while the price did not.
+  - name: int_product_catalog
+    description: One row per barcode with a readable name and a category from seeds/category_rules.csv.
+    columns:
+      - name: gtin
+        data_tests: [unique, not_null]
+      - name: category
+        data_tests: [not_null]
+  - name: mart_products
+    description: Products sold by at least two chains, priced per chain, for the product search.
+  - name: mart_categories
+    description: Per category and chain, a price index against the average chain (products in 3+ chains).

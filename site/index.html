@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="hr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>košarica · cijene u trgovinama</title>
+    <meta name="description" content="Usporedba cijena istih proizvoda u Konzumu, Lidlu, Kauflandu, Sparu, Plodinama i Studencu, svaki dan." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="app.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Preskoči na sadržaj</a>
+    <header class="top">
+      <div class="top-inner">
+        <a class="brand" href="#pregled" aria-label="košarica, početna">
+          <svg viewBox="0 0 32 32" aria-hidden="true">
+            <path d="M5 12h22l-2.4 12.2a3 3 0 0 1-2.9 2.3H10.3a3 3 0 0 1-2.9-2.3Z" />
+            <path d="M11 12 15 5M21 12l-4-7" />
+            <path d="M12 17v5M16 17v5M20 17v5" />
+          </svg>
+          <span>košarica</span>
+        </a>
+        <nav class="tabs" aria-label="Glavna navigacija">
+          <a href="#pregled" data-view="pregled">Pregled</a>
+          <a href="#proizvodi" data-view="proizvodi">Proizvodi</a>
+          <a href="#kategorije" data-view="kategorije">Kategorije</a>
+          <a href="#kosarica" data-view="kosarica">Moja košarica <span class="badge" id="fav-count" hidden></span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <p class="loading" id="loading">Učitavam cijene…</p>
+
+      <!-- Pregled -->
+      <section class="view" id="view-pregled" hidden>
+        <header class="hero">
+          <p class="eyebrow" id="as-of"></p>
+          <h1 id="headline"></h1>
+          <p class="lede">
+            Usporedba istih proizvoda (po barkodu) u trgovinama na zagrebačkom području, iz cjenika koje trgovci od svibnja 2025.
+            po zakonu objavljuju svaki dan.
+          </p>
+        </header>
+
+        <section class="kpis" id="kpis" aria-label="Brojke"></section>
+
+        <article class="card">
+          <header class="card-head">
+            <h2>Ista košarica u svakom lancu</h2>
+            <p class="muted" id="basket-note"></p>
+          </header>
+          <div class="hbars" id="basket"></div>
+        </article>
+
+        <div class="grid-2">
+          <article class="card">
+            <header class="card-head">
+              <h2>Koliko je često najjeftiniji</h2>
+              <p class="muted">Udio proizvoda koje lanac prodaje po najnižoj cijeni, među onima koje ima barem još jedan lanac</p>
+            </header>
+            <div class="hbars" id="cheapest"></div>
+          </article>
+          <article class="card">
+            <header class="card-head">
+              <h2>Na akciji danas</h2>
+              <p class="muted">Udio proizvoda s akcijskom cijenom ili oznakom akcije</p>
+            </header>
+            <div class="hbars" id="offers"></div>
+          </article>
+        </div>
+
+        <article class="card">
+          <header class="card-head">
+            <h2>Cijene od 2. svibnja 2025.</h2>
+            <p class="muted">
+              Zakon traži da uz svaku cijenu stoji i ona s 2. svibnja 2025. (sidrena cijena). Koliko je proizvoda od tada
+              pojeftinilo, ostalo isto ili poskupjelo:
+            </p>
+          </header>
+          <ul class="legend" id="anchor-legend"></ul>
+          <div class="stacks" id="anchor"></div>
+        </article>
+
+        <article class="card">
+          <header class="card-head">
+            <h2>Promjene cijena po danu</h2>
+            <p class="muted">Koliko je cijena u kojem danu poraslo ili palo, u svim praćenim trgovinama</p>
+          </header>
+          <div id="changes"></div>
+        </article>
+      </section>
+
+      <!-- Proizvodi -->
+      <section class="view" id="view-proizvodi" hidden>
+        <header class="view-head">
+          <h1>Proizvodi</h1>
+          <p class="lede">Proizvodi koje prodaju barem dva lanca, s cijenom u svakom. Zvjezdicom ih dodaješ u svoju košaricu.</p>
+        </header>
+        <div class="toolbar">
+          <label class="search">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg>
+            <span class="sr-only">Traži proizvod</span>
+            <input id="q" type="search" placeholder="Traži: mlijeko, nutella, pelene…" autocomplete="off" />
+          </label>
+          <label class="select">
+            <span class="sr-only">Poredaj</span>
+            <select id="sort">
+              <option value="common">U najviše lanaca</option>
+              <option value="savings">Najveća razlika u cijeni</option>
+              <option value="name">Naziv</option>
+              <option value="cheap">Najniža cijena</option>
+              <option value="anchor">Najviše poskupjelo od svibnja 2025.</option>
+            </select>
+          </label>
+          <button class="toggle" id="only-fav" type="button" aria-pressed="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9Z" /></svg>
+            Samo moja košarica
+          </button>
+        </div>
+        <div class="chips" id="categories" role="group" aria-label="Kategorije"></div>
+        <p class="muted result-count" id="result-count" aria-live="polite"></p>
+        <ul class="products" id="products"></ul>
+        <button class="more" id="more" type="button" hidden>Prikaži još</button>
+        <aside class="scale-note muted">
+          <span class="swatch-row" id="premium-legend"></span>
+        </aside>
+      </section>
+
+      <!-- Kategorije -->
+      <section class="view" id="view-kategorije" hidden>
+        <header class="view-head">
+          <h1>Tko je jeftiniji za što</h1>
+          <p class="lede">
+            Za svaku kategoriju: koliko su cijene u lancu niže ili više od prosjeka lanaca koji prodaju isti proizvod. Računa
+            se samo na proizvodima koje imaju barem tri lanca. Klikni polje za popis proizvoda.
+          </p>
+        </header>
+        <ul class="legend scale" id="heat-legend"></ul>
+        <div class="heat-wrap"><table class="heat" id="heat"></table></div>
+      </section>
+
+      <!-- Moja košarica -->
+      <section class="view" id="view-kosarica" hidden>
+        <header class="view-head">
+          <h1>Moja košarica</h1>
+          <p class="lede">Proizvodi koje si označio zvjezdicom. Košarica se pamti samo u ovom pregledniku.</p>
+        </header>
+        <div class="empty" id="basket-empty">
+          <p>Košarica je prazna.</p>
+          <a class="button" href="#proizvodi">Potraži proizvode</a>
+        </div>
+        <div id="basket-full" hidden>
+          <article class="card">
+            <header class="card-head">
+              <h2 id="my-headline"></h2>
+              <p class="muted" id="my-note"></p>
+            </header>
+            <div class="hbars" id="my-totals"></div>
+            <p class="split" id="my-split"></p>
+          </article>
+          <ul class="mine" id="my-items"></ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <div class="foot-inner">
+        <p>
+          Podaci: cjenici koje trgovci objavljuju prema Odluci o objavi cjenika (NN 75/2025). Trgovine s poštanskim brojem 10xxx.
+          Cijena lanca je srednja vrijednost (medijan) u njegovim trgovinama. Proizvodi se uspoređuju po barkodu.
+        </p>
+        <p>
+          <a href="https://github.com/HericNino/kosarica">Kod i metoda na GitHubu</a> ·
+          <a href="data/report.json">report.json</a> · <a href="data/products.json">products.json</a> ·
+          <span id="generated"></span>
+        </p>
+      </div>
+    </footer>
+
+    <div class="tooltip" id="tooltip" role="tooltip" hidden></div>
+  </body>
+</html>

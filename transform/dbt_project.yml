@@ -3,6 +3,7 @@ version: "1.0"
 profile: kosarica
 
 model-paths: ["models"]
+seed-paths: ["seeds"]
 macro-paths: ["macros"]
 test-paths: ["tests"]
 
@@ -17,3 +18,11 @@ vars:
 models:
   kosarica:
     +materialized: table
+
+seeds:
+  kosarica:
+    category_rules:
+      +column_types:
+        priority: integer
+        category: varchar
+        pattern: varchar
