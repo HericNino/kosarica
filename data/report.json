@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T15:21:50+00:00",
+ "generated_at": "2026-10-15T15:50:41+00:00",
  "summary": {
   "as_of": "2026-10-15",
   "chains": 5,
@@ -30,10 +30,10 @@
    "stores": 41,
    "products": 20830,
    "offer_share": 0.125,
-   "compared": 396941,
+   "compared": 484339,
    "median_change_since_anchor": 0.0,
    "share_up_since_anchor": 0.3148,
-   "share_down_since_anchor": 0.0829
+   "share_down_since_anchor": 0.0818
   },
   {
    "chain": "lidl",
@@ -104,6 +104,8423 @@
    "above_cheapest": 0.1873
   }
  ],
+ "basket_items": [
+  {
+   "gtin": "07622202213984",
+   "name": "7 days Family croissant mini kak-van185g",
+   "prices": {
+    "kaufland": 2.69,
+    "konzum": 2.75,
+    "lidl": 1.85,
+    "plodine": 2.79,
+    "spar": 2.75
+   }
+  },
+  {
+   "gtin": "07622201388409",
+   "name": "7 days midi croissant cacao 60 g",
+   "prices": {
+    "kaufland": 0.85,
+    "konzum": 0.89,
+    "lidl": 0.85,
+    "plodine": 0.59,
+    "spar": 0.89
+   }
+  },
+  {
+   "gtin": "03831070652601",
+   "name": "Afrodita Sun Care Marmelada Orig. 200 ml",
+   "prices": {
+    "kaufland": 15.99,
+    "konzum": 15.99,
+    "lidl": 7.99,
+    "plodine": 18.19,
+    "spar": 15.99
+   }
+  },
+  {
+   "gtin": "00054881005555",
+   "name": "Ahmad Čaj English Breakfast 40 g",
+   "prices": {
+    "kaufland": 3.45,
+    "konzum": 3.45,
+    "lidl": 1.86,
+    "plodine": 3.45,
+    "spar": 3.45
+   }
+  },
+  {
+   "gtin": "05411188129899",
+   "name": "Alpro Barista badem 1 L",
+   "prices": {
+    "kaufland": 2.27,
+    "konzum": 3.89,
+    "lidl": 2.29,
+    "plodine": 3.89,
+    "spar": 3.89
+   }
+  },
+  {
+   "gtin": "05411188130550",
+   "name": "Alpro Napitak od zobi Barista 1L vg.",
+   "prices": {
+    "kaufland": 2.27,
+    "konzum": 3.89,
+    "lidl": 2.29,
+    "plodine": 3.79,
+    "spar": 3.89
+   }
+  },
+  {
+   "gtin": "05411188110835",
+   "name": "Alpro napitak od badema 1 l",
+   "prices": {
+    "kaufland": 2.27,
+    "konzum": 2.29,
+    "lidl": 2.29,
+    "plodine": 3.79,
+    "spar": 3.79
+   }
+  },
+  {
+   "gtin": "05411188112709",
+   "name": "Alpro napitak od badema bez šećera 1 l",
+   "prices": {
+    "kaufland": 2.27,
+    "konzum": 2.29,
+    "lidl": 2.29,
+    "plodine": 3.79,
+    "spar": 3.79
+   }
+  },
+  {
+   "gtin": "05411188128311",
+   "name": "Alpro napitak od kokosa bez šećera 1l",
+   "prices": {
+    "kaufland": 3.79,
+    "konzum": 3.79,
+    "lidl": 2.29,
+    "plodine": 3.79,
+    "spar": 3.79
+   }
+  },
+  {
+   "gtin": "05411188116592",
+   "name": "Alpro napitak od kokosa s rižom 1 l",
+   "prices": {
+    "kaufland": 2.27,
+    "konzum": 2.29,
+    "lidl": 2.29,
+    "plodine": 3.79,
+    "spar": 3.79
+   }
+  },
+  {
+   "gtin": "04015400563846",
+   "name": "Always Ulošci dnevni trio long plus 44/1",
+   "prices": {
+    "kaufland": 2.99,
+    "konzum": 2.89,
+    "lidl": 2.99,
+    "plodine": 3.29,
+    "spar": 3.65
+   }
+  },
+  {
+   "gtin": "08700216861182",
+   "name": "Always Ulošci hig.Quatt.ult.nig.28/1_OC",
+   "prices": {
+    "kaufland": 4.99,
+    "konzum": 5.57,
+    "lidl": 4.99,
+    "plodine": 3.74,
+    "spar": 4.95
+   }
+  },
+  {
+   "gtin": "08002230000302",
+   "name": "Aperol 11% 0,7 l",
+   "prices": {
+    "kaufland": 19.49,
+    "konzum": 19.49,
+    "lidl": 19.49,
+    "plodine": 19.49,
+    "spar": 19.49
+   }
+  },
+  {
+   "gtin": "04056631001226",
+   "name": "Aptamil Mliječna formula Pronutra 1 800g",
+   "prices": {
+    "kaufland": 18.95,
+    "konzum": 21.99,
+    "lidl": 17.49,
+    "plodine": 17.49,
+    "spar": 19.69
+   }
+  },
+  {
+   "gtin": "03850105181596",
+   "name": "Arf Cream Citro 400ml",
+   "prices": {
+    "kaufland": 2.39,
+    "konzum": 1.89,
+    "lidl": 1.45,
+    "plodine": 1.89,
+    "spar": 1.89
+   }
+  },
+  {
+   "gtin": "03850105181190",
+   "name": "Arf Sredstvo za čišć.Deobad 650 ml",
+   "prices": {
+    "kaufland": 3.29,
+    "konzum": 2.59,
+    "lidl": 3.29,
+    "plodine": 2.59,
+    "spar": 2.39
+   }
+  },
+  {
+   "gtin": "03850105174895",
+   "name": "Arf Wc osvježivač 5 drops Lemon 2x55g",
+   "prices": {
+    "kaufland": 3.99,
+    "konzum": 3.98,
+    "lidl": 1.99,
+    "plodine": 2.98,
+    "spar": 3.19
+   }
+  },
+  {
+   "gtin": "03850105181107",
+   "name": "Arf za staklo antistatic 650ml",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.99,
+    "lidl": 1.49,
+    "plodine": 1.49,
+    "spar": 1.59
+   }
+  },
+  {
+   "gtin": "03838471013185",
+   "name": "Argeta junior kokošja pašteta prom 3x95g",
+   "prices": {
+    "kaufland": 4.45,
+    "konzum": 4.19,
+    "lidl": 3.49,
+    "plodine": 4.19,
+    "spar": 4.19
+   }
+  },
+  {
+   "gtin": "03838471013109",
+   "name": "Argeta pašteta od lososa 95 g",
+   "prices": {
+    "kaufland": 2.59,
+    "konzum": 2.39,
+    "lidl": 2.39,
+    "plodine": 2.39,
+    "spar": 2.39
+   }
+  },
+  {
+   "gtin": "03838975567061",
+   "name": "Argeta pašteta od tune 95 g",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.99,
+    "lidl": 1.99,
+    "plodine": 1.69,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "08006540940150",
+   "name": "Ariel Deterdž.za rub.Fresh 80pr.4,4kg",
+   "prices": {
+    "kaufland": 29.99,
+    "konzum": 23.99,
+    "lidl": 18.99,
+    "plodine": 18.99,
+    "spar": 22.99
+   }
+  },
+  {
+   "gtin": "08700216764896",
+   "name": "Ariel Kapsule za rublje Extra Stain 50/1",
+   "prices": {
+    "kaufland": 29.99,
+    "konzum": 32.99,
+    "lidl": 19.99,
+    "plodine": 18.99,
+    "spar": 22.99
+   }
+  },
+  {
+   "gtin": "08700216765145",
+   "name": "Ariel Kapsule za rublje Mountain S.60/1",
+   "prices": {
+    "kaufland": 29.99,
+    "konzum": 18.99,
+    "lidl": 18.99,
+    "plodine": 18.99,
+    "spar": 20.99
+   }
+  },
+  {
+   "gtin": "03850354015819",
+   "name": "B.aktiv LGG jogurt natur 1 kg PET",
+   "prices": {
+    "kaufland": 2.99,
+    "konzum": 2.99,
+    "lidl": 2.99,
+    "plodine": 2.99,
+    "spar": 2.99
+   }
+  },
+  {
+   "gtin": "00000080310891",
+   "name": "BR_Kinder joy 20 g",
+   "prices": {
+    "kaufland": 1.79,
+    "konzum": 1.79,
+    "lidl": 1.79,
+    "plodine": 1.79,
+    "spar": 2.09
+   }
+  },
+  {
+   "gtin": "04009900550178",
+   "name": "B_Airwaves Žvakaće gume blackmint boč64g",
+   "prices": {
+    "kaufland": 3.69,
+    "konzum": 3.69,
+    "lidl": 3.69,
+    "plodine": 3.69,
+    "spar": 2.95
+   }
+  },
+  {
+   "gtin": "03850112110398",
+   "name": "B_Badel Pelinkovac gor.liker 31%0,1 l",
+   "prices": {
+    "kaufland": 1.69,
+    "konzum": 1.69,
+    "lidl": 1.69,
+    "plodine": 1.69,
+    "spar": 1.75
+   }
+  },
+  {
+   "gtin": "03850112145147",
+   "name": "B_Badel domaći 35% 0,1 l",
+   "prices": {
+    "kaufland": 1.69,
+    "konzum": 1.69,
+    "lidl": 1.69,
+    "plodine": 1.69,
+    "spar": 1.75
+   }
+  },
+  {
+   "gtin": "03850112141231",
+   "name": "B_Badel prima brand 35% 0,1 l",
+   "prices": {
+    "kaufland": 1.65,
+    "konzum": 1.65,
+    "lidl": 1.65,
+    "plodine": 1.65,
+    "spar": 1.69
+   }
+  },
+  {
+   "gtin": "03850102127252",
+   "name": "B_Bananko preliveni čokoladni desert 30g",
+   "prices": {
+    "kaufland": 0.55,
+    "konzum": 0.39,
+    "lidl": 0.55,
+    "plodine": 0.55,
+    "spar": 0.45
+   }
+  },
+  {
+   "gtin": "05000159557771",
+   "name": "B_Bounty  57g",
+   "prices": {
+    "kaufland": 1.39,
+    "konzum": 1.39,
+    "lidl": 1.39,
+    "plodine": 1.39,
+    "spar": 1.49
+   }
+  },
+  {
+   "gtin": "03850102018659",
+   "name": "B_Dorina Čokoladica mliječ.Krem kakao38g",
+   "prices": {
+    "kaufland": 0.89,
+    "konzum": 0.89,
+    "lidl": 0.69,
+    "plodine": 0.89,
+    "spar": 0.89
+   }
+  },
+  {
+   "gtin": "03850102018642",
+   "name": "B_Dorina Čokoladica mliječ.krem lješ.37g",
+   "prices": {
+    "kaufland": 0.89,
+    "konzum": 0.89,
+    "lidl": 0.69,
+    "plodine": 0.89,
+    "spar": 0.89
+   }
+  },
+  {
+   "gtin": "00000080052357",
+   "name": "B_Duplo 26 g",
+   "prices": {
+    "kaufland": 1.09,
+    "konzum": 1.09,
+    "lidl": 1.09,
+    "plodine": 0.81,
+    "spar": 1.19
+   }
+  },
+  {
+   "gtin": "00000080177043",
+   "name": "B_Ferrero Rocher 50 g",
+   "prices": {
+    "kaufland": 2.09,
+    "konzum": 2.0,
+    "lidl": 1.89,
+    "plodine": 2.09,
+    "spar": 2.19
+   }
+  },
+  {
+   "gtin": "08000500238912",
+   "name": "B_Kinder Country čok.mlij.s žit. 47 g",
+   "prices": {
+    "kaufland": 1.69,
+    "konzum": 1.69,
+    "lidl": 1.69,
+    "plodine": 1.26,
+    "spar": 1.69
+   }
+  },
+  {
+   "gtin": "00000080177609",
+   "name": "B_Kinder čokolada 50g",
+   "prices": {
+    "kaufland": 1.29,
+    "konzum": 1.29,
+    "lidl": 1.25,
+    "plodine": 1.29,
+    "spar": 1.59
+   }
+  },
+  {
+   "gtin": "07613035365414",
+   "name": "B_KitKat 4 prutića 41,5 g",
+   "prices": {
+    "kaufland": 1.35,
+    "konzum": 1.35,
+    "lidl": 1.35,
+    "plodine": 1.35,
+    "spar": 1.49
+   }
+  },
+  {
+   "gtin": "07613287757029",
+   "name": "B_Lion 42g",
+   "prices": {
+    "kaufland": 1.35,
+    "konzum": 1.35,
+    "lidl": 1.35,
+    "plodine": 1.35,
+    "spar": 1.29
+   }
+  },
+  {
+   "gtin": "04009900538008",
+   "name": "B_Orbit Žvakaće gume blueberry bočica64g",
+   "prices": {
+    "kaufland": 3.69,
+    "konzum": 3.69,
+    "lidl": 3.69,
+    "plodine": 3.69,
+    "spar": 2.95
+   }
+  },
+  {
+   "gtin": "00000042113164",
+   "name": "B_Orbit žvakaće gume white spearmint 14g",
+   "prices": {
+    "kaufland": 0.99,
+    "konzum": 0.99,
+    "lidl": 0.99,
+    "plodine": 0.99,
+    "spar": 1.09
+   }
+  },
+  {
+   "gtin": "00000050173976",
+   "name": "B_Orbit žvakaće gume winterfrost 14g",
+   "prices": {
+    "kaufland": 0.99,
+    "konzum": 0.99,
+    "lidl": 0.99,
+    "plodine": 0.99,
+    "spar": 1.09
+   }
+  },
+  {
+   "gtin": "09003579302545",
+   "name": "B_Pedigree multi biscrock 200g",
+   "prices": {
+    "kaufland": 1.95,
+    "konzum": 1.49,
+    "lidl": 1.95,
+    "plodine": 1.95,
+    "spar": 1.95
+   }
+  },
+  {
+   "gtin": "05413548040639",
+   "name": "B_Raffaello 40g",
+   "prices": {
+    "kaufland": 1.39,
+    "konzum": 1.09,
+    "lidl": 1.39,
+    "plodine": 1.39,
+    "spar": 1.69
+   }
+  },
+  {
+   "gtin": "07610700923061",
+   "name": "B_Ricola bomboni original herb 40 g",
+   "prices": {
+    "kaufland": 1.59,
+    "konzum": 1.59,
+    "lidl": 1.59,
+    "plodine": 1.59,
+    "spar": 1.69
+   }
+  },
+  {
+   "gtin": "00000038502934",
+   "name": "B_Rondo C bomboni  classic 28 g",
+   "prices": {
+    "kaufland": 0.75,
+    "konzum": 0.75,
+    "lidl": 0.75,
+    "plodine": 0.75,
+    "spar": 0.85
+   }
+  },
+  {
+   "gtin": "05900951311505",
+   "name": "B_Snickers classic 50g EBA",
+   "prices": {
+    "kaufland": 1.19,
+    "konzum": 1.19,
+    "lidl": 1.19,
+    "plodine": 1.19,
+    "spar": 1.29
+   }
+  },
+  {
+   "gtin": "05900951310379",
+   "name": "B_Snickers Čoko.creamy pean.butt. 36,5g",
+   "prices": {
+    "kaufland": 1.19,
+    "konzum": 1.19,
+    "lidl": 0.79,
+    "plodine": 1.19,
+    "spar": 1.19
+   }
+  },
+  {
+   "gtin": "05900951310843",
+   "name": "B_Snickers čokoladica super+1 112,5 g",
+   "prices": {
+    "kaufland": 2.19,
+    "konzum": 1.75,
+    "lidl": 2.19,
+    "plodine": 2.19,
+    "spar": 2.19
+   }
+  },
+  {
+   "gtin": "03850102320011",
+   "name": "B_Tortica čokoladna 25g",
+   "prices": {
+    "kaufland": 0.55,
+    "konzum": 0.39,
+    "lidl": 0.55,
+    "plodine": 0.55,
+    "spar": 0.45
+   }
+  },
+  {
+   "gtin": "05900951313592",
+   "name": "B_Twix  50g",
+   "prices": {
+    "kaufland": 1.19,
+    "konzum": 1.19,
+    "lidl": 0.79,
+    "plodine": 1.19,
+    "spar": 1.29
+   }
+  },
+  {
+   "gtin": "05000159606127",
+   "name": "B_Twix bijela čokolada 46 g",
+   "prices": {
+    "kaufland": 1.19,
+    "konzum": 1.19,
+    "lidl": 0.79,
+    "plodine": 1.19,
+    "spar": 1.19
+   }
+  },
+  {
+   "gtin": "05900951312250",
+   "name": "B_Twix extra čokolada 75 g",
+   "prices": {
+    "kaufland": 1.49,
+    "konzum": 1.19,
+    "lidl": 1.49,
+    "plodine": 1.49,
+    "spar": 1.59
+   }
+  },
+  {
+   "gtin": "03073781179712",
+   "name": "Babybel Sir polutvrdi Mini 45% m.m.3x20g",
+   "prices": {
+    "kaufland": 1.75,
+    "konzum": 1.79,
+    "lidl": 1.29,
+    "plodine": 1.75,
+    "spar": 1.29
+   }
+  },
+  {
+   "gtin": "05010677013147",
+   "name": "Bacardi Carta Blanca 37,5% 0,7 L",
+   "prices": {
+    "kaufland": 18.49,
+    "konzum": 18.49,
+    "lidl": 16.99,
+    "plodine": 18.49,
+    "spar": 18.49
+   }
+  },
+  {
+   "gtin": "03850112111289",
+   "name": "Badel Antique Liker Pelinkovac 35% 0,05L",
+   "prices": {
+    "kaufland": 1.75,
+    "konzum": 1.75,
+    "lidl": 1.75,
+    "plodine": 1.75,
+    "spar": 1.79
+   }
+  },
+  {
+   "gtin": "03850112110572",
+   "name": "Badel Antique Liker Pelinkovac 35% 0,7 L",
+   "prices": {
+    "kaufland": 17.99,
+    "konzum": 17.99,
+    "lidl": 17.99,
+    "plodine": 17.99,
+    "spar": 18.79
+   }
+  },
+  {
+   "gtin": "03850112111838",
+   "name": "Badel Antique Liker Pelinkovac 35% 1 L",
+   "prices": {
+    "kaufland": 22.99,
+    "konzum": 22.99,
+    "lidl": 19.99,
+    "plodine": 22.99,
+    "spar": 22.99
+   }
+  },
+  {
+   "gtin": "03850112110169",
+   "name": "Badel Kruškovac 24% 1 l",
+   "prices": {
+    "kaufland": 9.99,
+    "konzum": 10.05,
+    "lidl": 8.49,
+    "plodine": 10.02,
+    "spar": 10.02
+   }
+  },
+  {
+   "gtin": "03850112113290",
+   "name": "Badel Liker Pelinkovac Summer 25% 0,7 L",
+   "prices": {
+    "kaufland": 12.52,
+    "konzum": 10.99,
+    "lidl": 10.99,
+    "plodine": 10.99,
+    "spar": 10.99
+   }
+  },
+  {
+   "gtin": "03850112110039",
+   "name": "Badel Pelinkovac gorki liker 31% 1 l",
+   "prices": {
+    "kaufland": 16.49,
+    "konzum": 16.49,
+    "lidl": 16.49,
+    "plodine": 16.49,
+    "spar": 16.99
+   }
+  },
+  {
+   "gtin": "03850112141194",
+   "name": "Badel prima brand 35% 1 l",
+   "prices": {
+    "kaufland": 10.99,
+    "konzum": 11.45,
+    "lidl": 10.99,
+    "plodine": 10.99,
+    "spar": 11.29
+   }
+  },
+  {
+   "gtin": "05011013941254",
+   "name": "Baileys Liker Čokoladni 15,7% 0,5L",
+   "prices": {
+    "kaufland": 22.59,
+    "konzum": 22.89,
+    "lidl": 17.99,
+    "plodine": 22.59,
+    "spar": 22.99
+   }
+  },
+  {
+   "gtin": "03850102230044",
+   "name": "Bajadera 200g",
+   "prices": {
+    "kaufland": 7.99,
+    "konzum": 5.99,
+    "lidl": 7.99,
+    "plodine": 7.99,
+    "spar": 8.19
+   }
+  },
+  {
+   "gtin": "03838471021272",
+   "name": "Barcaffe  kava mljevena 500g",
+   "prices": {
+    "kaufland": 10.99,
+    "konzum": 10.99,
+    "lidl": 7.69,
+    "plodine": 10.99,
+    "spar": 11.49
+   }
+  },
+  {
+   "gtin": "03838471042819",
+   "name": "Barcaffe Cappuccino Classic 120 g",
+   "prices": {
+    "kaufland": 3.89,
+    "konzum": 3.99,
+    "lidl": 2.99,
+    "plodine": 3.89,
+    "spar": 3.99
+   }
+  },
+  {
+   "gtin": "03838471042772",
+   "name": "Barcaffe Cappuccino Irish Cream  144 g",
+   "prices": {
+    "kaufland": 3.89,
+    "konzum": 3.99,
+    "lidl": 2.99,
+    "plodine": 3.89,
+    "spar": 3.99
+   }
+  },
+  {
+   "gtin": "03838471042765",
+   "name": "Barcaffe Cappuccino Vanilija   144 g",
+   "prices": {
+    "kaufland": 3.89,
+    "konzum": 3.99,
+    "lidl": 2.99,
+    "plodine": 3.89,
+    "spar": 3.99
+   }
+  },
+  {
+   "gtin": "03838471042796",
+   "name": "Barcaffe Cappuccino čokolada 144 g",
+   "prices": {
+    "kaufland": 3.89,
+    "konzum": 3.0,
+    "lidl": 2.99,
+    "plodine": 3.89,
+    "spar": 3.99
+   }
+  },
+  {
+   "gtin": "08076800376999",
+   "name": "Barilla Kore za lazanje 500 g",
+   "prices": {
+    "kaufland": 4.35,
+    "konzum": 4.35,
+    "lidl": 2.59,
+    "plodine": 4.35,
+    "spar": 4.49
+   }
+  },
+  {
+   "gtin": "08076809581868",
+   "name": "Barilla Pesto Bosiljak i pistac190g",
+   "prices": {
+    "kaufland": 4.59,
+    "konzum": 4.79,
+    "lidl": 2.75,
+    "plodine": 4.59,
+    "spar": 4.79
+   }
+  },
+  {
+   "gtin": "08076809578264",
+   "name": "Barilla Pesto basilico,peperoncino 195g",
+   "prices": {
+    "kaufland": 4.59,
+    "konzum": 4.89,
+    "lidl": 2.75,
+    "plodine": 4.59,
+    "spar": 4.79
+   }
+  },
+  {
+   "gtin": "08076809513746",
+   "name": "Barilla Pesto genovese 190 g",
+   "prices": {
+    "kaufland": 4.59,
+    "konzum": 4.79,
+    "lidl": 2.75,
+    "plodine": 4.59,
+    "spar": 4.79
+   }
+  },
+  {
+   "gtin": "08076809523547",
+   "name": "Barilla Pesto rosso 200 g",
+   "prices": {
+    "kaufland": 4.59,
+    "konzum": 4.95,
+    "lidl": 2.75,
+    "plodine": 4.59,
+    "spar": 4.79
+   }
+  },
+  {
+   "gtin": "08076809529457",
+   "name": "Barilla Tjest. Fusilloni Integrale 500g",
+   "prices": {
+    "kaufland": 2.99,
+    "konzum": 2.89,
+    "lidl": 1.99,
+    "plodine": 2.49,
+    "spar": 2.49
+   }
+  },
+  {
+   "gtin": "08076800195057",
+   "name": "Barilla Tjestenina Spaghetti n.5 500g_OC",
+   "prices": {
+    "kaufland": 1.09,
+    "konzum": 1.09,
+    "lidl": 1.09,
+    "plodine": 1.09,
+    "spar": 1.09
+   }
+  },
+  {
+   "gtin": "08076802085981",
+   "name": "Barilla fusilli n.98 500 g",
+   "prices": {
+    "kaufland": 1.89,
+    "konzum": 1.89,
+    "lidl": 1.89,
+    "plodine": 1.89,
+    "spar": 1.89
+   }
+  },
+  {
+   "gtin": "08076802085738",
+   "name": "Barilla penne rigate br.73  500 g",
+   "prices": {
+    "kaufland": 1.89,
+    "konzum": 1.89,
+    "lidl": 1.89,
+    "plodine": 1.89,
+    "spar": 1.89
+   }
+  },
+  {
+   "gtin": "08076809529433",
+   "name": "Barilla penne rigate integrale 500g",
+   "prices": {
+    "kaufland": 2.99,
+    "konzum": 2.89,
+    "lidl": 1.99,
+    "plodine": 2.49,
+    "spar": 2.49
+   }
+  },
+  {
+   "gtin": "08076809529419",
+   "name": "Barilla spaghetti integrale n.5  500g",
+   "prices": {
+    "kaufland": 2.99,
+    "konzum": 2.89,
+    "lidl": 1.99,
+    "plodine": 2.49,
+    "spar": 2.49
+   }
+  },
+  {
+   "gtin": "08076809513678",
+   "name": "Barilla umak bolognese 400 g",
+   "prices": {
+    "kaufland": 4.59,
+    "konzum": 4.69,
+    "lidl": 2.29,
+    "plodine": 4.59,
+    "spar": 4.79
+   }
+  },
+  {
+   "gtin": "08076809513692",
+   "name": "Barilla umak napoletana 400 g",
+   "prices": {
+    "kaufland": 3.19,
+    "konzum": 3.29,
+    "lidl": 1.59,
+    "plodine": 3.19,
+    "spar": 3.29
+   }
+  },
+  {
+   "gtin": "08076809513654",
+   "name": "Barilla umak priprema za bolognese 400 g",
+   "prices": {
+    "kaufland": 3.29,
+    "konzum": 3.29,
+    "lidl": 1.59,
+    "plodine": 3.29,
+    "spar": 3.39
+   }
+  },
+  {
+   "gtin": "09007253104906",
+   "name": "Bebimil 2 6+mj nova recep. 600g",
+   "prices": {
+    "kaufland": 11.59,
+    "konzum": 11.65,
+    "lidl": 11.59,
+    "plodine": 11.59,
+    "spar": 11.59
+   }
+  },
+  {
+   "gtin": "09007253104920",
+   "name": "Bebimil 3 10+mj nova recep. 500g",
+   "prices": {
+    "kaufland": 9.49,
+    "konzum": 7.99,
+    "lidl": 9.49,
+    "plodine": 9.49,
+    "spar": 9.09
+   }
+  },
+  {
+   "gtin": "09007253000017",
+   "name": "Bebimil Junior 4 12+mj.500 g",
+   "prices": {
+    "kaufland": 9.49,
+    "konzum": 7.99,
+    "lidl": 9.49,
+    "plodine": 9.49,
+    "spar": 9.09
+   }
+  },
+  {
+   "gtin": "03850105150202",
+   "name": "Bis floral osvježivač prostora 400 ml",
+   "prices": {
+    "kaufland": 3.99,
+    "konzum": 4.25,
+    "lidl": 3.99,
+    "plodine": 2.89,
+    "spar": 3.99
+   }
+  },
+  {
+   "gtin": "05010677714006",
+   "name": "Bombay Sapphire gin 40% 0,70 l",
+   "prices": {
+    "kaufland": 27.19,
+    "konzum": 27.19,
+    "lidl": 19.99,
+    "plodine": 27.19,
+    "spar": 27.19
+   }
+  },
+  {
+   "gtin": "03856027802021",
+   "name": "Boom Box Kaša miješ. voće sa zob200g vg.",
+   "prices": {
+    "kaufland": 2.19,
+    "konzum": 2.19,
+    "lidl": 1.69,
+    "plodine": 2.19,
+    "spar": 2.19
+   }
+  },
+  {
+   "gtin": "03856027801338",
+   "name": "Boom Box Kaša voć.Smoot.jab.,jag.bor200g",
+   "prices": {
+    "kaufland": 2.19,
+    "konzum": 2.19,
+    "lidl": 1.69,
+    "plodine": 2.19,
+    "spar": 2.19
+   }
+  },
+  {
+   "gtin": "03856027801277",
+   "name": "Boom Box Kaša voć.Smoot.jab.bre.mang200g",
+   "prices": {
+    "kaufland": 2.19,
+    "konzum": 2.19,
+    "lidl": 1.69,
+    "plodine": 2.19,
+    "spar": 2.19
+   }
+  },
+  {
+   "gtin": "03856027801307",
+   "name": "Boom Box Kaša voć.Smoot.jab.kruš.kiv200g",
+   "prices": {
+    "kaufland": 2.19,
+    "konzum": 2.19,
+    "lidl": 1.69,
+    "plodine": 2.19,
+    "spar": 2.19
+   }
+  },
+  {
+   "gtin": "03856027801987",
+   "name": "Boom Box Smoothie jabuka mango 200g vg.",
+   "prices": {
+    "kaufland": 2.19,
+    "konzum": 2.19,
+    "lidl": 1.69,
+    "plodine": 2.19,
+    "spar": 2.19
+   }
+  },
+  {
+   "gtin": "03856027802007",
+   "name": "Boom Box Smoothie kruška šljiva 200g vg.",
+   "prices": {
+    "kaufland": 2.19,
+    "konzum": 2.19,
+    "lidl": 1.69,
+    "plodine": 2.19,
+    "spar": 2.19
+   }
+  },
+  {
+   "gtin": "08002410041866",
+   "name": "Borotalco dezodorans invisible 150 ml",
+   "prices": {
+    "kaufland": 4.19,
+    "konzum": 5.49,
+    "lidl": 4.19,
+    "plodine": 2.79,
+    "spar": 3.99
+   }
+  },
+  {
+   "gtin": "00000080453000",
+   "name": "Borotalco roll-on original 50 ml",
+   "prices": {
+    "kaufland": 4.19,
+    "konzum": 5.49,
+    "lidl": 3.69,
+    "plodine": 2.79,
+    "spar": 4.19
+   }
+  },
+  {
+   "gtin": "09000100753371",
+   "name": "Bref Osvjež.WC školjke pow.ac.Lemon3x50g",
+   "prices": {
+    "kaufland": 5.69,
+    "konzum": 6.49,
+    "lidl": 3.25,
+    "plodine": 2.84,
+    "spar": 4.45
+   }
+  },
+  {
+   "gtin": "09000101853568",
+   "name": "Bref Osvjež.za WC Pow.Akt.Lemon 6X50g",
+   "prices": {
+    "kaufland": 5.99,
+    "konzum": 5.99,
+    "lidl": 5.99,
+    "plodine": 5.99,
+    "spar": 9.99
+   }
+  },
+  {
+   "gtin": "09000100753340",
+   "name": "Bref Osvježivač za WC Pow.Akt.Pine 3x50g",
+   "prices": {
+    "kaufland": 5.69,
+    "konzum": 6.49,
+    "lidl": 3.25,
+    "plodine": 2.84,
+    "spar": 4.45
+   }
+  },
+  {
+   "gtin": "08000040001106",
+   "name": "Campari Aperitiv 25% 0,7 L",
+   "prices": {
+    "kaufland": 21.29,
+    "konzum": 21.29,
+    "lidl": 16.69,
+    "plodine": 21.29,
+    "spar": 20.49
+   }
+  },
+  {
+   "gtin": "03858881324022",
+   "name": "Cao-cao 45 g Klara",
+   "prices": {
+    "kaufland": 0.99,
+    "konzum": 0.95,
+    "lidl": 0.39,
+    "plodine": 0.72,
+    "spar": 0.99
+   }
+  },
+  {
+   "gtin": "05000299223017",
+   "name": "Captain Morgan 35% gold 0,7 l",
+   "prices": {
+    "kaufland": 17.29,
+    "konzum": 17.79,
+    "lidl": 12.49,
+    "plodine": 17.79,
+    "spar": 17.79
+   }
+  },
+  {
+   "gtin": "03574661552576",
+   "name": "Carefree Ulošci dnevni flexi white 56/1",
+   "prices": {
+    "kaufland": 3.35,
+    "konzum": 3.45,
+    "lidl": 3.35,
+    "plodine": 3.49,
+    "spar": 3.45
+   }
+  },
+  {
+   "gtin": "03858887583751",
+   "name": "Carlsberg Pilsner pivo 5% 4x0,5 l lim",
+   "prices": {
+    "kaufland": 5.99,
+    "konzum": 5.69,
+    "lidl": 4.99,
+    "plodine": 5.99,
+    "spar": 5.39
+   }
+  },
+  {
+   "gtin": "03850322016442",
+   "name": "Cedevita Bomboni multiv.voćni mix 60g",
+   "prices": {
+    "kaufland": 1.89,
+    "konzum": 1.89,
+    "lidl": 1.89,
+    "plodine": 1.89,
+    "spar": 1.89
+   }
+  },
+  {
+   "gtin": "03850322016565",
+   "name": "Cedevita Napitak inst.ananas mango340ml",
+   "prices": {
+    "kaufland": 1.19,
+    "konzum": 1.19,
+    "lidl": 1.19,
+    "plodine": 1.19,
+    "spar": 1.19
+   }
+  },
+  {
+   "gtin": "03850322017494",
+   "name": "Cedevita Piće Ice Tea bresk.lim.0,5L PET",
+   "prices": {
+    "kaufland": 1.19,
+    "konzum": 1.19,
+    "lidl": 1.09,
+    "plodine": 1.19,
+    "spar": 1.19
+   }
+  },
+  {
+   "gtin": "03850322017517",
+   "name": "Cedevita Piće Ice Tea bresk.lim.1,5L PET",
+   "prices": {
+    "kaufland": 1.69,
+    "konzum": 1.69,
+    "lidl": 1.59,
+    "plodine": 1.49,
+    "spar": 1.49
+   }
+  },
+  {
+   "gtin": "03850322017531",
+   "name": "Cedevita Piće Ice Tea šum.voće 0,5L PET",
+   "prices": {
+    "kaufland": 1.19,
+    "konzum": 1.19,
+    "lidl": 1.09,
+    "plodine": 1.19,
+    "spar": 1.19
+   }
+  },
+  {
+   "gtin": "03850322014943",
+   "name": "Cedevita inst. nap bazga-limun 455g",
+   "prices": {
+    "kaufland": 4.39,
+    "konzum": 4.39,
+    "lidl": 4.39,
+    "plodine": 4.39,
+    "spar": 4.39
+   }
+  },
+  {
+   "gtin": "03850322015025",
+   "name": "Cedevita instant napitak limeta 900g",
+   "prices": {
+    "kaufland": 6.69,
+    "konzum": 6.69,
+    "lidl": 6.69,
+    "plodine": 6.69,
+    "spar": 6.69
+   }
+  },
+  {
+   "gtin": "03850322015001",
+   "name": "Cedevita instant napitak limun 900g",
+   "prices": {
+    "kaufland": 6.69,
+    "konzum": 6.69,
+    "lidl": 6.69,
+    "plodine": 6.69,
+    "spar": 6.99
+   }
+  },
+  {
+   "gtin": "03850322014981",
+   "name": "Cedevita instant napitak naranča 900g",
+   "prices": {
+    "kaufland": 6.69,
+    "konzum": 6.69,
+    "lidl": 6.69,
+    "plodine": 6.69,
+    "spar": 6.99
+   }
+  },
+  {
+   "gtin": "03850322013366",
+   "name": "Cedevita naranča 340 ml",
+   "prices": {
+    "kaufland": 1.19,
+    "konzum": 1.19,
+    "lidl": 1.19,
+    "plodine": 1.19,
+    "spar": 1.29
+   }
+  },
+  {
+   "gtin": "03850159141478",
+   "name": "Cekin Panirani pileći frit. smrz. 600 g",
+   "prices": {
+    "kaufland": 7.89,
+    "konzum": 7.89,
+    "lidl": 6.29,
+    "plodine": 7.89,
+    "spar": 7.89
+   }
+  },
+  {
+   "gtin": "03850159141461",
+   "name": "Cekin Panirani pileći medalj. smrz.660 g",
+   "prices": {
+    "kaufland": 7.49,
+    "konzum": 7.69,
+    "lidl": 7.69,
+    "plodine": 7.49,
+    "spar": 7.59
+   }
+  },
+  {
+   "gtin": "03850159120800",
+   "name": "Cekin Pileća hrenovka sa sirom 100g",
+   "prices": {
+    "kaufland": 0.69,
+    "konzum": 0.85,
+    "lidl": 0.85,
+    "plodine": 0.85,
+    "spar": 0.85
+   }
+  },
+  {
+   "gtin": "03850159120015",
+   "name": "Cekin Pileća hrenovka standard 100g",
+   "prices": {
+    "kaufland": 0.69,
+    "konzum": 0.85,
+    "lidl": 0.85,
+    "plodine": 0.85,
+    "spar": 0.85
+   }
+  },
+  {
+   "gtin": "03850159120022",
+   "name": "Cekin Pileća hrenovka standard 300g",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.69,
+    "lidl": 1.99,
+    "plodine": 1.99,
+    "spar": 2.19
+   }
+  },
+  {
+   "gtin": "03850159125027",
+   "name": "Cekin Posebna kobasica 500 g",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.59,
+    "lidl": 1.99,
+    "plodine": 1.99,
+    "spar": 2.09
+   }
+  },
+  {
+   "gtin": "03850159125072",
+   "name": "Cekin Sendvič narezak sa sirom 500 g",
+   "prices": {
+    "kaufland": 2.89,
+    "konzum": 2.95,
+    "lidl": 2.89,
+    "plodine": 2.89,
+    "spar": 2.79
+   }
+  },
+  {
+   "gtin": "03850159125522",
+   "name": "Cekin posebna pileća kob. 1kg",
+   "prices": {
+    "kaufland": 3.65,
+    "konzum": 3.65,
+    "lidl": 2.39,
+    "plodine": 3.65,
+    "spar": 3.65
+   }
+  },
+  {
+   "gtin": "03859888110168",
+   "name": "Cekina Izbjeljivač 1 L",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 2.39,
+    "lidl": 1.79,
+    "plodine": 1.99,
+    "spar": 2.05
+   }
+  },
+  {
+   "gtin": "03856021306709",
+   "name": "Chio Chips Čips crvena paprika 130 g",
+   "prices": {
+    "kaufland": 1.75,
+    "konzum": 2.19,
+    "lidl": 1.89,
+    "plodine": 2.19,
+    "spar": 2.39
+   }
+  },
+  {
+   "gtin": "03856021306747",
+   "name": "Chio Chips Čips vrhnje i luk 130 g",
+   "prices": {
+    "kaufland": 1.75,
+    "konzum": 2.19,
+    "lidl": 1.89,
+    "plodine": 2.19,
+    "spar": 2.19
+   }
+  },
+  {
+   "gtin": "03856021307485",
+   "name": "Chio Čipi Čips paprika rebrasti 250 g",
+   "prices": {
+    "kaufland": 2.49,
+    "konzum": 2.49,
+    "lidl": 2.49,
+    "plodine": 3.19,
+    "spar": 3.59
+   }
+  },
+  {
+   "gtin": "00080432402931",
+   "name": "Chivas regal škotski whisky 40% 0,7 L",
+   "prices": {
+    "kaufland": 33.99,
+    "konzum": 33.99,
+    "lidl": 27.99,
+    "plodine": 33.99,
+    "spar": 34.99
+   }
+  },
+  {
+   "gtin": "03850108040500",
+   "name": "Choco-Loco mliječni puding 4x125 g",
+   "prices": {
+    "kaufland": 1.85,
+    "konzum": 1.99,
+    "lidl": 1.85,
+    "plodine": 1.85,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "00000054491472",
+   "name": "Coca Cola 0,5 l PET",
+   "prices": {
+    "kaufland": 1.19,
+    "konzum": 1.19,
+    "lidl": 1.19,
+    "plodine": 1.19,
+    "spar": 1.25
+   }
+  },
+  {
+   "gtin": "05449000054227",
+   "name": "Coca Cola 1 l PET",
+   "prices": {
+    "kaufland": 1.65,
+    "konzum": 1.65,
+    "lidl": 1.65,
+    "plodine": 1.65,
+    "spar": 1.75
+   }
+  },
+  {
+   "gtin": "05449000034229",
+   "name": "Coca Cola 12x150 ml lim",
+   "prices": {
+    "kaufland": 6.99,
+    "konzum": 6.85,
+    "lidl": 5.55,
+    "plodine": 6.69,
+    "spar": 6.79
+   }
+  },
+  {
+   "gtin": "05449000000286",
+   "name": "Coca Cola 2 l PET",
+   "prices": {
+    "kaufland": 2.49,
+    "konzum": 2.49,
+    "lidl": 2.49,
+    "plodine": 2.49,
+    "spar": 2.19
+   }
+  },
+  {
+   "gtin": "05449000214911",
+   "name": "Coca Cola Piće gazi.bezalk. 0,33L LIM",
+   "prices": {
+    "kaufland": 1.15,
+    "konzum": 1.15,
+    "lidl": 1.15,
+    "plodine": 1.15,
+    "spar": 1.19
+   }
+  },
+  {
+   "gtin": "05449000133328",
+   "name": "Coca Cola Zero 1 l PET",
+   "prices": {
+    "kaufland": 1.65,
+    "konzum": 1.65,
+    "lidl": 1.65,
+    "plodine": 1.65,
+    "spar": 1.75
+   }
+  },
+  {
+   "gtin": "05449000138156",
+   "name": "Coca Cola Zero 12x150 ml lim",
+   "prices": {
+    "kaufland": 6.99,
+    "konzum": 6.85,
+    "lidl": 5.55,
+    "plodine": 6.69,
+    "spar": 6.79
+   }
+  },
+  {
+   "gtin": "05449000195906",
+   "name": "Coca Cola Zero Kofein 1 l PET",
+   "prices": {
+    "kaufland": 1.65,
+    "konzum": 1.65,
+    "lidl": 0.89,
+    "plodine": 1.65,
+    "spar": 1.65
+   }
+  },
+  {
+   "gtin": "05449000131836",
+   "name": "Coca Cola zero 0,5l PET",
+   "prices": {
+    "kaufland": 1.19,
+    "konzum": 1.19,
+    "lidl": 1.19,
+    "plodine": 1.19,
+    "spar": 1.25
+   }
+  },
+  {
+   "gtin": "05449000131843",
+   "name": "Coca Cola zero 2l PET",
+   "prices": {
+    "kaufland": 2.49,
+    "konzum": 2.49,
+    "lidl": 2.49,
+    "plodine": 2.49,
+    "spar": 2.19
+   }
+  },
+  {
+   "gtin": "03838471032476",
+   "name": "Cockta original 0,5 l PET",
+   "prices": {
+    "kaufland": 1.29,
+    "konzum": 1.25,
+    "lidl": 1.25,
+    "plodine": 1.25,
+    "spar": 1.45
+   }
+  },
+  {
+   "gtin": "03838471032537",
+   "name": "Cockta original 1,5 l",
+   "prices": {
+    "kaufland": 1.89,
+    "konzum": 1.89,
+    "lidl": 1.89,
+    "plodine": 1.89,
+    "spar": 2.05
+   }
+  },
+  {
+   "gtin": "08718951540033",
+   "name": "Colgate Pasta za zube Max whi.Purple75ml",
+   "prices": {
+    "kaufland": 4.45,
+    "konzum": 4.29,
+    "lidl": 2.59,
+    "plodine": 2.57,
+    "spar": 4.39
+   }
+  },
+  {
+   "gtin": "08718951313576",
+   "name": "Colgate zubna pasta max fresh blue 100ml",
+   "prices": {
+    "kaufland": 3.99,
+    "konzum": 3.49,
+    "lidl": 2.99,
+    "plodine": 2.09,
+    "spar": 3.49
+   }
+  },
+  {
+   "gtin": "04011800584511",
+   "name": "Corny big pločica čoko-banana 50 g",
+   "prices": {
+    "kaufland": 1.25,
+    "konzum": 1.25,
+    "lidl": 1.25,
+    "plodine": 0.99,
+    "spar": 1.39
+   }
+  },
+  {
+   "gtin": "04011800586515",
+   "name": "Corny big pločica čokolada 50 g",
+   "prices": {
+    "kaufland": 1.25,
+    "konzum": 1.25,
+    "lidl": 1.25,
+    "plodine": 0.99,
+    "spar": 1.39
+   }
+  },
+  {
+   "gtin": "05410228291879",
+   "name": "Corona Cero Pivo svijetlo bezalk.330ml",
+   "prices": {
+    "kaufland": 1.89,
+    "konzum": 1.89,
+    "lidl": 1.89,
+    "plodine": 1.89,
+    "spar": 1.89
+   }
+  },
+  {
+   "gtin": "03850131006337",
+   "name": "Corona Extra Pivo svijetlo 4,5% 0,33 L",
+   "prices": {
+    "kaufland": 1.89,
+    "konzum": 1.89,
+    "lidl": 1.89,
+    "plodine": 1.89,
+    "spar": 1.89
+   }
+  },
+  {
+   "gtin": "00000075032814",
+   "name": "Corona extra svijetlo pivo 4,6 % 0,355 l",
+   "prices": {
+    "kaufland": 2.19,
+    "konzum": 2.25,
+    "lidl": 2.19,
+    "plodine": 2.19,
+    "spar": 2.22
+   }
+  },
+  {
+   "gtin": "08000500413654",
+   "name": "Croissant Nutella 4x85 g",
+   "prices": {
+    "kaufland": 4.49,
+    "konzum": 4.99,
+    "lidl": 3.79,
+    "plodine": 4.49,
+    "spar": 4.99
+   }
+  },
+  {
+   "gtin": "03850108028102",
+   "name": "DAR Desert bilj.čokolada lješnjak 4x125g",
+   "prices": {
+    "kaufland": 2.49,
+    "konzum": 2.49,
+    "lidl": 1.99,
+    "plodine": 2.49,
+    "spar": 2.49
+   }
+  },
+  {
+   "gtin": "03850108028119",
+   "name": "DAR Desert biljni vanilija 4x125g",
+   "prices": {
+    "kaufland": 2.49,
+    "konzum": 2.49,
+    "lidl": 1.99,
+    "plodine": 2.49,
+    "spar": 2.49
+   }
+  },
+  {
+   "gtin": "03858887683444",
+   "name": "DI-GO pekarski svježi kvasac 42g",
+   "prices": {
+    "kaufland": 0.79,
+    "konzum": 0.79,
+    "lidl": 0.75,
+    "plodine": 0.79,
+    "spar": 0.64
+   }
+  },
+  {
+   "gtin": "05997536112558",
+   "name": "Danone Actimel jogurt voćni mix 4x100 g",
+   "prices": {
+    "kaufland": 2.69,
+    "konzum": 2.69,
+    "lidl": 1.59,
+    "plodine": 2.69,
+    "spar": 2.69
+   }
+  },
+  {
+   "gtin": "03838929567802",
+   "name": "Delamaris Skuša povrć.bez glu.125/51,25g",
+   "prices": {
+    "kaufland": 2.99,
+    "konzum": 2.99,
+    "lidl": 2.99,
+    "plodine": 3.25,
+    "spar": 2.99
+   }
+  },
+  {
+   "gtin": "08712000038175",
+   "name": "Desperados pivo 5,9% 0,50 l lim",
+   "prices": {
+    "kaufland": 1.89,
+    "konzum": 1.89,
+    "lidl": 1.79,
+    "plodine": 1.84,
+    "spar": 1.79
+   }
+  },
+  {
+   "gtin": "03850104276514",
+   "name": "Dolcela Puding vanilija 4x37g 1 gratis",
+   "prices": {
+    "kaufland": 2.09,
+    "konzum": 2.1,
+    "lidl": 2.09,
+    "plodine": 2.09,
+    "spar": 2.09
+   }
+  },
+  {
+   "gtin": "03850104276507",
+   "name": "Dolcela Puding čokolada 4x45g 1 gratis",
+   "prices": {
+    "kaufland": 2.09,
+    "konzum": 2.1,
+    "lidl": 2.09,
+    "plodine": 2.09,
+    "spar": 2.09
+   }
+  },
+  {
+   "gtin": "03856020258511",
+   "name": "Dolcela Vanilin šećer 8g",
+   "prices": {
+    "kaufland": 0.19,
+    "konzum": 0.2,
+    "lidl": 0.99,
+    "plodine": 0.19,
+    "spar": 0.25
+   }
+  },
+  {
+   "gtin": "03850104272110",
+   "name": "Dolcela bourbon vanilija šećer 3x10 g",
+   "prices": {
+    "kaufland": 1.19,
+    "konzum": 1.19,
+    "lidl": 1.19,
+    "plodine": 1.19,
+    "spar": 0.83
+   }
+  },
+  {
+   "gtin": "03850102018048",
+   "name": "Domaćica Keks Original 500g",
+   "prices": {
+    "kaufland": 3.99,
+    "konzum": 3.99,
+    "lidl": 3.99,
+    "plodine": 4.99,
+    "spar": 5.99
+   }
+  },
+  {
+   "gtin": "03850102009640",
+   "name": "Domaćica Čajno pecivo extra choco 220 g",
+   "prices": {
+    "kaufland": 2.45,
+    "konzum": 3.49,
+    "lidl": 2.49,
+    "plodine": 3.49,
+    "spar": 2.49
+   }
+  },
+  {
+   "gtin": "03850102501779",
+   "name": "Domaćica čajno pecivo tamna 275 g",
+   "prices": {
+    "kaufland": 2.45,
+    "konzum": 3.49,
+    "lidl": 2.49,
+    "plodine": 3.49,
+    "spar": 2.49
+   }
+  },
+  {
+   "gtin": "05996037079780",
+   "name": "Domestos Sred.za čišć.Citrus fresh 750ml",
+   "prices": {
+    "kaufland": 3.79,
+    "konzum": 3.79,
+    "lidl": 3.29,
+    "plodine": 3.79,
+    "spar": 3.89
+   }
+  },
+  {
+   "gtin": "03838600253345",
+   "name": "Donat Mg ljekovita miner. voda 0,5 L PET",
+   "prices": {
+    "kaufland": 1.49,
+    "konzum": 1.49,
+    "lidl": 1.39,
+    "plodine": 1.49,
+    "spar": 1.59
+   }
+  },
+  {
+   "gtin": "03838600024945",
+   "name": "Donat Voda mineralna ljekovita 1L PET",
+   "prices": {
+    "kaufland": 2.49,
+    "konzum": 2.49,
+    "lidl": 2.49,
+    "plodine": 2.49,
+    "spar": 2.59
+   }
+  },
+  {
+   "gtin": "03850102501984",
+   "name": "Dorina Noisette čokolada 220 g flow pack",
+   "prices": {
+    "kaufland": 4.49,
+    "konzum": 4.49,
+    "lidl": 4.49,
+    "plodine": 4.49,
+    "spar": 2.99
+   }
+  },
+  {
+   "gtin": "03850102500505",
+   "name": "Dorina mousse čokolada 95g",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.99,
+    "lidl": 1.45,
+    "plodine": 1.99,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "03850102010028",
+   "name": "Dorina Čokolada Caramel almond 250g",
+   "prices": {
+    "kaufland": 4.99,
+    "konzum": 4.99,
+    "lidl": 3.79,
+    "plodine": 4.99,
+    "spar": 3.99
+   }
+  },
+  {
+   "gtin": "03850102005734",
+   "name": "Dorina Čokolada Creamy Hazelnut 98g",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.99,
+    "lidl": 1.45,
+    "plodine": 1.99,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "03850102010004",
+   "name": "Dorina Čokolada Petit Beurre 240g",
+   "prices": {
+    "kaufland": 4.99,
+    "konzum": 2.99,
+    "lidl": 2.99,
+    "plodine": 4.99,
+    "spar": 2.99
+   }
+  },
+  {
+   "gtin": "03850102009978",
+   "name": "Dorina Čokolada Petit Beurre 95g",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.99,
+    "lidl": 1.45,
+    "plodine": 1.99,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "03850102005758",
+   "name": "Dorina čokolada Creamy Hazelnut 245g",
+   "prices": {
+    "kaufland": 4.99,
+    "konzum": 4.99,
+    "lidl": 3.79,
+    "plodine": 4.99,
+    "spar": 3.99
+   }
+  },
+  {
+   "gtin": "03850102519323",
+   "name": "Dorina čokolada Domaćica 105 g",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.99,
+    "lidl": 1.45,
+    "plodine": 1.99,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "03850102123827",
+   "name": "Dorina čokolada Jaffa 100 g",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.99,
+    "lidl": 1.45,
+    "plodine": 1.99,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "03850102010011",
+   "name": "Dorina čokolada Jagoda&vanilija 245g",
+   "prices": {
+    "kaufland": 4.99,
+    "konzum": 2.99,
+    "lidl": 2.99,
+    "plodine": 4.99,
+    "spar": 2.99
+   }
+  },
+  {
+   "gtin": "03850102520381",
+   "name": "Dorina čokolada cijeli lješnjak 220 g",
+   "prices": {
+    "kaufland": 4.99,
+    "konzum": 4.99,
+    "lidl": 3.79,
+    "plodine": 4.99,
+    "spar": 3.99
+   }
+  },
+  {
+   "gtin": "03850102519484",
+   "name": "Dorina čokolada domaćica 300 g",
+   "prices": {
+    "kaufland": 4.99,
+    "konzum": 4.99,
+    "lidl": 3.79,
+    "plodine": 4.99,
+    "spar": 3.99
+   }
+  },
+  {
+   "gtin": "03850102519521",
+   "name": "Dorina čokolada napolitanka 100 g",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.99,
+    "lidl": 1.45,
+    "plodine": 1.99,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "03850102117970",
+   "name": "Dorina čokolada s keksom 80g",
+   "prices": {
+    "kaufland": 1.89,
+    "konzum": 1.39,
+    "lidl": 1.25,
+    "plodine": 1.89,
+    "spar": 2.05
+   }
+  },
+  {
+   "gtin": "03850102117215",
+   "name": "Dorina čokolada s led. punjenjem 100g",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.99,
+    "lidl": 1.45,
+    "plodine": 1.99,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "03850102123681",
+   "name": "Dorina čokolada s rižom 75 g",
+   "prices": {
+    "kaufland": 1.89,
+    "konzum": 1.39,
+    "lidl": 1.25,
+    "plodine": 1.89,
+    "spar": 2.05
+   }
+  },
+  {
+   "gtin": "08606033742232",
+   "name": "Doritos Čips Tortilja kiselo vrhnje 90g",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.99,
+    "lidl": 1.69,
+    "plodine": 1.99,
+    "spar": 1.69
+   }
+  },
+  {
+   "gtin": "08606017379430",
+   "name": "Doritos Čips tortilja BBQ 90g",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.99,
+    "lidl": 1.69,
+    "plodine": 1.99,
+    "spar": 1.69
+   }
+  },
+  {
+   "gtin": "08606017379393",
+   "name": "Doritos Čips tortilja Nacho 90g",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.99,
+    "lidl": 1.69,
+    "plodine": 1.99,
+    "spar": 1.69
+   }
+  },
+  {
+   "gtin": "08606017379409",
+   "name": "Doritos Čips tortilja Sweet chilli 90g",
+   "prices": {
+    "kaufland": 1.69,
+    "konzum": 1.99,
+    "lidl": 1.69,
+    "plodine": 1.99,
+    "spar": 1.69
+   }
+  },
+  {
+   "gtin": "08606017379416",
+   "name": "Doritos Čips tortilja Taco 90g",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.99,
+    "lidl": 1.69,
+    "plodine": 1.99,
+    "spar": 1.69
+   }
+  },
+  {
+   "gtin": "08606033742737",
+   "name": "Doritos Čips tortilja thai s.sriracha90g",
+   "prices": {
+    "kaufland": 1.69,
+    "konzum": 1.99,
+    "lidl": 1.69,
+    "plodine": 1.99,
+    "spar": 1.69
+   }
+  },
+  {
+   "gtin": "08720181466502",
+   "name": "Dove Gel za tuširanje Hydrate 450 ml",
+   "prices": {
+    "kaufland": 5.99,
+    "konzum": 6.49,
+    "lidl": 2.99,
+    "plodine": 6.49,
+    "spar": 4.35
+   }
+  },
+  {
+   "gtin": "08710908317828",
+   "name": "Dove m. Gel za tuš. cool fresh 400 ml",
+   "prices": {
+    "kaufland": 5.99,
+    "konzum": 6.49,
+    "lidl": 2.99,
+    "plodine": 6.49,
+    "spar": 6.49
+   }
+  },
+  {
+   "gtin": "08720181284335",
+   "name": "Dove men Dezod.u spreju clean com.150ml",
+   "prices": {
+    "kaufland": 5.69,
+    "konzum": 6.29,
+    "lidl": 5.19,
+    "plodine": 6.29,
+    "spar": 4.49
+   }
+  },
+  {
+   "gtin": "03850354006053",
+   "name": "Dukat Mlijeko trajno 2,8%mm 1 L HDPE_OC",
+   "prices": {
+    "kaufland": 1.02,
+    "konzum": 1.02,
+    "lidl": 1.19,
+    "plodine": 1.02,
+    "spar": 0.89
+   }
+  },
+  {
+   "gtin": "03850354019664",
+   "name": "Dukat Napitak jog.lime.ananas2,1%mm300g",
+   "prices": {
+    "kaufland": 2.49,
+    "konzum": 2.49,
+    "lidl": 1.99,
+    "plodine": 2.79,
+    "spar": 2.49
+   }
+  },
+  {
+   "gtin": "03850354019688",
+   "name": "Dukat Napitak jog.mang.nar.2,1%mm300g",
+   "prices": {
+    "kaufland": 2.49,
+    "konzum": 2.49,
+    "lidl": 1.99,
+    "plodine": 2.79,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "03850354008729",
+   "name": "Dukat domaće krem vrhnje 25% mm 300 g",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.99,
+    "lidl": 1.99,
+    "plodine": 1.99,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "03850354009863",
+   "name": "Dukat kiselo vrhnje 12% mm 900 g kantica",
+   "prices": {
+    "kaufland": 3.19,
+    "konzum": 3.99,
+    "lidl": 2.95,
+    "plodine": 3.99,
+    "spar": 3.99
+   }
+  },
+  {
+   "gtin": "03850354016045",
+   "name": "Dukat voćni jogurt jagoda 1kg PET",
+   "prices": {
+    "kaufland": 2.55,
+    "konzum": 2.69,
+    "lidl": 1.99,
+    "plodine": 2.55,
+    "spar": 2.55
+   }
+  },
+  {
+   "gtin": "03850354016052",
+   "name": "Dukat voćni jogurt šumsko voće 1kg PET",
+   "prices": {
+    "kaufland": 2.55,
+    "konzum": 2.69,
+    "lidl": 1.99,
+    "plodine": 2.55,
+    "spar": 2.55
+   }
+  },
+  {
+   "gtin": "03850354017158",
+   "name": "Dukat vrhnje za kuhanje 20% mm 500 g",
+   "prices": {
+    "kaufland": 3.49,
+    "konzum": 2.79,
+    "lidl": 3.49,
+    "plodine": 2.79,
+    "spar": 3.49
+   }
+  },
+  {
+   "gtin": "03850354007661",
+   "name": "Dukat čokoladno mlijeko HDPE 1 L",
+   "prices": {
+    "kaufland": 1.91,
+    "konzum": 2.39,
+    "lidl": 2.39,
+    "plodine": 2.29,
+    "spar": 2.19
+   }
+  },
+  {
+   "gtin": "03850354010784",
+   "name": "Dukatos grčki tip jogurta 9,7% 450g kant",
+   "prices": {
+    "kaufland": 2.69,
+    "konzum": 2.69,
+    "lidl": 2.69,
+    "plodine": 2.69,
+    "spar": 2.69
+   }
+  },
+  {
+   "gtin": "03850354009764",
+   "name": "Dukatos jogurt badem pistacija 8%mm 150g",
+   "prices": {
+    "kaufland": 0.99,
+    "konzum": 0.89,
+    "lidl": 0.99,
+    "plodine": 0.99,
+    "spar": 1.09
+   }
+  },
+  {
+   "gtin": "03850354016984",
+   "name": "Dukatos selection vanilija 150 g",
+   "prices": {
+    "kaufland": 1.09,
+    "konzum": 0.89,
+    "lidl": 0.89,
+    "plodine": 1.09,
+    "spar": 1.19
+   }
+  },
+  {
+   "gtin": "04008400300429",
+   "name": "Duplo 91 g",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.99,
+    "lidl": 1.99,
+    "plodine": 1.99,
+    "spar": 2.09
+   }
+  },
+  {
+   "gtin": "08718951470583",
+   "name": "Elmex Junior Pasta za zube 6-12god 75 ml",
+   "prices": {
+    "kaufland": 4.39,
+    "konzum": 4.49,
+    "lidl": 3.85,
+    "plodine": 3.59,
+    "spar": 3.85
+   }
+  },
+  {
+   "gtin": "08714789992204",
+   "name": "Elmex Pasta za zube Caries Prot.2x75ml",
+   "prices": {
+    "kaufland": 9.35,
+    "konzum": 9.35,
+    "lidl": 6.99,
+    "plodine": 7.11,
+    "spar": 9.35
+   }
+  },
+  {
+   "gtin": "08718951477575",
+   "name": "Elmex zaštita od karijesa pasta 75 ml",
+   "prices": {
+    "kaufland": 4.79,
+    "konzum": 5.29,
+    "lidl": 4.95,
+    "plodine": 4.23,
+    "spar": 5.39
+   }
+  },
+  {
+   "gtin": "08718951188075",
+   "name": "Elmex četkica za zube ultra soft tripack",
+   "prices": {
+    "kaufland": 12.59,
+    "konzum": 12.99,
+    "lidl": 8.89,
+    "plodine": 10.39,
+    "spar": 10.99
+   }
+  },
+  {
+   "gtin": "03856020276720",
+   "name": "Eva Losos salata Asiana 160g",
+   "prices": {
+    "kaufland": 4.29,
+    "konzum": 4.29,
+    "lidl": 1.99,
+    "plodine": 4.29,
+    "spar": 4.25
+   }
+  },
+  {
+   "gtin": "03856020262525",
+   "name": "Eva Sardine jadra.u biljnom ulju100g/70g",
+   "prices": {
+    "kaufland": 1.59,
+    "konzum": 1.99,
+    "lidl": 1.99,
+    "plodine": 1.99,
+    "spar": 1.89
+   }
+  },
+  {
+   "gtin": "03856020263874",
+   "name": "Eva Tuna salata Balance 160g",
+   "prices": {
+    "kaufland": 4.29,
+    "konzum": 4.29,
+    "lidl": 1.99,
+    "plodine": 4.29,
+    "spar": 4.25
+   }
+  },
+  {
+   "gtin": "03856020217617",
+   "name": "Eva Tuna salata Dalmatina 160 g",
+   "prices": {
+    "kaufland": 4.29,
+    "konzum": 4.29,
+    "lidl": 1.99,
+    "plodine": 4.29,
+    "spar": 4.25
+   }
+  },
+  {
+   "gtin": "03856020217648",
+   "name": "Eva Tuna salata Mediterana 160 g",
+   "prices": {
+    "kaufland": 4.29,
+    "konzum": 4.29,
+    "lidl": 1.99,
+    "plodine": 4.29,
+    "spar": 4.25
+   }
+  },
+  {
+   "gtin": "03856020218126",
+   "name": "Eva Tuna salata Mexicana 160 g",
+   "prices": {
+    "kaufland": 4.29,
+    "konzum": 4.29,
+    "lidl": 1.99,
+    "plodine": 4.29,
+    "spar": 4.25
+   }
+  },
+  {
+   "gtin": "03856020263904",
+   "name": "Eva Tuna salata Protein 160 g",
+   "prices": {
+    "kaufland": 4.39,
+    "konzum": 4.29,
+    "lidl": 1.99,
+    "plodine": 4.29,
+    "spar": 4.25
+   }
+  },
+  {
+   "gtin": "03856020217679",
+   "name": "Eva tuna salata crvena kvinoja 160 g",
+   "prices": {
+    "kaufland": 4.29,
+    "konzum": 4.29,
+    "lidl": 1.99,
+    "plodine": 4.29,
+    "spar": 4.25
+   }
+  },
+  {
+   "gtin": "03856020217730",
+   "name": "Eva tuna salata kus kus 160 g",
+   "prices": {
+    "kaufland": 4.29,
+    "konzum": 4.29,
+    "lidl": 1.99,
+    "plodine": 4.29,
+    "spar": 4.25
+   }
+  },
+  {
+   "gtin": "09000101609394",
+   "name": "Fa Men Gel za tuš.Energy boost 750ml",
+   "prices": {
+    "kaufland": 4.99,
+    "konzum": 3.99,
+    "lidl": 9.99,
+    "plodine": 3.99,
+    "spar": 4.49
+   }
+  },
+  {
+   "gtin": "03850104075759",
+   "name": "Fant za grah i variva 60 g",
+   "prices": {
+    "kaufland": 1.39,
+    "konzum": 1.39,
+    "lidl": 1.39,
+    "plodine": 1.39,
+    "spar": 1.39
+   }
+  },
+  {
+   "gtin": "03850104075537",
+   "name": "Fant za gulaš i paprikaš 65 g",
+   "prices": {
+    "kaufland": 1.39,
+    "konzum": 1.39,
+    "lidl": 1.39,
+    "plodine": 1.39,
+    "spar": 1.39
+   }
+  },
+  {
+   "gtin": "03850104048999",
+   "name": "Fant za kosani odrezak vr. 90 g",
+   "prices": {
+    "kaufland": 1.39,
+    "konzum": 1.39,
+    "lidl": 1.39,
+    "plodine": 1.39,
+    "spar": 1.39
+   }
+  },
+  {
+   "gtin": "03850104075513",
+   "name": "Fant za punjenu papriku i sarmu 60 g",
+   "prices": {
+    "kaufland": 1.39,
+    "konzum": 1.39,
+    "lidl": 1.39,
+    "plodine": 1.39,
+    "spar": 1.39
+   }
+  },
+  {
+   "gtin": "05449000322326",
+   "name": "Fanta orange duo 2x2 l  PET",
+   "prices": {
+    "kaufland": 4.69,
+    "konzum": 4.69,
+    "lidl": 3.99,
+    "plodine": 4.69,
+    "spar": 4.69
+   }
+  },
+  {
+   "gtin": "03858890176957",
+   "name": "Felix Posl.za mačke par.mix Grill sm 60g",
+   "prices": {
+    "kaufland": 1.49,
+    "konzum": 1.19,
+    "lidl": 1.49,
+    "plodine": 1.49,
+    "spar": 1.49
+   }
+  },
+  {
+   "gtin": "03858890176919",
+   "name": "Felix Posl.za mačke par.mix Ocean sm 60g",
+   "prices": {
+    "kaufland": 1.49,
+    "konzum": 1.19,
+    "lidl": 1.49,
+    "plodine": 1.49,
+    "spar": 1.49
+   }
+  },
+  {
+   "gtin": "03858890176933",
+   "name": "Felix Posl.za mačke party mix ori.sm 60g",
+   "prices": {
+    "kaufland": 1.49,
+    "konzum": 1.19,
+    "lidl": 1.49,
+    "plodine": 1.49,
+    "spar": 1.49
+   }
+  },
+  {
+   "gtin": "08000500003787",
+   "name": "Ferrero Rocher 200 g",
+   "prices": {
+    "kaufland": 7.59,
+    "konzum": 7.59,
+    "lidl": 7.59,
+    "plodine": 5.99,
+    "spar": 7.99
+   }
+  },
+  {
+   "gtin": "03858881191914",
+   "name": "Festigia Malvazija vrhunsko vino 0,75 l",
+   "prices": {
+    "kaufland": 14.99,
+    "konzum": 13.49,
+    "lidl": 14.99,
+    "plodine": 14.99,
+    "spar": 14.99
+   }
+  },
+  {
+   "gtin": "03856020230982",
+   "name": "Fini-Mini Juha krem od gljiva 20 g",
+   "prices": {
+    "kaufland": 0.79,
+    "konzum": 0.79,
+    "lidl": 0.79,
+    "plodine": 0.79,
+    "spar": 0.89
+   }
+  },
+  {
+   "gtin": "03850104260940",
+   "name": "Fini-Mini Juha od rajčice i mozzarel.23g",
+   "prices": {
+    "kaufland": 0.79,
+    "konzum": 0.79,
+    "lidl": 0.79,
+    "plodine": 0.79,
+    "spar": 0.89
+   }
+  },
+  {
+   "gtin": "03856020284183",
+   "name": "Fini-Mini Noodles Simply Beef 355 g",
+   "prices": {
+    "kaufland": 1.19,
+    "konzum": 1.69,
+    "lidl": 1.19,
+    "plodine": 1.75,
+    "spar": 1.69
+   }
+  },
+  {
+   "gtin": "03856020258399",
+   "name": "Fini-Mini Noodles goveđi okus 5x75g",
+   "prices": {
+    "kaufland": 2.09,
+    "konzum": 1.59,
+    "lidl": 1.59,
+    "plodine": 2.25,
+    "spar": 2.49
+   }
+  },
+  {
+   "gtin": "03856020258337",
+   "name": "Fini-Mini Noodles kokošji okus 5x75g",
+   "prices": {
+    "kaufland": 2.09,
+    "konzum": 1.59,
+    "lidl": 1.59,
+    "plodine": 2.25,
+    "spar": 2.09
+   }
+  },
+  {
+   "gtin": "03850291054926",
+   "name": "Franck Kapsule za kavu Nota Cortado 104g",
+   "prices": {
+    "kaufland": 5.99,
+    "konzum": 5.99,
+    "lidl": 4.79,
+    "plodine": 5.99,
+    "spar": 5.59
+   }
+  },
+  {
+   "gtin": "03850291053011",
+   "name": "Franck Nota Espresso kapsule  112 g",
+   "prices": {
+    "kaufland": 5.99,
+    "konzum": 5.99,
+    "lidl": 4.79,
+    "plodine": 5.99,
+    "spar": 5.59
+   }
+  },
+  {
+   "gtin": "03858881088320",
+   "name": "Franck cappuccino čokolada 144g",
+   "prices": {
+    "kaufland": 3.89,
+    "konzum": 3.89,
+    "lidl": 3.29,
+    "plodine": 3.89,
+    "spar": 4.19
+   }
+  },
+  {
+   "gtin": "03858881081383",
+   "name": "Franck čaj od šipka 60 g",
+   "prices": {
+    "kaufland": 2.29,
+    "konzum": 2.29,
+    "lidl": 1.79,
+    "plodine": 2.29,
+    "spar": 2.29
+   }
+  },
+  {
+   "gtin": "08445290751737",
+   "name": "Friskies Hrana za pse u želeu 4x85g",
+   "prices": {
+    "kaufland": 2.59,
+    "konzum": 1.99,
+    "lidl": 1.79,
+    "plodine": 2.59,
+    "spar": 2.59
+   }
+  },
+  {
+   "gtin": "08445290752048",
+   "name": "Friskies Junior Hr.za pse u umaku 4x85g",
+   "prices": {
+    "kaufland": 2.59,
+    "konzum": 1.99,
+    "lidl": 1.79,
+    "plodine": 2.59,
+    "spar": 2.59
+   }
+  },
+  {
+   "gtin": "08445290751683",
+   "name": "Friskies Junior Hr.za pse u želeu 4x85g",
+   "prices": {
+    "kaufland": 2.59,
+    "konzum": 1.99,
+    "lidl": 1.79,
+    "plodine": 2.59,
+    "spar": 2.59
+   }
+  },
+  {
+   "gtin": "03850102002245",
+   "name": "Frondi Vafel s kakao punjenjem 250g",
+   "prices": {
+    "kaufland": 2.59,
+    "konzum": 2.59,
+    "lidl": 2.59,
+    "plodine": 2.59,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "03850102002221",
+   "name": "Frondi Vafel s punj.od lješnjaka 250 g",
+   "prices": {
+    "kaufland": 2.59,
+    "konzum": 2.59,
+    "lidl": 2.59,
+    "plodine": 2.59,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "03850102002269",
+   "name": "Frondi Vafel s punj.od vanilije 250 g",
+   "prices": {
+    "kaufland": 2.59,
+    "konzum": 2.59,
+    "lidl": 1.99,
+    "plodine": 2.59,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "03850102010066",
+   "name": "Frondi Vafel s punjenjem od kokosa250g",
+   "prices": {
+    "kaufland": 2.59,
+    "konzum": 2.59,
+    "lidl": 1.99,
+    "plodine": 2.59,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "03850120700611",
+   "name": "Frondi vafel s punjenjem od naranče 225g",
+   "prices": {
+    "kaufland": 1.81,
+    "konzum": 2.59,
+    "lidl": 1.89,
+    "plodine": 2.59,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "03859892805562",
+   "name": "Gabriel Kefir 100% koz.ml. 0,5 L PET",
+   "prices": {
+    "kaufland": 2.52,
+    "konzum": 2.55,
+    "lidl": 2.19,
+    "plodine": 2.52,
+    "spar": 2.52
+   }
+  },
+  {
+   "gtin": "03858892724910",
+   "name": "Gavrilović Kobasica Kranjska 300g",
+   "prices": {
+    "kaufland": 4.09,
+    "konzum": 4.19,
+    "lidl": 4.19,
+    "plodine": 4.09,
+    "spar": 4.39
+   }
+  },
+  {
+   "gtin": "03858892725719",
+   "name": "Gavrilović Salama Zimska 300 g",
+   "prices": {
+    "kaufland": 8.89,
+    "konzum": 9.29,
+    "lidl": 6.99,
+    "plodine": 8.89,
+    "spar": 8.79
+   }
+  },
+  {
+   "gtin": "03858881220010",
+   "name": "Gavrilović mesni doručak 150 g",
+   "prices": {
+    "kaufland": 2.15,
+    "konzum": 1.69,
+    "lidl": 1.99,
+    "plodine": 1.69,
+    "spar": 2.15
+   }
+  },
+  {
+   "gtin": "03858890207620",
+   "name": "Gavrilović pašteta Tuna 100 g",
+   "prices": {
+    "kaufland": 1.95,
+    "konzum": 1.59,
+    "lidl": 1.49,
+    "plodine": 1.95,
+    "spar": 1.85
+   }
+  },
+  {
+   "gtin": "03858890207682",
+   "name": "Gavrilović pašteta kok.classic 100 g ART",
+   "prices": {
+    "kaufland": 1.35,
+    "konzum": 0.99,
+    "lidl": 0.99,
+    "plodine": 1.35,
+    "spar": 1.35
+   }
+  },
+  {
+   "gtin": "03858890207767",
+   "name": "Gavrilović pašteta pil. Roasty 100 g ART",
+   "prices": {
+    "kaufland": 1.35,
+    "konzum": 0.99,
+    "lidl": 0.99,
+    "plodine": 1.35,
+    "spar": 1.35
+   }
+  },
+  {
+   "gtin": "03858890207743",
+   "name": "Gavrilović pašteta pil. classic 100g ART",
+   "prices": {
+    "kaufland": 1.35,
+    "konzum": 0.99,
+    "lidl": 0.99,
+    "plodine": 1.39,
+    "spar": 1.35
+   }
+  },
+  {
+   "gtin": "03858881221529",
+   "name": "Gavrilović čajna pašteta 100 g",
+   "prices": {
+    "kaufland": 1.55,
+    "konzum": 1.55,
+    "lidl": 1.39,
+    "plodine": 1.55,
+    "spar": 1.55
+   }
+  },
+  {
+   "gtin": "07613287358950",
+   "name": "Gerber Hrana dječ.pire jab.marelica150g",
+   "prices": {
+    "kaufland": 2.05,
+    "konzum": 1.76,
+    "lidl": 1.49,
+    "plodine": 1.99,
+    "spar": 2.05
+   }
+  },
+  {
+   "gtin": "07613287358981",
+   "name": "Gerber Hrana dječ.pire jab.šum.voć.150g",
+   "prices": {
+    "kaufland": 2.05,
+    "konzum": 1.76,
+    "lidl": 1.49,
+    "plodine": 1.99,
+    "spar": 2.05
+   }
+  },
+  {
+   "gtin": "07702018405015",
+   "name": "Gillette Gel za brijanje Mach3 240 ml",
+   "prices": {
+    "kaufland": 5.7,
+    "konzum": 3.99,
+    "lidl": 3.99,
+    "plodine": 5.7,
+    "spar": 5.29
+   }
+  },
+  {
+   "gtin": "07702018617234",
+   "name": "Gillette Pjena za brij.Sensitive 300ml",
+   "prices": {
+    "kaufland": 3.29,
+    "konzum": 2.79,
+    "lidl": 2.79,
+    "plodine": 3.39,
+    "spar": 3.29
+   }
+  },
+  {
+   "gtin": "03858881087828",
+   "name": "Gloria cappuccino vanilija 200 g",
+   "prices": {
+    "kaufland": 2.79,
+    "konzum": 2.79,
+    "lidl": 2.79,
+    "plodine": 2.29,
+    "spar": 2.79
+   }
+  },
+  {
+   "gtin": "03858881088184",
+   "name": "Gloria kava mljevena 500 g",
+   "prices": {
+    "kaufland": 9.49,
+    "konzum": 9.49,
+    "lidl": 6.99,
+    "plodine": 9.49,
+    "spar": 9.99
+   }
+  },
+  {
+   "gtin": "05000289929417",
+   "name": "Gordons pink gin 37,5% 0,7 l",
+   "prices": {
+    "kaufland": 20.99,
+    "konzum": 20.49,
+    "lidl": 20.99,
+    "plodine": 20.49,
+    "spar": 20.49
+   }
+  },
+  {
+   "gtin": "08076809540162",
+   "name": "GranCereale Keks Cornflakes 230 g",
+   "prices": {
+    "kaufland": 2.79,
+    "konzum": 2.85,
+    "lidl": 1.59,
+    "plodine": 1.99,
+    "spar": 1.95
+   }
+  },
+  {
+   "gtin": "08076809540124",
+   "name": "GranCereale keks classico 250 g",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.99,
+    "lidl": 1.29,
+    "plodine": 1.39,
+    "spar": 1.39
+   }
+  },
+  {
+   "gtin": "08076809540155",
+   "name": "Grancereale Keksi integr.čok.lješ.230 g",
+   "prices": {
+    "kaufland": 2.79,
+    "konzum": 2.85,
+    "lidl": 1.59,
+    "plodine": 1.99,
+    "spar": 1.95
+   }
+  },
+  {
+   "gtin": "08076809540179",
+   "name": "Grancereale integralni keksi frutta 250g",
+   "prices": {
+    "kaufland": 2.79,
+    "konzum": 2.85,
+    "lidl": 1.59,
+    "plodine": 1.99,
+    "spar": 1.95
+   }
+  },
+  {
+   "gtin": "03850102125821",
+   "name": "Griotte čokoladni punjeni desert 204 g",
+   "prices": {
+    "kaufland": 7.69,
+    "konzum": 5.77,
+    "lidl": 4.95,
+    "plodine": 7.69,
+    "spar": 7.69
+   }
+  },
+  {
+   "gtin": "09002975301268",
+   "name": "Haribo bomboni gum.zlatni medo 200g",
+   "prices": {
+    "kaufland": 2.45,
+    "konzum": 2.45,
+    "lidl": 2.45,
+    "plodine": 2.45,
+    "spar": 2.69
+   }
+  },
+  {
+   "gtin": "09002975315104",
+   "name": "Haribo bomboni gumeni Happy Cola 200g",
+   "prices": {
+    "kaufland": 2.45,
+    "konzum": 2.45,
+    "lidl": 2.45,
+    "plodine": 2.45,
+    "spar": 2.69
+   }
+  },
+  {
+   "gtin": "08501110086196",
+   "name": "Havana club rum especial 0,7 l",
+   "prices": {
+    "kaufland": 17.99,
+    "konzum": 18.79,
+    "lidl": 12.39,
+    "plodine": 17.99,
+    "spar": 18.79
+   }
+  },
+  {
+   "gtin": "08700216156172",
+   "name": "Head&Shoulders Šampon Citrus Fresh800ml",
+   "prices": {
+    "kaufland": 12.49,
+    "konzum": 12.49,
+    "lidl": 6.49,
+    "plodine": 12.49,
+    "spar": 9.99
+   }
+  },
+  {
+   "gtin": "08700216158114",
+   "name": "Head&Shoulders Šampon Menthol Fre.500ml",
+   "prices": {
+    "kaufland": 7.19,
+    "konzum": 7.0,
+    "lidl": 6.59,
+    "plodine": 6.29,
+    "spar": 3.99
+   }
+  },
+  {
+   "gtin": "03850103902483",
+   "name": "Heineken Pivo Silver svij.4% 4x330ml LIM",
+   "prices": {
+    "kaufland": 4.99,
+    "konzum": 4.65,
+    "lidl": 4.61,
+    "plodine": 4.61,
+    "spar": 4.19
+   }
+  },
+  {
+   "gtin": "03830054841802",
+   "name": "Heineken bez.alk pivo 0,0% 0,33 l lim",
+   "prices": {
+    "kaufland": 1.35,
+    "konzum": 1.35,
+    "lidl": 1.35,
+    "plodine": 1.35,
+    "spar": 1.25
+   }
+  },
+  {
+   "gtin": "03830001716016",
+   "name": "Heineken pivo 5% 6x0,5 l lim",
+   "prices": {
+    "kaufland": 9.29,
+    "konzum": 8.49,
+    "lidl": 8.49,
+    "plodine": 9.29,
+    "spar": 9.29
+   }
+  },
+  {
+   "gtin": "03830001714715",
+   "name": "Heineken sv. pivo 4 x 0,5 l limenka",
+   "prices": {
+    "kaufland": 6.49,
+    "konzum": 6.49,
+    "lidl": 6.49,
+    "plodine": 6.49,
+    "spar": 6.69
+   }
+  },
+  {
+   "gtin": "03830001714692",
+   "name": "Heineken sv. pivo 5% 0,5 l limenka",
+   "prices": {
+    "kaufland": 1.75,
+    "konzum": 1.75,
+    "lidl": 1.75,
+    "plodine": 1.75,
+    "spar": 1.89
+   }
+  },
+  {
+   "gtin": "08715700419695",
+   "name": "Heinz Umak Sweet barbecue 400 ml",
+   "prices": {
+    "kaufland": 4.89,
+    "konzum": 5.29,
+    "lidl": 3.49,
+    "plodine": 4.99,
+    "spar": 4.89
+   }
+  },
+  {
+   "gtin": "05999884034445",
+   "name": "Hell Energy Drink Zero 0,25 l",
+   "prices": {
+    "kaufland": 0.99,
+    "konzum": 1.09,
+    "lidl": 0.99,
+    "plodine": 0.99,
+    "spar": 0.99
+   }
+  },
+  {
+   "gtin": "05999860497646",
+   "name": "Hell Ice Coffee Double Espres.250 ml ALU",
+   "prices": {
+    "kaufland": 1.59,
+    "konzum": 1.59,
+    "lidl": 0.99,
+    "plodine": 1.59,
+    "spar": 1.29
+   }
+  },
+  {
+   "gtin": "05999860497073",
+   "name": "Hell Ice Coffee Latte 250 ml ALU",
+   "prices": {
+    "kaufland": 1.59,
+    "konzum": 1.59,
+    "lidl": 1.19,
+    "plodine": 1.59,
+    "spar": 1.29
+   }
+  },
+  {
+   "gtin": "05999860497097",
+   "name": "Hell Ice Coffee Napitak cappuccino 250ml",
+   "prices": {
+    "kaufland": 1.59,
+    "konzum": 1.59,
+    "lidl": 1.19,
+    "plodine": 1.59,
+    "spar": 1.29
+   }
+  },
+  {
+   "gtin": "05999884034193",
+   "name": "Hell Piće energetsko classic XXL 4x0,25l",
+   "prices": {
+    "kaufland": 2.99,
+    "konzum": 2.99,
+    "lidl": 2.99,
+    "plodine": 3.17,
+    "spar": 3.99
+   }
+  },
+  {
+   "gtin": "05999884034469",
+   "name": "Hell energy drink classic 0,25 l",
+   "prices": {
+    "kaufland": 0.99,
+    "konzum": 1.09,
+    "lidl": 0.99,
+    "plodine": 0.99,
+    "spar": 0.99
+   }
+  },
+  {
+   "gtin": "05010327755014",
+   "name": "Hendricks gin  41,4% alk. 0,70 l",
+   "prices": {
+    "kaufland": 40.02,
+    "konzum": 40.05,
+    "lidl": 28.99,
+    "plodine": 32.49,
+    "spar": 39.99
+   }
+  },
+  {
+   "gtin": "03850131005118",
+   "name": "Hidra Iso 0,5 l PET",
+   "prices": {
+    "kaufland": 1.29,
+    "konzum": 1.29,
+    "lidl": 1.29,
+    "plodine": 1.29,
+    "spar": 1.39
+   }
+  },
+  {
+   "gtin": "03850131006283",
+   "name": "Hidra Iso Piće gaz.bezal.Limun4x0,5L LIM",
+   "prices": {
+    "kaufland": 4.59,
+    "konzum": 4.59,
+    "lidl": 4.19,
+    "plodine": 4.19,
+    "spar": 4.59
+   }
+  },
+  {
+   "gtin": "03850131006313",
+   "name": "Hidra UP Piće gaz.bezal.Naran4x0,5L LIM",
+   "prices": {
+    "kaufland": 4.59,
+    "konzum": 4.59,
+    "lidl": 4.19,
+    "plodine": 4.19,
+    "spar": 4.59
+   }
+  },
+  {
+   "gtin": "03850131005651",
+   "name": "Hidra UP naranča 0,5 l PET",
+   "prices": {
+    "kaufland": 1.29,
+    "konzum": 1.29,
+    "lidl": 1.29,
+    "plodine": 1.29,
+    "spar": 1.39
+   }
+  },
+  {
+   "gtin": "03850131006382",
+   "name": "Hidra Vit.Piće gaz.bezal.an.lim.0,5L PET",
+   "prices": {
+    "kaufland": 1.29,
+    "konzum": 1.29,
+    "lidl": 1.29,
+    "plodine": 1.29,
+    "spar": 1.29
+   }
+  },
+  {
+   "gtin": "09062300132455",
+   "name": "Hipp Bio jabuka i banana s keksom 190 g",
+   "prices": {
+    "kaufland": 1.65,
+    "konzum": 1.65,
+    "lidl": 1.65,
+    "plodine": 1.64,
+    "spar": 1.64
+   }
+  },
+  {
+   "gtin": "09062300106739",
+   "name": "Hipp Bio kašica šljiva 125 g",
+   "prices": {
+    "kaufland": 1.15,
+    "konzum": 1.15,
+    "lidl": 1.15,
+    "plodine": 1.26,
+    "spar": 1.15
+   }
+  },
+  {
+   "gtin": "04062300325197",
+   "name": "Hipp Dječja hrana kruš.ban.grož.120g BIO",
+   "prices": {
+    "kaufland": 1.39,
+    "konzum": 1.39,
+    "lidl": 1.39,
+    "plodine": 1.4,
+    "spar": 1.39
+   }
+  },
+  {
+   "gtin": "04062300325111",
+   "name": "Hipp Smoothie jabuk.kruš.bor.Bio 120ml",
+   "prices": {
+    "kaufland": 1.39,
+    "konzum": 1.39,
+    "lidl": 1.39,
+    "plodine": 1.4,
+    "spar": 1.39
+   }
+  },
+  {
+   "gtin": "09062300134251",
+   "name": "Hipp banana breskva jabuka Bio 190 g",
+   "prices": {
+    "kaufland": 1.65,
+    "konzum": 1.69,
+    "lidl": 1.65,
+    "plodine": 1.65,
+    "spar": 1.65
+   }
+  },
+  {
+   "gtin": "09062300133117",
+   "name": "Hipp bio kašica laku n.ban.griz kak.190g",
+   "prices": {
+    "kaufland": 1.65,
+    "konzum": 1.69,
+    "lidl": 1.65,
+    "plodine": 1.63,
+    "spar": 1.63
+   }
+  },
+  {
+   "gtin": "09062300133148",
+   "name": "Hipp bio kašica z.laku noć keks jab190 g",
+   "prices": {
+    "kaufland": 1.65,
+    "konzum": 1.69,
+    "lidl": 1.65,
+    "plodine": 1.63,
+    "spar": 1.65
+   }
+  },
+  {
+   "gtin": "09062300100959",
+   "name": "Hipp bio piletina s rižom povrćem 190 g",
+   "prices": {
+    "kaufland": 2.05,
+    "konzum": 1.99,
+    "lidl": 2.05,
+    "plodine": 2.05,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "09062300103493",
+   "name": "Hipp bio puretina s biranim povrćem 220g",
+   "prices": {
+    "kaufland": 2.05,
+    "konzum": 2.09,
+    "lidl": 2.05,
+    "plodine": 2.05,
+    "spar": 2.05
+   }
+  },
+  {
+   "gtin": "09062300103035",
+   "name": "Hipp bio teletina s rižom i povrćem 220g",
+   "prices": {
+    "kaufland": 2.05,
+    "konzum": 2.09,
+    "lidl": 2.05,
+    "plodine": 2.05,
+    "spar": 2.05
+   }
+  },
+  {
+   "gtin": "04062300278554",
+   "name": "Hippis bio jabuka breskva šumsko v 100 g",
+   "prices": {
+    "kaufland": 1.35,
+    "konzum": 1.35,
+    "lidl": 1.35,
+    "plodine": 1.35,
+    "spar": 1.35
+   }
+  },
+  {
+   "gtin": "08003753158679",
+   "name": "Illy Kapsule za kavu Classico Espres.57g",
+   "prices": {
+    "kaufland": 6.49,
+    "konzum": 6.79,
+    "lidl": 4.09,
+    "plodine": 6.49,
+    "spar": 6.79
+   }
+  },
+  {
+   "gtin": "08003753158761",
+   "name": "Illy Kapsule za kavu Intenso Espresso57g",
+   "prices": {
+    "kaufland": 6.49,
+    "konzum": 6.79,
+    "lidl": 4.09,
+    "plodine": 6.49,
+    "spar": 6.79
+   }
+  },
+  {
+   "gtin": "03859889556538",
+   "name": "Iločki podrumi Traminac kval. vino 0,75L",
+   "prices": {
+    "kaufland": 8.05,
+    "konzum": 6.49,
+    "lidl": 8.05,
+    "plodine": 8.05,
+    "spar": 8.25
+   }
+  },
+  {
+   "gtin": "08606108584132",
+   "name": "Indomie Noodles Instant juha goved.5x70g",
+   "prices": {
+    "kaufland": 2.09,
+    "konzum": 1.59,
+    "lidl": 2.09,
+    "plodine": 2.09,
+    "spar": 2.09
+   }
+  },
+  {
+   "gtin": "03858891013312",
+   "name": "Jadran Galenski lab. dječja mast 500 ml",
+   "prices": {
+    "kaufland": 10.99,
+    "konzum": 11.99,
+    "lidl": 10.95,
+    "plodine": 11.85,
+    "spar": 11.99
+   }
+  },
+  {
+   "gtin": "03850102522514",
+   "name": "Jadro keksi 860g",
+   "prices": {
+    "kaufland": 3.99,
+    "konzum": 5.39,
+    "lidl": 3.99,
+    "plodine": 4.99,
+    "spar": 4.99
+   }
+  },
+  {
+   "gtin": "05011007003005",
+   "name": "Jameson 40% whiskey 0,7 l",
+   "prices": {
+    "kaufland": 23.99,
+    "konzum": 23.99,
+    "lidl": 23.99,
+    "plodine": 23.99,
+    "spar": 24.39
+   }
+  },
+  {
+   "gtin": "03856028502166",
+   "name": "Jamnica Piće gaz.beza.Narančada 0,5L PET",
+   "prices": {
+    "kaufland": 1.39,
+    "konzum": 1.35,
+    "lidl": 1.19,
+    "plodine": 1.35,
+    "spar": 1.35
+   }
+  },
+  {
+   "gtin": "03856028507642",
+   "name": "Jamnica Piće gaz.bezalk.Limunada 1L PET",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.99,
+    "lidl": 1.99,
+    "plodine": 1.99,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "03856028507673",
+   "name": "Jamnica Piće gaz.bezalk.Narančada1L PET",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.99,
+    "lidl": 1.99,
+    "plodine": 1.99,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "03858890879216",
+   "name": "Jamnica Voda gazirana miner.6x1,5L PET",
+   "prices": {
+    "kaufland": 4.95,
+    "konzum": 4.99,
+    "lidl": 5.49,
+    "plodine": 5.47,
+    "spar": 5.13
+   }
+  },
+  {
+   "gtin": "03859888152113",
+   "name": "Jamnica mineralna voda gazirana 0,5L PET",
+   "prices": {
+    "kaufland": 0.85,
+    "konzum": 0.85,
+    "lidl": 0.85,
+    "plodine": 0.85,
+    "spar": 0.92
+   }
+  },
+  {
+   "gtin": "03859888152014",
+   "name": "Jamnica mineralna voda gazirana 1L PB",
+   "prices": {
+    "kaufland": 0.75,
+    "konzum": 0.75,
+    "lidl": 1.19,
+    "plodine": 0.75,
+    "spar": 0.75
+   }
+  },
+  {
+   "gtin": "03858890874525",
+   "name": "Jamnica mineralna voda gazirana 4x1,5 l",
+   "prices": {
+    "kaufland": 3.49,
+    "konzum": 3.49,
+    "lidl": 3.49,
+    "plodine": 3.61,
+    "spar": 3.49
+   }
+  },
+  {
+   "gtin": "03858884601731",
+   "name": "Jana Ledeni čaj brusni.šums.voće0,5l PET",
+   "prices": {
+    "kaufland": 1.19,
+    "konzum": 1.19,
+    "lidl": 1.19,
+    "plodine": 1.19,
+    "spar": 1.19
+   }
+  },
+  {
+   "gtin": "03858890873085",
+   "name": "Jana Vitamin limun 1,5 l PET",
+   "prices": {
+    "kaufland": 1.79,
+    "konzum": 1.79,
+    "lidl": 1.79,
+    "plodine": 1.59,
+    "spar": 1.89
+   }
+  },
+  {
+   "gtin": "03858890874044",
+   "name": "Jana Vitamin naranča 1,5 l",
+   "prices": {
+    "kaufland": 1.79,
+    "konzum": 1.79,
+    "lidl": 1.79,
+    "plodine": 1.59,
+    "spar": 1.89
+   }
+  },
+  {
+   "gtin": "03858890874082",
+   "name": "Jana Voda negazirana 1,5L 5+1gratis",
+   "prices": {
+    "kaufland": 4.95,
+    "konzum": 4.95,
+    "lidl": 5.49,
+    "plodine": 4.95,
+    "spar": 4.95
+   }
+  },
+  {
+   "gtin": "03858884601052",
+   "name": "Jana ledeni čaj breskva 0,5 l PET",
+   "prices": {
+    "kaufland": 1.19,
+    "konzum": 1.19,
+    "lidl": 1.19,
+    "plodine": 1.19,
+    "spar": 1.19
+   }
+  },
+  {
+   "gtin": "03858884601045",
+   "name": "Jana ledeni čaj breskva 1,5l PET",
+   "prices": {
+    "kaufland": 1.75,
+    "konzum": 1.75,
+    "lidl": 1.75,
+    "plodine": 1.75,
+    "spar": 1.75
+   }
+  },
+  {
+   "gtin": "03858884601717",
+   "name": "Jana ledeni čaj š.voće,brusnica 1,5l PET",
+   "prices": {
+    "kaufland": 1.75,
+    "konzum": 1.75,
+    "lidl": 1.75,
+    "plodine": 1.75,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "03858884600819",
+   "name": "Jana limun limeta 1,5 l PET",
+   "prices": {
+    "kaufland": 1.59,
+    "konzum": 1.59,
+    "lidl": 1.59,
+    "plodine": 1.59,
+    "spar": 1.59
+   }
+  },
+  {
+   "gtin": "03858884600062",
+   "name": "Jana negaz. prirodna voda 0,5l PET",
+   "prices": {
+    "kaufland": 0.85,
+    "konzum": 0.85,
+    "lidl": 0.85,
+    "plodine": 0.85,
+    "spar": 0.92
+   }
+  },
+  {
+   "gtin": "03858884600055",
+   "name": "Jana negaz. prirodna voda 1,5l PET",
+   "prices": {
+    "kaufland": 0.99,
+    "konzum": 0.99,
+    "lidl": 0.99,
+    "plodine": 0.99,
+    "spar": 0.99
+   }
+  },
+  {
+   "gtin": "03858890871975",
+   "name": "Jana vitamin immuno 0,5 l",
+   "prices": {
+    "kaufland": 1.29,
+    "konzum": 1.19,
+    "lidl": 1.05,
+    "plodine": 1.19,
+    "spar": 1.29
+   }
+  },
+  {
+   "gtin": "03858890874013",
+   "name": "Jana vitamin naranča 0,5 l",
+   "prices": {
+    "kaufland": 1.29,
+    "konzum": 1.19,
+    "lidl": 1.05,
+    "plodine": 1.19,
+    "spar": 1.29
+   }
+  },
+  {
+   "gtin": "04015400795193",
+   "name": "Jar deterdžent za suđe,limun 900 ml",
+   "prices": {
+    "kaufland": 4.19,
+    "konzum": 2.29,
+    "lidl": 2.29,
+    "plodine": 4.19,
+    "spar": 4.19
+   }
+  },
+  {
+   "gtin": "04014500503646",
+   "name": "Jogobella Jogurt voć.classic mix3,5%150g",
+   "prices": {
+    "kaufland": 0.69,
+    "konzum": 0.49,
+    "lidl": 0.69,
+    "plodine": 0.69,
+    "spar": 0.49
+   }
+  },
+  {
+   "gtin": "05000267024202",
+   "name": "Johnnie Walker black label 12% 0,7 l",
+   "prices": {
+    "kaufland": 33.99,
+    "konzum": 33.99,
+    "lidl": 29.99,
+    "plodine": 33.89,
+    "spar": 34.99
+   }
+  },
+  {
+   "gtin": "03858881085589",
+   "name": "Jubilarna kava mljevena 175g",
+   "prices": {
+    "kaufland": 4.39,
+    "konzum": 4.39,
+    "lidl": 4.39,
+    "plodine": 4.39,
+    "spar": 4.49
+   }
+  },
+  {
+   "gtin": "03858881085596",
+   "name": "Jubilarna kava mljevena 400g",
+   "prices": {
+    "kaufland": 8.29,
+    "konzum": 6.49,
+    "lidl": 8.29,
+    "plodine": 8.29,
+    "spar": 6.49
+   }
+  },
+  {
+   "gtin": "03858881080263",
+   "name": "Jubilarna kava mljevena vak 250g",
+   "prices": {
+    "kaufland": 5.39,
+    "konzum": 5.39,
+    "lidl": 5.39,
+    "plodine": 5.39,
+    "spar": 5.69
+   }
+  },
+  {
+   "gtin": "08420822115065",
+   "name": "KH-7 Sredstvo za odmašć. Super 750 ml",
+   "prices": {
+    "kaufland": 4.69,
+    "konzum": 4.99,
+    "lidl": 4.69,
+    "plodine": 4.45,
+    "spar": 4.69
+   }
+  },
+  {
+   "gtin": "03856024802338",
+   "name": "Kandit Žele kocke naranča limun 320g",
+   "prices": {
+    "kaufland": 2.65,
+    "konzum": 2.69,
+    "lidl": 2.19,
+    "plodine": 2.69,
+    "spar": 2.65
+   }
+  },
+  {
+   "gtin": "03850103000820",
+   "name": "Karlovačko Pivo svijetlo 5% 0,5 l PB",
+   "prices": {
+    "kaufland": 1.19,
+    "konzum": 1.19,
+    "lidl": 1.36,
+    "plodine": 1.19,
+    "spar": 1.19
+   }
+  },
+  {
+   "gtin": "03850103002312",
+   "name": "Karlovačko pivo svijetlo 5% 0,5 l lim",
+   "prices": {
+    "kaufland": 1.55,
+    "konzum": 1.55,
+    "lidl": 1.55,
+    "plodine": 1.55,
+    "spar": 1.65
+   }
+  },
+  {
+   "gtin": "03850103902360",
+   "name": "Karlovačko sv. pivo 5% 6x0,5l lim",
+   "prices": {
+    "kaufland": 7.99,
+    "konzum": 7.99,
+    "lidl": 7.99,
+    "plodine": 7.99,
+    "spar": 8.14
+   }
+  },
+  {
+   "gtin": "03850104218804",
+   "name": "Keksolino 500 g",
+   "prices": {
+    "kaufland": 3.49,
+    "konzum": 4.99,
+    "lidl": 4.99,
+    "plodine": 4.89,
+    "spar": 4.89
+   }
+  },
+  {
+   "gtin": "05053827199568",
+   "name": "Kellogg`s Tres.Pahuljice čoko.lješ.410g",
+   "prices": {
+    "kaufland": 5.79,
+    "konzum": 5.99,
+    "lidl": 4.19,
+    "plodine": 4.49,
+    "spar": 5.99
+   }
+  },
+  {
+   "gtin": "03850102017300",
+   "name": "Ki-Ki Karamele Tutti Frutti uskrsne 100g",
+   "prices": {
+    "kaufland": 0.9,
+    "konzum": 0.7,
+    "lidl": 1.29,
+    "plodine": 1.29,
+    "spar": 1.29
+   }
+  },
+  {
+   "gtin": "08715035110502",
+   "name": "Kikkoman soja umak 500 ml",
+   "prices": {
+    "kaufland": 6.49,
+    "konzum": 3.99,
+    "lidl": 5.99,
+    "plodine": 6.49,
+    "spar": 3.49
+   }
+  },
+  {
+   "gtin": "04008400320328",
+   "name": "Kinder Bueno 3 pack 3x43 g",
+   "prices": {
+    "kaufland": 3.59,
+    "konzum": 3.59,
+    "lidl": 3.59,
+    "plodine": 3.59,
+    "spar": 3.59
+   }
+  },
+  {
+   "gtin": "08000500467145",
+   "name": "Kinder Bueno Sladoled u čaši 455ml",
+   "prices": {
+    "kaufland": 7.99,
+    "konzum": 7.99,
+    "lidl": 5.99,
+    "plodine": 7.49,
+    "spar": 7.99
+   }
+  },
+  {
+   "gtin": "08000500121436",
+   "name": "Kinder Bueno white 3 pack 3x39 g",
+   "prices": {
+    "kaufland": 3.59,
+    "konzum": 3.59,
+    "lidl": 3.59,
+    "plodine": 3.59,
+    "spar": 3.59
+   }
+  },
+  {
+   "gtin": "08000500391228",
+   "name": "Kinder Keks Kinderini 250g",
+   "prices": {
+    "kaufland": 4.89,
+    "konzum": 5.49,
+    "lidl": 4.29,
+    "plodine": 4.89,
+    "spar": 4.14
+   }
+  },
+  {
+   "gtin": "04008400551920",
+   "name": "Kinder Maxi King mliječni desert 3x35 g",
+   "prices": {
+    "kaufland": 2.39,
+    "konzum": 2.39,
+    "lidl": 2.39,
+    "plodine": 2.39,
+    "spar": 2.39
+   }
+  },
+  {
+   "gtin": "05413548280189",
+   "name": "Kinder Schoko Bons, čok.bomb.125g",
+   "prices": {
+    "kaufland": 3.99,
+    "konzum": 3.89,
+    "lidl": 3.89,
+    "plodine": 3.89,
+    "spar": 4.19
+   }
+  },
+  {
+   "gtin": "05905408021013",
+   "name": "Kinder Surprise Čokoladno jaje 3pack 60g",
+   "prices": {
+    "kaufland": 3.89,
+    "konzum": 4.39,
+    "lidl": 2.95,
+    "plodine": 4.09,
+    "spar": 4.09
+   }
+  },
+  {
+   "gtin": "00000054088191",
+   "name": "Kinder Surprise čok.jaje lei 20g",
+   "prices": {
+    "kaufland": 1.69,
+    "konzum": 1.7,
+    "lidl": 1.69,
+    "plodine": 1.69,
+    "spar": 1.89
+   }
+  },
+  {
+   "gtin": "08000500384794",
+   "name": "Kinder Tronky 90g",
+   "prices": {
+    "kaufland": 2.49,
+    "konzum": 2.49,
+    "lidl": 2.29,
+    "plodine": 2.49,
+    "spar": 1.89
+   }
+  },
+  {
+   "gtin": "08000500023624",
+   "name": "Kinder Vafel Happy Hippo 103,5 g",
+   "prices": {
+    "kaufland": 3.09,
+    "konzum": 3.19,
+    "lidl": 3.09,
+    "plodine": 3.09,
+    "spar": 3.19
+   }
+  },
+  {
+   "gtin": "08000500269169",
+   "name": "Kinder cards 128 g",
+   "prices": {
+    "kaufland": 3.49,
+    "konzum": 3.49,
+    "lidl": 3.49,
+    "plodine": 3.49,
+    "spar": 3.49
+   }
+  },
+  {
+   "gtin": "00000080177616",
+   "name": "Kinder čokolada 100g",
+   "prices": {
+    "kaufland": 1.19,
+    "konzum": 1.99,
+    "lidl": 1.99,
+    "plodine": 1.99,
+    "spar": 2.49
+   }
+  },
+  {
+   "gtin": "08000500141601",
+   "name": "Kinder čokolada 150g",
+   "prices": {
+    "kaufland": 2.99,
+    "konzum": 2.99,
+    "lidl": 2.69,
+    "plodine": 2.99,
+    "spar": 3.29
+   }
+  },
+  {
+   "gtin": "00000040144412",
+   "name": "Knoppers vafel punj.čok.kremom 3/1 75g",
+   "prices": {
+    "kaufland": 1.39,
+    "konzum": 1.39,
+    "lidl": 1.39,
+    "plodine": 1.49,
+    "spar": 1.39
+   }
+  },
+  {
+   "gtin": "03856014114946",
+   "name": "Koestlin napolitanke voćne kocke 740 g",
+   "prices": {
+    "kaufland": 4.79,
+    "konzum": 3.49,
+    "lidl": 2.29,
+    "plodine": 4.69,
+    "spar": 4.79
+   }
+  },
+  {
+   "gtin": "03850102521845",
+   "name": "Kolumbo Čokolada 100 g",
+   "prices": {
+    "kaufland": 2.59,
+    "konzum": 2.75,
+    "lidl": 2.49,
+    "plodine": 1.89,
+    "spar": 2.59
+   }
+  },
+  {
+   "gtin": "03850116083438",
+   "name": "Kontiki Sladoled ananas,jagoda,limun70ml",
+   "prices": {
+    "kaufland": 1.29,
+    "konzum": 1.29,
+    "lidl": 1.29,
+    "plodine": 1.29,
+    "spar": 1.29
+   }
+  },
+  {
+   "gtin": "09001414237182",
+   "name": "Kotanyi Mješavina začina za ćevapčiće25g",
+   "prices": {
+    "kaufland": 0.98,
+    "konzum": 0.99,
+    "lidl": 0.79,
+    "plodine": 0.98,
+    "spar": 0.99
+   }
+  },
+  {
+   "gtin": "09001414418109",
+   "name": "Kotanyi asia wok mješavina začina 38 g",
+   "prices": {
+    "kaufland": 1.79,
+    "konzum": 1.69,
+    "lidl": 0.65,
+    "plodine": 1.69,
+    "spar": 1.59
+   }
+  },
+  {
+   "gtin": "09001414008133",
+   "name": "Kotanyi češnjak u granulama 120g",
+   "prices": {
+    "kaufland": 3.95,
+    "konzum": 3.95,
+    "lidl": 2.39,
+    "plodine": 3.99,
+    "spar": 3.95
+   }
+  },
+  {
+   "gtin": "09001414204245",
+   "name": "Kotanyi češnjak u granulama mlinac 48 g",
+   "prices": {
+    "kaufland": 3.95,
+    "konzum": 3.99,
+    "lidl": 1.85,
+    "plodine": 3.98,
+    "spar": 3.99
+   }
+  },
+  {
+   "gtin": "08594404006369",
+   "name": "Kozel svijetlo pivo 4,4% 4x0,5 l lim",
+   "prices": {
+    "kaufland": 5.89,
+    "konzum": 5.89,
+    "lidl": 5.89,
+    "plodine": 5.89,
+    "spar": 6.09
+   }
+  },
+  {
+   "gtin": "08594404005331",
+   "name": "Kozel tamno pivo 4x0,5 l lim",
+   "prices": {
+    "kaufland": 5.89,
+    "konzum": 5.89,
+    "lidl": 4.99,
+    "plodine": 5.89,
+    "spar": 5.89
+   }
+  },
+  {
+   "gtin": "03850102111152",
+   "name": "Kraš Express Napitak instant 330 g",
+   "prices": {
+    "kaufland": 3.99,
+    "konzum": 3.99,
+    "lidl": 3.99,
+    "plodine": 2.99,
+    "spar": 3.95
+   }
+  },
+  {
+   "gtin": "03850102017850",
+   "name": "Kraš Napolitanke čoko.cocoa&milk 108g",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.99,
+    "lidl": 1.69,
+    "plodine": 1.99,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "03850102013135",
+   "name": "Kraš Napolitanke čoko.vafel Original430g",
+   "prices": {
+    "kaufland": 5.99,
+    "konzum": 5.69,
+    "lidl": 5.69,
+    "plodine": 5.69,
+    "spar": 5.89
+   }
+  },
+  {
+   "gtin": "03850102014590",
+   "name": "Kraš Napolitanke čoko.vafel kokos 108g",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.99,
+    "lidl": 1.49,
+    "plodine": 1.99,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "03850102017867",
+   "name": "Kraš Napolitanke čoko.vafel malina 108g",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.99,
+    "lidl": 1.69,
+    "plodine": 1.99,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "03850102017003",
+   "name": "Kraš Napolitanke čoko.vafel naranča 108g",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.99,
+    "lidl": 1.69,
+    "plodine": 1.99,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "03850102013524",
+   "name": "Kraš Napolitanke čoko.vafel original108g",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.99,
+    "lidl": 1.69,
+    "plodine": 1.99,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "03850102311439",
+   "name": "Kraš Petit Beurre keksi 480 g",
+   "prices": {
+    "kaufland": 2.79,
+    "konzum": 2.99,
+    "lidl": 2.79,
+    "plodine": 2.39,
+    "spar": 3.39
+   }
+  },
+  {
+   "gtin": "03850102011230",
+   "name": "Kraš Prekrašni kolačići kakao 220g",
+   "prices": {
+    "kaufland": 2.59,
+    "konzum": 2.59,
+    "lidl": 1.99,
+    "plodine": 1.89,
+    "spar": 2.59
+   }
+  },
+  {
+   "gtin": "03850102005413",
+   "name": "Kraš Prekrašni kolačići kokos 200g",
+   "prices": {
+    "kaufland": 2.59,
+    "konzum": 2.59,
+    "lidl": 1.99,
+    "plodine": 1.89,
+    "spar": 2.59
+   }
+  },
+  {
+   "gtin": "03850102126927",
+   "name": "Kraš express 800g",
+   "prices": {
+    "kaufland": 6.95,
+    "konzum": 6.99,
+    "lidl": 5.59,
+    "plodine": 6.99,
+    "spar": 6.95
+   }
+  },
+  {
+   "gtin": "03850102519125",
+   "name": "Kraš napolitanke kakao i mlijeko 420 g",
+   "prices": {
+    "kaufland": 3.19,
+    "konzum": 2.29,
+    "lidl": 2.29,
+    "plodine": 3.19,
+    "spar": 3.19
+   }
+  },
+  {
+   "gtin": "03850102519118",
+   "name": "Kraš napolitanke kakao i čokolada 420 g",
+   "prices": {
+    "kaufland": 3.19,
+    "konzum": 2.29,
+    "lidl": 2.29,
+    "plodine": 3.19,
+    "spar": 3.19
+   }
+  },
+  {
+   "gtin": "03850102326174",
+   "name": "Kraš napolitanke nugat 420 g",
+   "prices": {
+    "kaufland": 3.19,
+    "konzum": 2.29,
+    "lidl": 2.29,
+    "plodine": 3.19,
+    "spar": 3.19
+   }
+  },
+  {
+   "gtin": "03850102320073",
+   "name": "Kraš napolitanke čokoladirane 500 g",
+   "prices": {
+    "kaufland": 6.69,
+    "konzum": 4.0,
+    "lidl": 6.69,
+    "plodine": 6.69,
+    "spar": 6.29
+   }
+  },
+  {
+   "gtin": "03850102326143",
+   "name": "Kraš napolitanke čokoladne 420g",
+   "prices": {
+    "kaufland": 3.19,
+    "konzum": 2.29,
+    "lidl": 3.19,
+    "plodine": 3.19,
+    "spar": 3.59
+   }
+  },
+  {
+   "gtin": "08594009922699",
+   "name": "Krušovice Svetle 4x0,5l lim",
+   "prices": {
+    "kaufland": 5.99,
+    "konzum": 5.99,
+    "lidl": 5.79,
+    "plodine": 5.79,
+    "spar": 5.79
+   }
+  },
+  {
+   "gtin": "03850156001133",
+   "name": "Kutjevo Vino bijelo kval.Graševina 0,75l",
+   "prices": {
+    "kaufland": 6.99,
+    "konzum": 6.99,
+    "lidl": 6.99,
+    "plodine": 6.99,
+    "spar": 7.49
+   }
+  },
+  {
+   "gtin": "03850156001218",
+   "name": "Kutjevo Vino kval.bijelo Graševina 1L NB",
+   "prices": {
+    "kaufland": 6.79,
+    "konzum": 5.99,
+    "lidl": 6.79,
+    "plodine": 6.79,
+    "spar": 6.99
+   }
+  },
+  {
+   "gtin": "03850156001072",
+   "name": "Kutjevo Vino kvalit. Rose 0,75 l",
+   "prices": {
+    "kaufland": 7.59,
+    "konzum": 6.49,
+    "lidl": 6.19,
+    "plodine": 7.53,
+    "spar": 6.49
+   }
+  },
+  {
+   "gtin": "03850104225277",
+   "name": "Kviki Gric slani 100 g",
+   "prices": {
+    "kaufland": 1.39,
+    "konzum": 1.39,
+    "lidl": 1.39,
+    "plodine": 1.39,
+    "spar": 1.59
+   }
+  },
+  {
+   "gtin": "08017331077016",
+   "name": "L`Angelica Sapun teku.Purifying refill1L",
+   "prices": {
+    "kaufland": 3.49,
+    "konzum": 3.55,
+    "lidl": 2.45,
+    "plodine": 3.55,
+    "spar": 2.45
+   }
+  },
+  {
+   "gtin": "08017331077122",
+   "name": "L`Angelica gel za tuš. argan 500 ml",
+   "prices": {
+    "kaufland": 3.19,
+    "konzum": 3.49,
+    "lidl": 2.59,
+    "plodine": 2.19,
+    "spar": 2.97
+   }
+  },
+  {
+   "gtin": "08410190585997",
+   "name": "Lactovit Lactourea mlijeko za ti. 400ml",
+   "prices": {
+    "kaufland": 3.93,
+    "konzum": 4.79,
+    "lidl": 6.05,
+    "plodine": 6.05,
+    "spar": 6.05
+   }
+  },
+  {
+   "gtin": "08411135351721",
+   "name": "Lactovit gel za tušir.lactourea 600ml",
+   "prices": {
+    "kaufland": 2.82,
+    "konzum": 3.15,
+    "lidl": 2.99,
+    "plodine": 4.09,
+    "spar": 3.99
+   }
+  },
+  {
+   "gtin": "03870128029965",
+   "name": "Lasta Štrudla čokolada 250 g",
+   "prices": {
+    "kaufland": 2.39,
+    "konzum": 2.39,
+    "lidl": 2.39,
+    "plodine": 2.39,
+    "spar": 2.19
+   }
+  },
+  {
+   "gtin": "05900259141873",
+   "name": "Lays Čips rebrasti US BBQ Brisket 120 g",
+   "prices": {
+    "kaufland": 1.89,
+    "konzum": 1.5,
+    "lidl": 1.89,
+    "plodine": 2.29,
+    "spar": 1.89
+   }
+  },
+  {
+   "gtin": "08606017377535",
+   "name": "Lays čips ljuta paprika 200 g",
+   "prices": {
+    "kaufland": 2.49,
+    "konzum": 2.69,
+    "lidl": 2.49,
+    "plodine": 3.19,
+    "spar": 2.99
+   }
+  },
+  {
+   "gtin": "03830001712667",
+   "name": "Laško Zlatorog svij. 4,9% 4x0,5 l lim",
+   "prices": {
+    "kaufland": 5.29,
+    "konzum": 5.45,
+    "lidl": 5.29,
+    "plodine": 5.29,
+    "spar": 5.45
+   }
+  },
+  {
+   "gtin": "03850116746050",
+   "name": "Ledo Gamberi smrz. 250 g",
+   "prices": {
+    "kaufland": 6.49,
+    "konzum": 5.29,
+    "lidl": 4.69,
+    "plodine": 6.49,
+    "spar": 6.49
+   }
+  },
+  {
+   "gtin": "03850116053400",
+   "name": "Ledo Kineska mješavina 400 g",
+   "prices": {
+    "kaufland": 3.49,
+    "konzum": 2.39,
+    "lidl": 2.39,
+    "plodine": 3.49,
+    "spar": 3.49
+   }
+  },
+  {
+   "gtin": "03850116877341",
+   "name": "Ledo Lignja patagonica  očiš. 400 g",
+   "prices": {
+    "kaufland": 9.79,
+    "konzum": 9.99,
+    "lidl": 7.49,
+    "plodine": 9.99,
+    "spar": 9.89
+   }
+  },
+  {
+   "gtin": "03850116053431",
+   "name": "Ledo Meksička mješavina 400 g",
+   "prices": {
+    "kaufland": 3.49,
+    "konzum": 3.49,
+    "lidl": 2.39,
+    "plodine": 3.49,
+    "spar": 3.49
+   }
+  },
+  {
+   "gtin": "03850116048659",
+   "name": "Ledo Oslić bez glave 400g_OC",
+   "prices": {
+    "kaufland": 3.89,
+    "konzum": 3.89,
+    "lidl": 2.99,
+    "plodine": 3.89,
+    "spar": 3.9
+   }
+  },
+  {
+   "gtin": "03850116995724",
+   "name": "Ledo Panirani riblji odrezak 400 g",
+   "prices": {
+    "kaufland": 4.99,
+    "konzum": 4.99,
+    "lidl": 3.49,
+    "plodine": 4.99,
+    "spar": 4.99
+   }
+  },
+  {
+   "gtin": "03850116066547",
+   "name": "Ledo Riblji štapići panirani 450 g",
+   "prices": {
+    "kaufland": 4.99,
+    "konzum": 4.99,
+    "lidl": 3.95,
+    "plodine": 4.99,
+    "spar": 4.99
+   }
+  },
+  {
+   "gtin": "03850116888972",
+   "name": "Ledo Savijača s vanil. i šum.voćem 500 g",
+   "prices": {
+    "kaufland": 3.99,
+    "konzum": 3.99,
+    "lidl": 3.19,
+    "plodine": 3.99,
+    "spar": 3.99
+   }
+  },
+  {
+   "gtin": "03850116048543",
+   "name": "Ledo Silk Milk mpack 6x65ml",
+   "prices": {
+    "kaufland": 5.99,
+    "konzum": 5.99,
+    "lidl": 4.49,
+    "plodine": 5.99,
+    "spar": 5.99
+   }
+  },
+  {
+   "gtin": "03850116008622",
+   "name": "Ledo Sladoled Fun time 6x110ml",
+   "prices": {
+    "kaufland": 4.99,
+    "konzum": 4.99,
+    "lidl": 4.99,
+    "plodine": 4.99,
+    "spar": 5.29
+   }
+  },
+  {
+   "gtin": "03850116056869",
+   "name": "Ledo Sladoled na štapiću Njofra 6x65 ml",
+   "prices": {
+    "kaufland": 5.99,
+    "konzum": 5.99,
+    "lidl": 5.99,
+    "plodine": 5.99,
+    "spar": 5.99
+   }
+  },
+  {
+   "gtin": "03850116066394",
+   "name": "Ledo Sladoled štapić Kontiki Jagod4x70ml",
+   "prices": {
+    "kaufland": 4.49,
+    "konzum": 4.59,
+    "lidl": 4.49,
+    "plodine": 4.49,
+    "spar": 4.49
+   }
+  },
+  {
+   "gtin": "03850116103068",
+   "name": "Ledo savijača tamna čokolada višnja 500g",
+   "prices": {
+    "kaufland": 3.99,
+    "konzum": 3.99,
+    "lidl": 2.99,
+    "plodine": 3.99,
+    "spar": 3.99
+   }
+  },
+  {
+   "gtin": "03850116765198",
+   "name": "Ledo zagorski štrukli 600 g",
+   "prices": {
+    "kaufland": 5.39,
+    "konzum": 5.49,
+    "lidl": 3.99,
+    "plodine": 5.39,
+    "spar": 5.49
+   }
+  },
+  {
+   "gtin": "03850116506623",
+   "name": "Ledo Šlag 220 ml",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.99,
+    "lidl": 1.49,
+    "plodine": 1.99,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "08700216722940",
+   "name": "Lenor Omekšivač Fresh wind 50pr. 700ml",
+   "prices": {
+    "kaufland": 6.45,
+    "konzum": 7.39,
+    "lidl": 4.29,
+    "plodine": 6.99,
+    "spar": 3.99
+   }
+  },
+  {
+   "gtin": "08700216724074",
+   "name": "Lenor Omekšivač Spring Awak.71pr. 1,491L",
+   "prices": {
+    "kaufland": 7.39,
+    "konzum": 7.39,
+    "lidl": 6.55,
+    "plodine": 7.39,
+    "spar": 3.99
+   }
+  },
+  {
+   "gtin": "08700216724081",
+   "name": "Lenor Omekšivač rublja Gold Orchid1,239L",
+   "prices": {
+    "kaufland": 7.39,
+    "konzum": 7.39,
+    "lidl": 4.29,
+    "plodine": 7.39,
+    "spar": 3.99
+   }
+  },
+  {
+   "gtin": "08700216708517",
+   "name": "Lenor Perlice mirisne Gold Orchid 195 g",
+   "prices": {
+    "kaufland": 7.39,
+    "konzum": 7.39,
+    "lidl": 4.29,
+    "plodine": 7.39,
+    "spar": 3.99
+   }
+  },
+  {
+   "gtin": "08700216704809",
+   "name": "Lenor Perlice mirisne Gold Orchid 495g",
+   "prices": {
+    "kaufland": 13.99,
+    "konzum": 16.99,
+    "lidl": 8.99,
+    "plodine": 16.99,
+    "spar": 8.99
+   }
+  },
+  {
+   "gtin": "08700216704779",
+   "name": "Lenor Perlice mirisne Spring aw.XL 495g",
+   "prices": {
+    "kaufland": 13.99,
+    "konzum": 16.99,
+    "lidl": 8.99,
+    "plodine": 16.99,
+    "spar": 8.99
+   }
+  },
+  {
+   "gtin": "08700216708418",
+   "name": "Lenor Perlice mirisne Spring awaken.195g",
+   "prices": {
+    "kaufland": 7.39,
+    "konzum": 7.39,
+    "lidl": 4.29,
+    "plodine": 7.39,
+    "spar": 3.99
+   }
+  },
+  {
+   "gtin": "07322540062656",
+   "name": "Libresse Ulošci dnevni extra long 24/1",
+   "prices": {
+    "kaufland": 1.75,
+    "konzum": 2.05,
+    "lidl": 1.75,
+    "plodine": 2.39,
+    "spar": 1.56
+   }
+  },
+  {
+   "gtin": "07322540576450",
+   "name": "Libresse Ulošci hig.max.goodn.duo20/1_OC",
+   "prices": {
+    "kaufland": 2.85,
+    "konzum": 3.89,
+    "lidl": 2.85,
+    "plodine": 2.39,
+    "spar": 2.19
+   }
+  },
+  {
+   "gtin": "07322541195056",
+   "name": "Libresse Ulošci hig.ult.super duo16/1_OC",
+   "prices": {
+    "kaufland": 2.55,
+    "konzum": 3.25,
+    "lidl": 2.55,
+    "plodine": 2.69,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "03850105170286",
+   "name": "Likvi ultra fresh 900 ml",
+   "prices": {
+    "kaufland": 2.19,
+    "konzum": 2.89,
+    "lidl": 2.35,
+    "plodine": 2.89,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "03856020259884",
+   "name": "Lino Lada Duo 700 g",
+   "prices": {
+    "kaufland": 6.59,
+    "konzum": 6.59,
+    "lidl": 4.79,
+    "plodine": 6.59,
+    "spar": 6.59
+   }
+  },
+  {
+   "gtin": "03856020259914",
+   "name": "Lino Lada Gold 650 g",
+   "prices": {
+    "kaufland": 6.59,
+    "konzum": 6.59,
+    "lidl": 4.79,
+    "plodine": 6.59,
+    "spar": 6.59
+   }
+  },
+  {
+   "gtin": "03856020259945",
+   "name": "Lino Lada Milk  700 g",
+   "prices": {
+    "kaufland": 6.59,
+    "konzum": 6.59,
+    "lidl": 4.79,
+    "plodine": 6.59,
+    "spar": 6.59
+   }
+  },
+  {
+   "gtin": "03856020290436",
+   "name": "Lino Lada Namaz Duo mliječ.lješ.1,1kg",
+   "prices": {
+    "kaufland": 6.49,
+    "konzum": 6.59,
+    "lidl": 6.49,
+    "plodine": 7.99,
+    "spar": 6.49
+   }
+  },
+  {
+   "gtin": "03856020265335",
+   "name": "Lino Lada Namaz Gold creamy 700g",
+   "prices": {
+    "kaufland": 6.59,
+    "konzum": 6.59,
+    "lidl": 4.79,
+    "plodine": 6.59,
+    "spar": 6.59
+   }
+  },
+  {
+   "gtin": "03850104267109",
+   "name": "Lino Lada Namaz milk 350g",
+   "prices": {
+    "kaufland": 3.99,
+    "konzum": 3.99,
+    "lidl": 3.99,
+    "plodine": 3.99,
+    "spar": 4.19
+   }
+  },
+  {
+   "gtin": "03850104019784",
+   "name": "Lino Lada duo 400 g",
+   "prices": {
+    "kaufland": 3.99,
+    "konzum": 3.99,
+    "lidl": 3.99,
+    "plodine": 3.99,
+    "spar": 4.19
+   }
+  },
+  {
+   "gtin": "03856020260439",
+   "name": "Lino Njupalice Pašteta pileća 95g",
+   "prices": {
+    "kaufland": 1.39,
+    "konzum": 1.49,
+    "lidl": 1.19,
+    "plodine": 1.39,
+    "spar": 1.39
+   }
+  },
+  {
+   "gtin": "03856020279523",
+   "name": "Lino Njupalice Pašteta čajna 95 g",
+   "prices": {
+    "kaufland": 1.49,
+    "konzum": 1.49,
+    "lidl": 1.19,
+    "plodine": 1.39,
+    "spar": 1.39
+   }
+  },
+  {
+   "gtin": "03856020262730",
+   "name": "Lino Pillows jastu. s kremom Milk 700g",
+   "prices": {
+    "kaufland": 4.59,
+    "konzum": 4.69,
+    "lidl": 4.59,
+    "plodine": 6.29,
+    "spar": 6.29
+   }
+  },
+  {
+   "gtin": "03856020262709",
+   "name": "Lino Pillows jastu. s kremom Nougat 700g",
+   "prices": {
+    "kaufland": 4.59,
+    "konzum": 4.69,
+    "lidl": 4.59,
+    "plodine": 6.29,
+    "spar": 6.29
+   }
+  },
+  {
+   "gtin": "03856020287306",
+   "name": "Lino Pillows jastuč.s kremom White 700g",
+   "prices": {
+    "kaufland": 4.59,
+    "konzum": 4.69,
+    "lidl": 4.59,
+    "plodine": 6.29,
+    "spar": 6.29
+   }
+  },
+  {
+   "gtin": "03850104268618",
+   "name": "Lino baby flips 25 g",
+   "prices": {
+    "kaufland": 1.89,
+    "konzum": 1.29,
+    "lidl": 1.89,
+    "plodine": 1.89,
+    "spar": 1.89
+   }
+  },
+  {
+   "gtin": "03850104263538",
+   "name": "Lino pillows jastuč.kakao kremom 500g",
+   "prices": {
+    "kaufland": 4.99,
+    "konzum": 4.99,
+    "lidl": 4.99,
+    "plodine": 3.49,
+    "spar": 4.99
+   }
+  },
+  {
+   "gtin": "03850104263613",
+   "name": "Lino pillows jastuč.mliječ.kremom 500g",
+   "prices": {
+    "kaufland": 4.99,
+    "konzum": 4.99,
+    "lidl": 4.99,
+    "plodine": 3.49,
+    "spar": 4.99
+   }
+  },
+  {
+   "gtin": "03850104017476",
+   "name": "Lješnjak čokolino 1 kg vrećica",
+   "prices": {
+    "kaufland": 8.49,
+    "konzum": 8.99,
+    "lidl": 5.99,
+    "plodine": 8.49,
+    "spar": 8.49
+   }
+  },
+  {
+   "gtin": "03850104227530",
+   "name": "Lješnjak čokolino 500 g",
+   "prices": {
+    "kaufland": 3.49,
+    "konzum": 4.99,
+    "lidl": 4.89,
+    "plodine": 4.89,
+    "spar": 4.89
+   }
+  },
+  {
+   "gtin": "03600523408948",
+   "name": "Loreal Age specialist d.krema 65+ 50ml",
+   "prices": {
+    "kaufland": 9.89,
+    "konzum": 9.99,
+    "lidl": 7.43,
+    "plodine": 9.89,
+    "spar": 9.89
+   }
+  },
+  {
+   "gtin": "03850131005750",
+   "name": "Lowenbrau Pivo svij.lager4% 4x0,5L LIM",
+   "prices": {
+    "kaufland": 3.79,
+    "konzum": 3.79,
+    "lidl": 3.79,
+    "plodine": 3.79,
+    "spar": 3.79
+   }
+  },
+  {
+   "gtin": "08017331077085",
+   "name": "L´Angelica Gel za tuš.Makadamija 500 ml",
+   "prices": {
+    "kaufland": 3.19,
+    "konzum": 3.49,
+    "lidl": 2.59,
+    "plodine": 2.19,
+    "spar": 2.95
+   }
+  },
+  {
+   "gtin": "05900951317972",
+   "name": "M&M`s Draže bomboni peanut 150 g",
+   "prices": {
+    "kaufland": 3.79,
+    "konzum": 3.79,
+    "lidl": 3.79,
+    "plodine": 2.69,
+    "spar": 3.79
+   }
+  },
+  {
+   "gtin": "08600105005881",
+   "name": "Madri Pivo svijetlo lag.4,6% 4x0,5 L LIM",
+   "prices": {
+    "kaufland": 5.99,
+    "konzum": 5.99,
+    "lidl": 5.19,
+    "plodine": 5.99,
+    "spar": 5.99
+   }
+  },
+  {
+   "gtin": "08600105005874",
+   "name": "Madri Pivo svijetlo lager 4,6% 0,5 L LIM",
+   "prices": {
+    "kaufland": 1.65,
+    "konzum": 1.65,
+    "lidl": 1.39,
+    "plodine": 1.65,
+    "spar": 1.39
+   }
+  },
+  {
+   "gtin": "08445291837461",
+   "name": "Maggi Noodle Chili u čaši 63g",
+   "prices": {
+    "kaufland": 1.89,
+    "konzum": 1.49,
+    "lidl": 1.49,
+    "plodine": 1.89,
+    "spar": 1.35
+   }
+  },
+  {
+   "gtin": "08445291189409",
+   "name": "Maggi Umak Pad Thai 65g",
+   "prices": {
+    "kaufland": 1.79,
+    "konzum": 1.29,
+    "lidl": 0.85,
+    "plodine": 1.89,
+    "spar": 1.16
+   }
+  },
+  {
+   "gtin": "03850158406752",
+   "name": "Maraska Pelinkovac lagana boca 28 % 1 l",
+   "prices": {
+    "kaufland": 17.19,
+    "konzum": 17.19,
+    "lidl": 16.49,
+    "plodine": 17.19,
+    "spar": 17.69
+   }
+  },
+  {
+   "gtin": "03800205877547",
+   "name": "Maretti Bruschette rajč.masl.origXXL140g",
+   "prices": {
+    "kaufland": 1.59,
+    "konzum": 1.69,
+    "lidl": 1.69,
+    "plodine": 1.69,
+    "spar": 1.53
+   }
+  },
+  {
+   "gtin": "03856015327253",
+   "name": "Margo nova Margarin 400g",
+   "prices": {
+    "kaufland": 2.19,
+    "konzum": 1.49,
+    "lidl": 2.19,
+    "plodine": 2.19,
+    "spar": 2.29
+   }
+  },
+  {
+   "gtin": "07630040408820",
+   "name": "Martini vermouth bianco 15% 1L",
+   "prices": {
+    "kaufland": 17.49,
+    "konzum": 17.49,
+    "lidl": 12.29,
+    "plodine": 16.49,
+    "spar": 17.49
+   }
+  },
+  {
+   "gtin": "00011210000018",
+   "name": "Mc Ilhenny Tabasco pepper sauce 60 ml",
+   "prices": {
+    "kaufland": 4.59,
+    "konzum": 4.99,
+    "lidl": 4.59,
+    "plodine": 4.99,
+    "spar": 4.99
+   }
+  },
+  {
+   "gtin": "05000396048001",
+   "name": "McVities Keksi Digestive 1000 g",
+   "prices": {
+    "kaufland": 3.49,
+    "konzum": 3.0,
+    "lidl": 3.49,
+    "plodine": 5.49,
+    "spar": 3.49
+   }
+  },
+  {
+   "gtin": "04034900008190",
+   "name": "Meggle Alpinesse namaz classic 75% 250 g",
+   "prices": {
+    "kaufland": 3.99,
+    "konzum": 3.49,
+    "lidl": 3.49,
+    "plodine": 4.49,
+    "spar": 4.19
+   }
+  },
+  {
+   "gtin": "03870085050019",
+   "name": "Meggle Mozzarella 125g",
+   "prices": {
+    "kaufland": 1.89,
+    "konzum": 1.89,
+    "lidl": 1.35,
+    "plodine": 1.89,
+    "spar": 1.89
+   }
+  },
+  {
+   "gtin": "08594007096033",
+   "name": "Meggle Sir zrnati natur 20% m.m. 180 g",
+   "prices": {
+    "kaufland": 1.69,
+    "konzum": 2.09,
+    "lidl": 1.29,
+    "plodine": 1.69,
+    "spar": 1.69
+   }
+  },
+  {
+   "gtin": "00000040349251",
+   "name": "Meggle maslac sa začinskim biljem 125 g",
+   "prices": {
+    "kaufland": 2.09,
+    "konzum": 3.49,
+    "lidl": 2.99,
+    "plodine": 3.79,
+    "spar": 2.99
+   }
+  },
+  {
+   "gtin": "03870085020258",
+   "name": "Meggle svježi sir s vrhnjem  450 g",
+   "prices": {
+    "kaufland": 2.89,
+    "konzum": 3.19,
+    "lidl": 1.79,
+    "plodine": 2.89,
+    "spar": 2.89
+   }
+  },
+  {
+   "gtin": "03856007912726",
+   "name": "Melem kids Balz.za usne tut.fru.Kiki4,5g",
+   "prices": {
+    "kaufland": 3.79,
+    "konzum": 3.89,
+    "lidl": 3.25,
+    "plodine": 3.69,
+    "spar": 3.79
+   }
+  },
+  {
+   "gtin": "03856007901409",
+   "name": "Melem krema 35 ml",
+   "prices": {
+    "kaufland": 5.79,
+    "konzum": 6.19,
+    "lidl": 5.75,
+    "plodine": 5.76,
+    "spar": 5.87
+   }
+  },
+  {
+   "gtin": "03856007902840",
+   "name": "Melem u sticku 4,5 g",
+   "prices": {
+    "kaufland": 3.89,
+    "konzum": 3.99,
+    "lidl": 3.85,
+    "plodine": 3.96,
+    "spar": 3.99
+   }
+  },
+  {
+   "gtin": "04014400901191",
+   "name": "Merci bombonjera grosse 250 g",
+   "prices": {
+    "kaufland": 7.99,
+    "konzum": 7.99,
+    "lidl": 7.59,
+    "plodine": 4.99,
+    "spar": 4.59
+   }
+  },
+  {
+   "gtin": "03850111105791",
+   "name": "Meri Merino colour 2,7 l",
+   "prices": {
+    "kaufland": 8.99,
+    "konzum": 6.29,
+    "lidl": 8.99,
+    "plodine": 11.89,
+    "spar": 9.99
+   }
+  },
+  {
+   "gtin": "03850108036442",
+   "name": "Mileram kiselo vrhnje 22% mm  400 g",
+   "prices": {
+    "kaufland": 2.49,
+    "konzum": 2.49,
+    "lidl": 2.49,
+    "plodine": 2.49,
+    "spar": 2.49
+   }
+  },
+  {
+   "gtin": "05711953190087",
+   "name": "Milka Napitak od čokolade Caramel 250ml",
+   "prices": {
+    "kaufland": 1.79,
+    "konzum": 1.79,
+    "lidl": 1.39,
+    "plodine": 1.79,
+    "spar": 1.79
+   }
+  },
+  {
+   "gtin": "05711953190070",
+   "name": "Milka Napitak od čokolade Classic 250ml",
+   "prices": {
+    "kaufland": 1.79,
+    "konzum": 1.79,
+    "lidl": 1.39,
+    "plodine": 1.79,
+    "spar": 1.79
+   }
+  },
+  {
+   "gtin": "05711953190117",
+   "name": "Milka Napitak od čokolade Noisette250ml",
+   "prices": {
+    "kaufland": 1.79,
+    "konzum": 1.79,
+    "lidl": 1.39,
+    "plodine": 1.79,
+    "spar": 1.79
+   }
+  },
+  {
+   "gtin": "07622202265662",
+   "name": "Milka Čokolada bijela 90 g",
+   "prices": {
+    "kaufland": 2.09,
+    "konzum": 1.49,
+    "lidl": 1.49,
+    "plodine": 2.05,
+    "spar": 2.49
+   }
+  },
+  {
+   "gtin": "07622202257827",
+   "name": "Milka Čokolada mliječna Alpine 250 g",
+   "prices": {
+    "kaufland": 2.99,
+    "konzum": 4.99,
+    "lidl": 2.99,
+    "plodine": 2.99,
+    "spar": 6.49
+   }
+  },
+  {
+   "gtin": "07622202295058",
+   "name": "Milka Čokolada mliječna Lotus Biscoff90g",
+   "prices": {
+    "kaufland": 2.09,
+    "konzum": 1.49,
+    "lidl": 1.49,
+    "plodine": 2.05,
+    "spar": 2.49
+   }
+  },
+  {
+   "gtin": "07622210744883",
+   "name": "Milka čokolada badem i karamela 300 g",
+   "prices": {
+    "kaufland": 2.99,
+    "konzum": 5.99,
+    "lidl": 2.99,
+    "plodine": 2.99,
+    "spar": 6.79
+   }
+  },
+  {
+   "gtin": "07622201125813",
+   "name": "Milka čokolada badem truffle 300 g",
+   "prices": {
+    "kaufland": 3.99,
+    "konzum": 5.99,
+    "lidl": 2.99,
+    "plodine": 5.99,
+    "spar": 6.79
+   }
+  },
+  {
+   "gtin": "07622201677879",
+   "name": "Milka čokolada chocowafer 270g",
+   "prices": {
+    "kaufland": 2.99,
+    "konzum": 5.99,
+    "lidl": 2.99,
+    "plodine": 2.99,
+    "spar": 6.79
+   }
+  },
+  {
+   "gtin": "07622200007769",
+   "name": "Milka čokolada jagoda 300 g",
+   "prices": {
+    "kaufland": 2.99,
+    "konzum": 4.99,
+    "lidl": 2.99,
+    "plodine": 2.99,
+    "spar": 5.99
+   }
+  },
+  {
+   "gtin": "07622300108137",
+   "name": "Milka čokolada milkinis  87,5 g",
+   "prices": {
+    "kaufland": 2.09,
+    "konzum": 1.49,
+    "lidl": 1.49,
+    "plodine": 1.99,
+    "spar": 2.49
+   }
+  },
+  {
+   "gtin": "07622210043955",
+   "name": "Milka čokolada noisette 80 g",
+   "prices": {
+    "kaufland": 2.09,
+    "konzum": 1.89,
+    "lidl": 1.99,
+    "plodine": 2.05,
+    "spar": 2.29
+   }
+  },
+  {
+   "gtin": "07622200004515",
+   "name": "Milka čokolada nougat 300 g",
+   "prices": {
+    "kaufland": 3.99,
+    "konzum": 5.99,
+    "lidl": 2.99,
+    "plodine": 5.99,
+    "spar": 6.79
+   }
+  },
+  {
+   "gtin": "07622300424695",
+   "name": "Milka čokolada s alpskim mlijekom 80g_OC",
+   "prices": {
+    "kaufland": 1.03,
+    "konzum": 1.03,
+    "lidl": 1.03,
+    "plodine": 1.03,
+    "spar": 1.03
+   }
+  },
+  {
+   "gtin": "07622210702326",
+   "name": "Milka čokolada s grožđicama i lješ 270 g",
+   "prices": {
+    "kaufland": 3.99,
+    "konzum": 5.99,
+    "lidl": 2.99,
+    "plodine": 5.99,
+    "spar": 6.79
+   }
+  },
+  {
+   "gtin": "07622210043931",
+   "name": "Milka čokolada sjeckani lješnjak 80 g",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.89,
+    "lidl": 1.99,
+    "plodine": 1.89,
+    "spar": 2.29
+   }
+  },
+  {
+   "gtin": "07622210417534",
+   "name": "Milka čokolada toffee i lješnjak 300 g",
+   "prices": {
+    "kaufland": 2.99,
+    "konzum": 5.99,
+    "lidl": 2.99,
+    "plodine": 2.99,
+    "spar": 6.79
+   }
+  },
+  {
+   "gtin": "08006220001669",
+   "name": "Mionetto proseco treviso brut 0,75 l vg.",
+   "prices": {
+    "kaufland": 9.99,
+    "konzum": 14.99,
+    "lidl": 11.99,
+    "plodine": 14.89,
+    "spar": 14.99
+   }
+  },
+  {
+   "gtin": "00000080053835",
+   "name": "Monini ex.djev. masl. ulje classico 1l",
+   "prices": {
+    "kaufland": 12.59,
+    "konzum": 7.99,
+    "lidl": 7.99,
+    "plodine": 7.99,
+    "spar": 12.99
+   }
+  },
+  {
+   "gtin": "05060166695279",
+   "name": "Monster Green 0,5 l lim",
+   "prices": {
+    "kaufland": 1.89,
+    "konzum": 1.49,
+    "lidl": 1.85,
+    "plodine": 1.92,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "05060337500104",
+   "name": "Monster Napitak en.Ultra White0,5 L LIM",
+   "prices": {
+    "kaufland": 1.89,
+    "konzum": 1.49,
+    "lidl": 1.85,
+    "plodine": 1.92,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "03850102017683",
+   "name": "Moto Keks kakao XXL 576 g",
+   "prices": {
+    "kaufland": 3.99,
+    "konzum": 3.99,
+    "lidl": 3.99,
+    "plodine": 4.99,
+    "spar": 5.99
+   }
+  },
+  {
+   "gtin": "03850102522880",
+   "name": "Moto keks kakao 192 g",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.49,
+    "lidl": 1.99,
+    "plodine": 1.49,
+    "spar": 2.19
+   }
+  },
+  {
+   "gtin": "08411037800037",
+   "name": "Mr.Brownie Kolač sa belgijskom čoko.200g",
+   "prices": {
+    "kaufland": 3.49,
+    "konzum": 3.49,
+    "lidl": 2.69,
+    "plodine": 3.49,
+    "spar": 3.49
+   }
+  },
+  {
+   "gtin": "08411037892490",
+   "name": "Mr.Brownie Kolač sa koma.mliječ.čok.200g",
+   "prices": {
+    "kaufland": 3.49,
+    "konzum": 3.49,
+    "lidl": 2.69,
+    "plodine": 3.49,
+    "spar": 3.49
+   }
+  },
+  {
+   "gtin": "03858884090641",
+   "name": "Naturavita Čaj uvin H filter 20x1,5 g_OC",
+   "prices": {
+    "kaufland": 2.09,
+    "konzum": 2.09,
+    "lidl": 1.99,
+    "plodine": 1.99,
+    "spar": 2.09
+   }
+  },
+  {
+   "gtin": "03858889361593",
+   "name": "Naturel mini dvopek classic 120g",
+   "prices": {
+    "kaufland": 1.19,
+    "konzum": 1.49,
+    "lidl": 1.49,
+    "plodine": 1.49,
+    "spar": 1.49
+   }
+  },
+  {
+   "gtin": "03858889361586",
+   "name": "Naturel mini dvopek integralni 120g",
+   "prices": {
+    "kaufland": 1.19,
+    "konzum": 1.49,
+    "lidl": 1.49,
+    "plodine": 1.49,
+    "spar": 1.49
+   }
+  },
+  {
+   "gtin": "08445291532045",
+   "name": "Nescafe Cappuccino Vanille 8x14g",
+   "prices": {
+    "kaufland": 3.99,
+    "konzum": 2.99,
+    "lidl": 3.99,
+    "plodine": 3.95,
+    "spar": 3.99
+   }
+  },
+  {
+   "gtin": "05998710960798",
+   "name": "Nesquik kakao vrećica  800 g",
+   "prices": {
+    "kaufland": 8.99,
+    "konzum": 8.99,
+    "lidl": 8.99,
+    "plodine": 8.99,
+    "spar": 8.99
+   }
+  },
+  {
+   "gtin": "07613036362238",
+   "name": "Nestle Nan 1 optipro 800g",
+   "prices": {
+    "kaufland": 19.49,
+    "konzum": 20.99,
+    "lidl": 19.49,
+    "plodine": 20.99,
+    "spar": 20.49
+   }
+  },
+  {
+   "gtin": "07613034089984",
+   "name": "Nestle Nan 2 optipro 800g",
+   "prices": {
+    "kaufland": 19.49,
+    "konzum": 16.99,
+    "lidl": 19.49,
+    "plodine": 20.99,
+    "spar": 19.89
+   }
+  },
+  {
+   "gtin": "07613034090010",
+   "name": "Nestle Nan 3 optipro 800g",
+   "prices": {
+    "kaufland": 19.35,
+    "konzum": 16.99,
+    "lidl": 19.35,
+    "plodine": 19.39,
+    "spar": 19.39
+   }
+  },
+  {
+   "gtin": "03850105169662",
+   "name": "Nila my happy colors 2,7 l",
+   "prices": {
+    "kaufland": 8.99,
+    "konzum": 9.99,
+    "lidl": 5.49,
+    "plodine": 9.99,
+    "spar": 5.49
+   }
+  },
+  {
+   "gtin": "04005900047700",
+   "name": "Nivea Men Gel za tuširanje Energy 500 ml",
+   "prices": {
+    "kaufland": 5.99,
+    "konzum": 6.69,
+    "lidl": 3.29,
+    "plodine": 6.49,
+    "spar": 4.99
+   }
+  },
+  {
+   "gtin": "04005808430208",
+   "name": "Nivea Sun Losion za sun.SPF50+ 200ml",
+   "prices": {
+    "kaufland": 18.85,
+    "konzum": 20.49,
+    "lidl": 18.99,
+    "plodine": 20.39,
+    "spar": 14.33
+   }
+  },
+  {
+   "gtin": "08000500359358",
+   "name": "Nutella Keksi 41,4 g",
+   "prices": {
+    "kaufland": 0.95,
+    "konzum": 0.99,
+    "lidl": 0.95,
+    "plodine": 0.95,
+    "spar": 0.95
+   }
+  },
+  {
+   "gtin": "00000080176800",
+   "name": "Nutella Namaz od lješnjaka 750g",
+   "prices": {
+    "kaufland": 8.39,
+    "konzum": 6.69,
+    "lidl": 6.29,
+    "plodine": 8.39,
+    "spar": 6.29
+   }
+  },
+  {
+   "gtin": "08000500425183",
+   "name": "Nutella Sladoled u čaši 470 ml",
+   "prices": {
+    "kaufland": 7.99,
+    "konzum": 7.99,
+    "lidl": 5.59,
+    "plodine": 7.99,
+    "spar": 7.99
+   }
+  },
+  {
+   "gtin": "08000500310427",
+   "name": "Nutella biskvit punjen kremom 304 g",
+   "prices": {
+    "kaufland": 4.79,
+    "konzum": 4.79,
+    "lidl": 4.15,
+    "plodine": 4.79,
+    "spar": 4.89
+   }
+  },
+  {
+   "gtin": "08006540280195",
+   "name": "Old Spice Gel za tuš. 3u1Whitewater675ml",
+   "prices": {
+    "kaufland": 7.49,
+    "konzum": 7.49,
+    "lidl": 4.99,
+    "plodine": 2.69,
+    "spar": 3.25
+   }
+  },
+  {
+   "gtin": "08700216859820",
+   "name": "Old Spice Gel za tuš. Captain m.400ml",
+   "prices": {
+    "kaufland": 3.85,
+    "konzum": 2.99,
+    "lidl": 3.85,
+    "plodine": 4.99,
+    "spar": 3.85
+   }
+  },
+  {
+   "gtin": "08006540818824",
+   "name": "Old Spice Gel za tuširanje Captain 1L",
+   "prices": {
+    "kaufland": 10.99,
+    "konzum": 12.49,
+    "lidl": 5.79,
+    "plodine": 5.59,
+    "spar": 7.99
+   }
+  },
+  {
+   "gtin": "08006540818862",
+   "name": "Old Spice Gel za tuširanje Whitewater 1L",
+   "prices": {
+    "kaufland": 10.99,
+    "konzum": 12.49,
+    "lidl": 5.99,
+    "plodine": 10.99,
+    "spar": 7.99
+   }
+  },
+  {
+   "gtin": "03858892694367",
+   "name": "Olival Losion za kosu Piskavica 150 ml",
+   "prices": {
+    "kaufland": 7.49,
+    "konzum": 7.49,
+    "lidl": 6.89,
+    "plodine": 7.59,
+    "spar": 6.89
+   }
+  },
+  {
+   "gtin": "03858892694817",
+   "name": "Olival Pekmez Super Mrkva SPF10 100ml",
+   "prices": {
+    "kaufland": 8.59,
+    "konzum": 8.59,
+    "lidl": 6.39,
+    "plodine": 10.2,
+    "spar": 8.59
+   }
+  },
+  {
+   "gtin": "03858892694565",
+   "name": "Olival Šampon za kosu Piskavica 250 ml",
+   "prices": {
+    "kaufland": 6.89,
+    "konzum": 6.89,
+    "lidl": 6.29,
+    "plodine": 6.35,
+    "spar": 6.29
+   }
+  },
+  {
+   "gtin": "03856015328625",
+   "name": "Omegol B1 Namaz margarinski 225g",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.99,
+    "lidl": 1.99,
+    "plodine": 1.99,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "08445290299079",
+   "name": "One Hrana za ps.pil.gra.umak Weig4x85g",
+   "prices": {
+    "kaufland": 3.49,
+    "konzum": 2.49,
+    "lidl": 2.79,
+    "plodine": 3.49,
+    "spar": 3.49
+   }
+  },
+  {
+   "gtin": "08445290299260",
+   "name": "One Hrana za pse Pil.kru.umak Act4x85g",
+   "prices": {
+    "kaufland": 3.49,
+    "konzum": 2.49,
+    "lidl": 2.79,
+    "plodine": 3.49,
+    "spar": 3.49
+   }
+  },
+  {
+   "gtin": "03877000209613",
+   "name": "Orangina gazirani napitak 1,25 l PET",
+   "prices": {
+    "kaufland": 2.55,
+    "konzum": 2.69,
+    "lidl": 2.65,
+    "plodine": 2.65,
+    "spar": 2.65
+   }
+  },
+  {
+   "gtin": "07622210765338",
+   "name": "Oreo keksi 176g",
+   "prices": {
+    "kaufland": 2.19,
+    "konzum": 2.35,
+    "lidl": 2.19,
+    "plodine": 2.35,
+    "spar": 1.67
+   }
+  },
+  {
+   "gtin": "07622210148483",
+   "name": "Oreo keksi dup.punj.157 g",
+   "prices": {
+    "kaufland": 2.19,
+    "konzum": 1.5,
+    "lidl": 1.59,
+    "plodine": 2.19,
+    "spar": 1.67
+   }
+  },
+  {
+   "gtin": "03859890446217",
+   "name": "Orgula ex.djev.masli. ulje Tradicija 1 l",
+   "prices": {
+    "kaufland": 12.99,
+    "konzum": 12.99,
+    "lidl": 5.99,
+    "plodine": 10.99,
+    "spar": 10.99
+   }
+  },
+  {
+   "gtin": "03850105192806",
+   "name": "Ornel Omekšivač Sunset 60 pr.1,5 L",
+   "prices": {
+    "kaufland": 4.99,
+    "konzum": 2.99,
+    "lidl": 2.99,
+    "plodine": 5.09,
+    "spar": 2.99
+   }
+  },
+  {
+   "gtin": "03850105190468",
+   "name": "Ornel Omekšivač rublja Yellow 4 L",
+   "prices": {
+    "kaufland": 9.99,
+    "konzum": 4.49,
+    "lidl": 4.99,
+    "plodine": 4.49,
+    "spar": 6.99
+   }
+  },
+  {
+   "gtin": "03858895010010",
+   "name": "Osječko Pivo Radler crni 2%alk.0,5L LIM",
+   "prices": {
+    "kaufland": 1.49,
+    "konzum": 1.59,
+    "lidl": 1.49,
+    "plodine": 1.52,
+    "spar": 1.52
+   }
+  },
+  {
+   "gtin": "03850131002551",
+   "name": "Ožujsko Pivo s okusom grejpa 2% 0,5L LIM",
+   "prices": {
+    "kaufland": 0.99,
+    "konzum": 1.59,
+    "lidl": 1.59,
+    "plodine": 1.52,
+    "spar": 1.59
+   }
+  },
+  {
+   "gtin": "03850131002063",
+   "name": "Ožujsko Pivo s okusom limuna 2% 0,5L LIM",
+   "prices": {
+    "kaufland": 0.99,
+    "konzum": 1.59,
+    "lidl": 1.59,
+    "plodine": 1.52,
+    "spar": 1.59
+   }
+  },
+  {
+   "gtin": "00000038501692",
+   "name": "Ožujsko svijetlo pivo 5% 0,5 l PB",
+   "prices": {
+    "kaufland": 1.19,
+    "konzum": 1.19,
+    "lidl": 1.36,
+    "plodine": 1.19,
+    "spar": 1.19
+   }
+  },
+  {
+   "gtin": "03850131400609",
+   "name": "Ožujsko svijetlo pivo 5% 0,5L limenka",
+   "prices": {
+    "kaufland": 1.55,
+    "konzum": 1.55,
+    "lidl": 1.55,
+    "plodine": 1.55,
+    "spar": 1.39
+   }
+  },
+  {
+   "gtin": "03850131001608",
+   "name": "Ožujsko svijetlo pivo 5% 2 l PET",
+   "prices": {
+    "kaufland": 3.79,
+    "konzum": 3.79,
+    "lidl": 3.79,
+    "plodine": 3.79,
+    "spar": 3.89
+   }
+  },
+  {
+   "gtin": "03850131986011",
+   "name": "Ožujsko svijetlo pivo 5% 4x 0,5l lim",
+   "prices": {
+    "kaufland": 5.49,
+    "konzum": 5.49,
+    "lidl": 4.85,
+    "plodine": 5.49,
+    "spar": 5.65
+   }
+  },
+  {
+   "gtin": "03850139330977",
+   "name": "PIK Debrecinka 440g vac",
+   "prices": {
+    "kaufland": 4.39,
+    "konzum": 4.39,
+    "lidl": 3.49,
+    "plodine": 4.39,
+    "spar": 4.39
+   }
+  },
+  {
+   "gtin": "03850139250671",
+   "name": "PIK Fina šunka narezak 150g",
+   "prices": {
+    "kaufland": 3.29,
+    "konzum": 3.29,
+    "lidl": 3.29,
+    "plodine": 2.49,
+    "spar": 3.69
+   }
+  },
+  {
+   "gtin": "03850139180015",
+   "name": "PIK Kranjska kobasica 300 g",
+   "prices": {
+    "kaufland": 4.19,
+    "konzum": 3.19,
+    "lidl": 3.49,
+    "plodine": 4.19,
+    "spar": 4.79
+   }
+  },
+  {
+   "gtin": "03850139360516",
+   "name": "PIK Kuhana šunka narezak 125g",
+   "prices": {
+    "kaufland": 2.29,
+    "konzum": 2.49,
+    "lidl": 2.49,
+    "plodine": 2.29,
+    "spar": 2.59
+   }
+  },
+  {
+   "gtin": "03850139012132",
+   "name": "PIK Kulen 100 g",
+   "prices": {
+    "kaufland": 2.75,
+    "konzum": 2.79,
+    "lidl": 2.19,
+    "plodine": 2.75,
+    "spar": 2.75
+   }
+  },
+  {
+   "gtin": "03850139171044",
+   "name": "PIK Mortadela narezak  150g",
+   "prices": {
+    "kaufland": 2.69,
+    "konzum": 2.75,
+    "lidl": 2.69,
+    "plodine": 2.69,
+    "spar": 3.09
+   }
+  },
+  {
+   "gtin": "03850139171099",
+   "name": "PIK Mortadela s maslinama narez. 150g",
+   "prices": {
+    "kaufland": 2.69,
+    "konzum": 2.79,
+    "lidl": 2.19,
+    "plodine": 2.69,
+    "spar": 2.99
+   }
+  },
+  {
+   "gtin": "03850139010855",
+   "name": "PIK Panona narezak 100g",
+   "prices": {
+    "kaufland": 2.99,
+    "konzum": 2.99,
+    "lidl": 2.19,
+    "plodine": 2.99,
+    "spar": 3.09
+   }
+  },
+  {
+   "gtin": "03850139350401",
+   "name": "PIK Pečena šunka narezak 125g",
+   "prices": {
+    "kaufland": 2.99,
+    "konzum": 2.99,
+    "lidl": 2.19,
+    "plodine": 2.49,
+    "spar": 3.09
+   }
+  },
+  {
+   "gtin": "03850139520316",
+   "name": "PIK Pureća šunka classic 100 g",
+   "prices": {
+    "kaufland": 2.29,
+    "konzum": 2.49,
+    "lidl": 1.89,
+    "plodine": 2.49,
+    "spar": 2.49
+   }
+  },
+  {
+   "gtin": "03850139520453",
+   "name": "PIK Pureća šunka dimljena 100 g",
+   "prices": {
+    "kaufland": 2.69,
+    "konzum": 2.89,
+    "lidl": 1.89,
+    "plodine": 2.69,
+    "spar": 2.79
+   }
+  },
+  {
+   "gtin": "03850139173550",
+   "name": "PIK Šunka u ovitku 350 g",
+   "prices": {
+    "kaufland": 3.99,
+    "konzum": 4.69,
+    "lidl": 3.49,
+    "plodine": 4.59,
+    "spar": 4.09
+   }
+  },
+  {
+   "gtin": "03850139171051",
+   "name": "PIK Šunka u ovitku narezak 125g",
+   "prices": {
+    "kaufland": 2.39,
+    "konzum": 2.49,
+    "lidl": 1.49,
+    "plodine": 2.49,
+    "spar": 2.59
+   }
+  },
+  {
+   "gtin": "03858881617056",
+   "name": "PPK Karlovac mesni narezak 100 g",
+   "prices": {
+    "kaufland": 0.75,
+    "konzum": 0.79,
+    "lidl": 0.79,
+    "plodine": 0.79,
+    "spar": 0.79
+   }
+  },
+  {
+   "gtin": "03858887581993",
+   "name": "Pan Pivo svijetlo Lager 4,8%alk. 6x0,5L",
+   "prices": {
+    "kaufland": 7.47,
+    "konzum": 7.49,
+    "lidl": 7.47,
+    "plodine": 7.47,
+    "spar": 7.47
+   }
+  },
+  {
+   "gtin": "03858887583454",
+   "name": "Pan Pivo svijetlo Zlatni 5%alk. 6x0,5L",
+   "prices": {
+    "kaufland": 7.47,
+    "konzum": 7.49,
+    "lidl": 7.47,
+    "plodine": 7.47,
+    "spar": 7.47
+   }
+  },
+  {
+   "gtin": "08700216938839",
+   "name": "Pantene Pro-V Balzam za kosu Hydra.275ml",
+   "prices": {
+    "kaufland": 5.99,
+    "konzum": 5.99,
+    "lidl": 3.99,
+    "plodine": 5.99,
+    "spar": 4.99
+   }
+  },
+  {
+   "gtin": "08700216821339",
+   "name": "Pantene Pro-V Šampon za kosu Repair800ml",
+   "prices": {
+    "kaufland": 11.35,
+    "konzum": 11.35,
+    "lidl": 7.99,
+    "plodine": 6.49,
+    "spar": 8.49
+   }
+  },
+  {
+   "gtin": "03856014122651",
+   "name": "Paris čajno pecivo original 225g",
+   "prices": {
+    "kaufland": 1.85,
+    "konzum": 1.99,
+    "lidl": 1.39,
+    "plodine": 1.85,
+    "spar": 2.45
+   }
+  },
+  {
+   "gtin": "05054563215208",
+   "name": "Parodontax extra fresh zub. pasta 75ml",
+   "prices": {
+    "kaufland": 5.95,
+    "konzum": 5.95,
+    "lidl": 5.85,
+    "plodine": 5.94,
+    "spar": 5.85
+   }
+  },
+  {
+   "gtin": "03830065022627",
+   "name": "Pepsi 2 l PET",
+   "prices": {
+    "kaufland": 1.89,
+    "konzum": 1.89,
+    "lidl": 1.89,
+    "plodine": 2.19,
+    "spar": 2.19
+   }
+  },
+  {
+   "gtin": "03830065020364",
+   "name": "Pepsi cola  black 2 l PET",
+   "prices": {
+    "kaufland": 1.89,
+    "konzum": 1.89,
+    "lidl": 1.85,
+    "plodine": 2.19,
+    "spar": 2.19
+   }
+  },
+  {
+   "gtin": "03850111753596",
+   "name": "Permetal za pećnice šprica  650 ml",
+   "prices": {
+    "kaufland": 3.55,
+    "konzum": 3.99,
+    "lidl": 3.45,
+    "plodine": 3.99,
+    "spar": 3.99
+   }
+  },
+  {
+   "gtin": "09000101568363",
+   "name": "Persil Deterdž.za rub.Color 44 pr.1,98 L",
+   "prices": {
+    "kaufland": 9.99,
+    "konzum": 16.99,
+    "lidl": 13.95,
+    "plodine": 9.99,
+    "spar": 9.99
+   }
+  },
+  {
+   "gtin": "09000101566635",
+   "name": "Persil Deterdž.za rub.Exp.Lav.40 pr.1,8L",
+   "prices": {
+    "kaufland": 9.99,
+    "konzum": 16.99,
+    "lidl": 9.99,
+    "plodine": 9.99,
+    "spar": 9.99
+   }
+  },
+  {
+   "gtin": "03850220151757",
+   "name": "Perutnina Salama pureća Posebna 500g",
+   "prices": {
+    "kaufland": 1.49,
+    "konzum": 1.99,
+    "lidl": 1.49,
+    "plodine": 2.13,
+    "spar": 1.79
+   }
+  },
+  {
+   "gtin": "03850139170832",
+   "name": "Pik Jeger vrbovečki 300g",
+   "prices": {
+    "kaufland": 3.29,
+    "konzum": 3.29,
+    "lidl": 2.12,
+    "plodine": 3.39,
+    "spar": 3.29
+   }
+  },
+  {
+   "gtin": "08594404005409",
+   "name": "Pilsner Urquell pivo 4,4% 4x0,5 l lim",
+   "prices": {
+    "kaufland": 5.99,
+    "konzum": 6.29,
+    "lidl": 5.29,
+    "plodine": 6.29,
+    "spar": 6.29
+   }
+  },
+  {
+   "gtin": "08594404115115",
+   "name": "Pilsner urquell pivo 4,4% 0,5 l lim",
+   "prices": {
+    "kaufland": 1.25,
+    "konzum": 1.79,
+    "lidl": 1.19,
+    "plodine": 1.79,
+    "spar": 1.79
+   }
+  },
+  {
+   "gtin": "03870183400013",
+   "name": "Pipi narančada 2 l",
+   "prices": {
+    "kaufland": 2.29,
+    "konzum": 2.29,
+    "lidl": 2.29,
+    "plodine": 2.29,
+    "spar": 2.29
+   }
+  },
+  {
+   "gtin": "03858884998145",
+   "name": "Pivac Kobasica Nostalgična premium 330g",
+   "prices": {
+    "kaufland": 6.99,
+    "konzum": 6.29,
+    "lidl": 6.99,
+    "plodine": 6.99,
+    "spar": 5.99
+   }
+  },
+  {
+   "gtin": "08600043000023",
+   "name": "Plazma keks 300 g",
+   "prices": {
+    "kaufland": 3.09,
+    "konzum": 3.09,
+    "lidl": 3.09,
+    "plodine": 3.09,
+    "spar": 3.09
+   }
+  },
+  {
+   "gtin": "03856020286101",
+   "name": "Podravka Juha krem od poriluka 60 g",
+   "prices": {
+    "kaufland": 1.39,
+    "konzum": 1.39,
+    "lidl": 0.99,
+    "plodine": 1.49,
+    "spar": 1.39
+   }
+  },
+  {
+   "gtin": "03856020276829",
+   "name": "Podravka Juha pileća s ribanom kašom 65g",
+   "prices": {
+    "kaufland": 1.39,
+    "konzum": 1.09,
+    "lidl": 1.19,
+    "plodine": 1.11,
+    "spar": 1.39
+   }
+  },
+  {
+   "gtin": "03856020255800",
+   "name": "Podravka Mamina juha 60g",
+   "prices": {
+    "kaufland": 1.39,
+    "konzum": 1.09,
+    "lidl": 1.39,
+    "plodine": 1.11,
+    "spar": 1.59
+   }
+  },
+  {
+   "gtin": "03856020263720",
+   "name": "Podravka Pašteta kokošja 95 g",
+   "prices": {
+    "kaufland": 1.29,
+    "konzum": 1.39,
+    "lidl": 0.89,
+    "plodine": 1.29,
+    "spar": 1.35
+   }
+  },
+  {
+   "gtin": "03856020252847",
+   "name": "Podravka Pekmez od šljiva 660 g",
+   "prices": {
+    "kaufland": 4.69,
+    "konzum": 4.69,
+    "lidl": 4.69,
+    "plodine": 4.69,
+    "spar": 4.99
+   }
+  },
+  {
+   "gtin": "03858886469261",
+   "name": "Podravka Pikant pileća pašteta 95g",
+   "prices": {
+    "kaufland": 1.29,
+    "konzum": 1.39,
+    "lidl": 0.89,
+    "plodine": 1.29,
+    "spar": 1.35
+   }
+  },
+  {
+   "gtin": "03850104260872",
+   "name": "Podravka Vegeta 400g",
+   "prices": {
+    "kaufland": 2.49,
+    "konzum": 3.39,
+    "lidl": 2.49,
+    "plodine": 3.39,
+    "spar": 2.49
+   }
+  },
+  {
+   "gtin": "03850104051012",
+   "name": "Podravka ajvar blagi 690 g",
+   "prices": {
+    "kaufland": 2.65,
+    "konzum": 2.69,
+    "lidl": 2.65,
+    "plodine": 2.65,
+    "spar": 3.69
+   }
+  },
+  {
+   "gtin": "03850104050572",
+   "name": "Podravka ajvar ljuti 690 g",
+   "prices": {
+    "kaufland": 2.65,
+    "konzum": 2.69,
+    "lidl": 2.65,
+    "plodine": 2.65,
+    "spar": 3.69
+   }
+  },
+  {
+   "gtin": "03850104020780",
+   "name": "Podravka bijeli grah 800g/460g",
+   "prices": {
+    "kaufland": 2.29,
+    "konzum": 2.19,
+    "lidl": 1.65,
+    "plodine": 1.65,
+    "spar": 2.29
+   }
+  },
+  {
+   "gtin": "03850104003837",
+   "name": "Podravka dalmatinska juha 60 g",
+   "prices": {
+    "kaufland": 0.99,
+    "konzum": 0.99,
+    "lidl": 0.89,
+    "plodine": 0.79,
+    "spar": 0.99
+   }
+  },
+  {
+   "gtin": "03856020252243",
+   "name": "Podravka džem  od šipka 670 g",
+   "prices": {
+    "kaufland": 3.99,
+    "konzum": 3.99,
+    "lidl": 2.79,
+    "plodine": 2.59,
+    "spar": 3.99
+   }
+  },
+  {
+   "gtin": "03856020252502",
+   "name": "Podravka džem od marelice 670 g_OC",
+   "prices": {
+    "kaufland": 2.69,
+    "konzum": 3.99,
+    "lidl": 3.99,
+    "plodine": 2.59,
+    "spar": 4.19
+   }
+  },
+  {
+   "gtin": "03850104003134",
+   "name": "Podravka goveđa juha s tjesteninom 65 g",
+   "prices": {
+    "kaufland": 0.99,
+    "konzum": 0.99,
+    "lidl": 0.89,
+    "plodine": 0.79,
+    "spar": 1.19
+   }
+  },
+  {
+   "gtin": "03850104274862",
+   "name": "Podravka goveđa kocka 120 g",
+   "prices": {
+    "kaufland": 2.09,
+    "konzum": 2.19,
+    "lidl": 2.19,
+    "plodine": 1.67,
+    "spar": 2.39
+   }
+  },
+  {
+   "gtin": "03850104035739",
+   "name": "Podravka grah s kobasicama 400 g",
+   "prices": {
+    "kaufland": 3.59,
+    "konzum": 2.59,
+    "lidl": 3.49,
+    "plodine": 3.49,
+    "spar": 2.44
+   }
+  },
+  {
+   "gtin": "03850104025389",
+   "name": "Podravka grah smeđi 800g/460g",
+   "prices": {
+    "kaufland": 2.19,
+    "konzum": 2.19,
+    "lidl": 2.19,
+    "plodine": 1.65,
+    "spar": 2.19
+   }
+  },
+  {
+   "gtin": "03850104020087",
+   "name": "Podravka gulaš goveđi 400 g",
+   "prices": {
+    "kaufland": 5.99,
+    "konzum": 3.99,
+    "lidl": 5.99,
+    "plodine": 5.99,
+    "spar": 3.98
+   }
+  },
+  {
+   "gtin": "03850104295218",
+   "name": "Podravka juha alpska 64 g",
+   "prices": {
+    "kaufland": 1.39,
+    "konzum": 1.09,
+    "lidl": 1.39,
+    "plodine": 1.11,
+    "spar": 1.59
+   }
+  },
+  {
+   "gtin": "03850104088162",
+   "name": "Podravka juha bečka 62 g",
+   "prices": {
+    "kaufland": 1.39,
+    "konzum": 1.09,
+    "lidl": 1.39,
+    "plodine": 1.11,
+    "spar": 1.59
+   }
+  },
+  {
+   "gtin": "03850104003219",
+   "name": "Podravka juha francuska 64 g",
+   "prices": {
+    "kaufland": 1.39,
+    "konzum": 1.09,
+    "lidl": 1.09,
+    "plodine": 1.11,
+    "spar": 1.39
+   }
+  },
+  {
+   "gtin": "03850104295201",
+   "name": "Podravka juha proljetna 50 g",
+   "prices": {
+    "kaufland": 0.99,
+    "konzum": 0.99,
+    "lidl": 0.99,
+    "plodine": 0.71,
+    "spar": 0.99
+   }
+  },
+  {
+   "gtin": "03850104249662",
+   "name": "Podravka juha s mes. i gris okrugl. 52 g",
+   "prices": {
+    "kaufland": 1.39,
+    "konzum": 1.09,
+    "lidl": 1.09,
+    "plodine": 1.39,
+    "spar": 1.39
+   }
+  },
+  {
+   "gtin": "03850104007743",
+   "name": "Podravka juha slavonska 76 g",
+   "prices": {
+    "kaufland": 1.39,
+    "konzum": 1.09,
+    "lidl": 1.09,
+    "plodine": 1.39,
+    "spar": 1.39
+   }
+  },
+  {
+   "gtin": "03850104004964",
+   "name": "Podravka juha svatovska 58 g",
+   "prices": {
+    "kaufland": 1.39,
+    "konzum": 1.09,
+    "lidl": 1.39,
+    "plodine": 1.11,
+    "spar": 1.59
+   }
+  },
+  {
+   "gtin": "03850104006777",
+   "name": "Podravka juha tirolska 67 g",
+   "prices": {
+    "kaufland": 1.39,
+    "konzum": 1.09,
+    "lidl": 1.39,
+    "plodine": 1.11,
+    "spar": 1.49
+   }
+  },
+  {
+   "gtin": "03850104007385",
+   "name": "Podravka juha švicarska 54 g",
+   "prices": {
+    "kaufland": 1.39,
+    "konzum": 1.09,
+    "lidl": 1.39,
+    "plodine": 1.39,
+    "spar": 1.39
+   }
+  },
+  {
+   "gtin": "03850104003189",
+   "name": "Podravka kokošja juha s tjesteninom 62 g",
+   "prices": {
+    "kaufland": 0.99,
+    "konzum": 0.99,
+    "lidl": 0.89,
+    "plodine": 0.79,
+    "spar": 1.19
+   }
+  },
+  {
+   "gtin": "03850104274855",
+   "name": "Podravka kokošja kocka 120 g",
+   "prices": {
+    "kaufland": 2.09,
+    "konzum": 2.19,
+    "lidl": 2.19,
+    "plodine": 1.75,
+    "spar": 2.39
+   }
+  },
+  {
+   "gtin": "03858886469377",
+   "name": "Podravka kokošja pašteta retro 95 g",
+   "prices": {
+    "kaufland": 1.29,
+    "konzum": 1.39,
+    "lidl": 0.89,
+    "plodine": 1.29,
+    "spar": 1.35
+   }
+  },
+  {
+   "gtin": "03850104053221",
+   "name": "Podravka koncentrat rajčice 190 g",
+   "prices": {
+    "kaufland": 2.09,
+    "konzum": 2.09,
+    "lidl": 2.09,
+    "plodine": 2.09,
+    "spar": 2.09
+   }
+  },
+  {
+   "gtin": "03850104274633",
+   "name": "Podravka krem  juha od šparoga 55 g",
+   "prices": {
+    "kaufland": 1.39,
+    "konzum": 1.39,
+    "lidl": 0.99,
+    "plodine": 1.39,
+    "spar": 1.09
+   }
+  },
+  {
+   "gtin": "03850104274596",
+   "name": "Podravka krem juha od gljiva 54g",
+   "prices": {
+    "kaufland": 1.39,
+    "konzum": 1.39,
+    "lidl": 1.39,
+    "plodine": 1.39,
+    "spar": 1.09
+   }
+  },
+  {
+   "gtin": "03850104274619",
+   "name": "Podravka krem juha od rajčice 60 g",
+   "prices": {
+    "kaufland": 1.39,
+    "konzum": 1.39,
+    "lidl": 1.39,
+    "plodine": 1.39,
+    "spar": 1.09
+   }
+  },
+  {
+   "gtin": "03850104073656",
+   "name": "Podravka pasirana rajčica 500g_OC",
+   "prices": {
+    "kaufland": 0.79,
+    "konzum": 1.09,
+    "lidl": 1.09,
+    "plodine": 1.09,
+    "spar": 1.09
+   }
+  },
+  {
+   "gtin": "03858886469179",
+   "name": "Podravka pileća pašteta 95g",
+   "prices": {
+    "kaufland": 1.29,
+    "konzum": 1.39,
+    "lidl": 0.89,
+    "plodine": 1.29,
+    "spar": 1.35
+   }
+  },
+  {
+   "gtin": "03850104023484",
+   "name": "Podravka senf estragon 350 g staklenka",
+   "prices": {
+    "kaufland": 2.49,
+    "konzum": 2.49,
+    "lidl": 2.49,
+    "plodine": 1.79,
+    "spar": 2.49
+   }
+  },
+  {
+   "gtin": "03856020242176",
+   "name": "Podravka Čokolino 1,4kg",
+   "prices": {
+    "kaufland": 10.99,
+    "konzum": 7.99,
+    "lidl": 7.99,
+    "plodine": 9.99,
+    "spar": 10.99
+   }
+  },
+  {
+   "gtin": "03858886469209",
+   "name": "Podravka čajna pašteta 95 g",
+   "prices": {
+    "kaufland": 1.29,
+    "konzum": 1.39,
+    "lidl": 0.89,
+    "plodine": 1.29,
+    "spar": 1.35
+   }
+  },
+  {
+   "gtin": "03838977012897",
+   "name": "Poli narezak 150g",
+   "prices": {
+    "kaufland": 2.19,
+    "konzum": 2.19,
+    "lidl": 2.19,
+    "plodine": 2.19,
+    "spar": 2.39
+   }
+  },
+  {
+   "gtin": "00000054492806",
+   "name": "Powerade Piće bezalk.negaz. Limun 0,5L",
+   "prices": {
+    "kaufland": 1.69,
+    "konzum": 1.49,
+    "lidl": 1.55,
+    "plodine": 1.69,
+    "spar": 1.59
+   }
+  },
+  {
+   "gtin": "05449000320988",
+   "name": "Powerade Piće negaz.bezalk.mango 500ml",
+   "prices": {
+    "kaufland": 1.69,
+    "konzum": 1.49,
+    "lidl": 1.55,
+    "plodine": 1.69,
+    "spar": 1.59
+   }
+  },
+  {
+   "gtin": "00000054492653",
+   "name": "Powerade Piće negaz.bezalk.šumsko 500ml",
+   "prices": {
+    "kaufland": 1.69,
+    "konzum": 1.49,
+    "lidl": 1.55,
+    "plodine": 1.69,
+    "spar": 1.59
+   }
+  },
+  {
+   "gtin": "03850355002498",
+   "name": "President Zagrebački svj. sir 25%mm 375g",
+   "prices": {
+    "kaufland": 2.99,
+    "konzum": 2.99,
+    "lidl": 2.35,
+    "plodine": 2.99,
+    "spar": 2.99
+   }
+  },
+  {
+   "gtin": "05053990101597",
+   "name": "Pringles čips kiselo vrhnje,luk 165 g",
+   "prices": {
+    "kaufland": 3.49,
+    "konzum": 3.49,
+    "lidl": 3.49,
+    "plodine": 2.99,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "05053990161669",
+   "name": "Pringles čips paprika 165 g",
+   "prices": {
+    "kaufland": 3.49,
+    "konzum": 3.49,
+    "lidl": 3.49,
+    "plodine": 2.99,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "03830065021231",
+   "name": "Radenska Mineralna voda 4x1,5 l PET",
+   "prices": {
+    "kaufland": 2.99,
+    "konzum": 3.49,
+    "lidl": 2.99,
+    "plodine": 3.96,
+    "spar": 3.29
+   }
+  },
+  {
+   "gtin": "03856007900976",
+   "name": "Ralon losion poslije brijanja 85 ml",
+   "prices": {
+    "kaufland": 3.89,
+    "konzum": 3.89,
+    "lidl": 2.89,
+    "plodine": 3.89,
+    "spar": 3.35
+   }
+  },
+  {
+   "gtin": "00000090474729",
+   "name": "Red Bull Piće en.gazir.Peach 250 ml LIM",
+   "prices": {
+    "kaufland": 1.19,
+    "konzum": 1.69,
+    "lidl": 1.69,
+    "plodine": 1.69,
+    "spar": 1.69
+   }
+  },
+  {
+   "gtin": "09002490100070",
+   "name": "Red Bull energy drink 0,25 l limenka",
+   "prices": {
+    "kaufland": 1.19,
+    "konzum": 1.69,
+    "lidl": 1.69,
+    "plodine": 1.69,
+    "spar": 1.79
+   }
+  },
+  {
+   "gtin": "09002490100490",
+   "name": "Red Bull energy drink 4x0,25l",
+   "prices": {
+    "kaufland": 6.59,
+    "konzum": 6.29,
+    "lidl": 4.59,
+    "plodine": 6.29,
+    "spar": 6.45
+   }
+  },
+  {
+   "gtin": "08717644585337",
+   "name": "Rexona Sprej deo Sexy bouquet 150ml",
+   "prices": {
+    "kaufland": 4.99,
+    "konzum": 5.49,
+    "lidl": 4.69,
+    "plodine": 5.49,
+    "spar": 5.69
+   }
+  },
+  {
+   "gtin": "08606011898869",
+   "name": "Ribella hummus sa buč.sjem 200 g",
+   "prices": {
+    "kaufland": 2.25,
+    "konzum": 2.25,
+    "lidl": 1.99,
+    "plodine": 2.39,
+    "spar": 2.27
+   }
+  },
+  {
+   "gtin": "03856024806237",
+   "name": "Riki Čokolada mliječna pšen.i med 230g",
+   "prices": {
+    "kaufland": 4.09,
+    "konzum": 3.99,
+    "lidl": 2.49,
+    "plodine": 4.49,
+    "spar": 5.39
+   }
+  },
+  {
+   "gtin": "03856024806299",
+   "name": "Riki Čokolada mliječna s kokicama 250 g",
+   "prices": {
+    "kaufland": 4.09,
+    "konzum": 3.99,
+    "lidl": 2.49,
+    "plodine": 4.49,
+    "spar": 5.39
+   }
+  },
+  {
+   "gtin": "03856024806312",
+   "name": "Riki Čokolada mliječna s kukruz.pah.95g",
+   "prices": {
+    "kaufland": 1.79,
+    "konzum": 1.79,
+    "lidl": 0.99,
+    "plodine": 1.69,
+    "spar": 1.89
+   }
+  },
+  {
+   "gtin": "08004030026018",
+   "name": "Rio Mare Insalat.salata Tuna Messic.160g",
+   "prices": {
+    "kaufland": 4.3,
+    "konzum": 4.69,
+    "lidl": 4.65,
+    "plodine": 2.14,
+    "spar": 4.68
+   }
+  },
+  {
+   "gtin": "08004030860001",
+   "name": "Rio Mare Insalatis.sal.tuna couscous160g",
+   "prices": {
+    "kaufland": 4.3,
+    "konzum": 4.69,
+    "lidl": 2.14,
+    "plodine": 2.14,
+    "spar": 4.68
+   }
+  },
+  {
+   "gtin": "08004030022010",
+   "name": "Rio Mare Insalatis.salata tuna corn 160g",
+   "prices": {
+    "kaufland": 4.3,
+    "konzum": 4.69,
+    "lidl": 2.14,
+    "plodine": 2.14,
+    "spar": 4.68
+   }
+  },
+  {
+   "gtin": "08004030070004",
+   "name": "Rio Mare Patè namaz od lososa 100g tuba",
+   "prices": {
+    "kaufland": 3.59,
+    "konzum": 3.59,
+    "lidl": 1.75,
+    "plodine": 3.59,
+    "spar": 3.59
+   }
+  },
+  {
+   "gtin": "08004030069008",
+   "name": "Rio Mare Patè namaz od tune 100g tuba",
+   "prices": {
+    "kaufland": 3.59,
+    "konzum": 3.59,
+    "lidl": 1.75,
+    "plodine": 3.59,
+    "spar": 3.59
+   }
+  },
+  {
+   "gtin": "08004030595033",
+   "name": "Rio Mare komadi tune naturale 160/120 g",
+   "prices": {
+    "kaufland": 3.89,
+    "konzum": 3.95,
+    "lidl": 1.75,
+    "plodine": 3.89,
+    "spar": 3.89
+   }
+  },
+  {
+   "gtin": "08004030595002",
+   "name": "Rio Mare komadi tune sunco.ulje 160/112g",
+   "prices": {
+    "kaufland": 3.89,
+    "konzum": 3.95,
+    "lidl": 1.75,
+    "plodine": 3.89,
+    "spar": 3.89
+   }
+  },
+  {
+   "gtin": "08001860100017",
+   "name": "Riso Scotti riža originario okr.zrno 1kg",
+   "prices": {
+    "kaufland": 3.95,
+    "konzum": 3.99,
+    "lidl": 2.25,
+    "plodine": 3.99,
+    "spar": 3.99
+   }
+  },
+  {
+   "gtin": "08001860190520",
+   "name": "Riso Scotti riža oro dugog zrna 1kg",
+   "prices": {
+    "kaufland": 3.69,
+    "konzum": 3.99,
+    "lidl": 2.25,
+    "plodine": 3.71,
+    "spar": 3.99
+   }
+  },
+  {
+   "gtin": "03856014114205",
+   "name": "Saltas Štapići punjeni kikirikijem 4x40g",
+   "prices": {
+    "kaufland": 1.49,
+    "konzum": 1.79,
+    "lidl": 1.49,
+    "plodine": 1.45,
+    "spar": 1.69
+   }
+  },
+  {
+   "gtin": "03850111503399",
+   "name": "Sanitar  strong 3u1 650 ml",
+   "prices": {
+    "kaufland": 3.29,
+    "konzum": 3.29,
+    "lidl": 2.29,
+    "plodine": 3.29,
+    "spar": 3.29
+   }
+  },
+  {
+   "gtin": "03850111505683",
+   "name": "Sanitar Sredstvo za čiš.Flash pow.650ml",
+   "prices": {
+    "kaufland": 3.35,
+    "konzum": 3.75,
+    "lidl": 2.49,
+    "plodine": 4.19,
+    "spar": 3.75
+   }
+  },
+  {
+   "gtin": "03850111505690",
+   "name": "Sanitar Sredstvo za čiš.kup.Flash 750ml",
+   "prices": {
+    "kaufland": 2.89,
+    "konzum": 2.89,
+    "lidl": 2.45,
+    "plodine": 2.89,
+    "spar": 2.85
+   }
+  },
+  {
+   "gtin": "03850111901188",
+   "name": "Sanitar WC osvježivač Citrus bur.3x40g",
+   "prices": {
+    "kaufland": 5.75,
+    "konzum": 5.75,
+    "lidl": 2.99,
+    "plodine": 5.75,
+    "spar": 5.99
+   }
+  },
+  {
+   "gtin": "03871059000078",
+   "name": "Sarajevski Kiseljak min. voda 1,5L PET",
+   "prices": {
+    "kaufland": 0.88,
+    "konzum": 0.75,
+    "lidl": 0.89,
+    "plodine": 0.88,
+    "spar": 0.94
+   }
+  },
+  {
+   "gtin": "09000101681246",
+   "name": "Schauma Šampon Repair&Care Coconut 750ml",
+   "prices": {
+    "kaufland": 6.99,
+    "konzum": 5.99,
+    "lidl": 9.99,
+    "plodine": 4.99,
+    "spar": 5.49
+   }
+  },
+  {
+   "gtin": "09000101213980",
+   "name": "Schauma Šampon suhi Hi Lovely 150 ml",
+   "prices": {
+    "kaufland": 4.19,
+    "konzum": 2.99,
+    "lidl": 2.15,
+    "plodine": 2.99,
+    "spar": 2.99
+   }
+  },
+  {
+   "gtin": "05449000307347",
+   "name": "Schweppes Piće Pink Tonic gaz.beza.1LPET",
+   "prices": {
+    "kaufland": 1.59,
+    "konzum": 1.85,
+    "lidl": 1.29,
+    "plodine": 1.85,
+    "spar": 1.85
+   }
+  },
+  {
+   "gtin": "05449000044709",
+   "name": "Schweppes bitter lemon 1,5L PET",
+   "prices": {
+    "kaufland": 2.29,
+    "konzum": 2.29,
+    "lidl": 2.29,
+    "plodine": 2.29,
+    "spar": 1.89
+   }
+  },
+  {
+   "gtin": "05449000044730",
+   "name": "Schweppes tangerine 1,5L PET",
+   "prices": {
+    "kaufland": 2.29,
+    "konzum": 2.29,
+    "lidl": 2.29,
+    "plodine": 2.29,
+    "spar": 1.89
+   }
+  },
+  {
+   "gtin": "05449000044679",
+   "name": "Schweppes tonic water 1,5L PET",
+   "prices": {
+    "kaufland": 2.29,
+    "konzum": 2.29,
+    "lidl": 2.29,
+    "plodine": 2.29,
+    "spar": 1.89
+   }
+  },
+  {
+   "gtin": "03858890873443",
+   "name": "Sensation Piće gaz.bazga limun 1,5l PET",
+   "prices": {
+    "kaufland": 1.69,
+    "konzum": 1.69,
+    "lidl": 1.69,
+    "plodine": 1.69,
+    "spar": 1.69
+   }
+  },
+  {
+   "gtin": "03858884602349",
+   "name": "Sensation Piće gazlimeta kiwano 1,5l PET",
+   "prices": {
+    "kaufland": 1.69,
+    "konzum": 1.69,
+    "lidl": 1.69,
+    "plodine": 1.69,
+    "spar": 1.69
+   }
+  },
+  {
+   "gtin": "04062400181204",
+   "name": "Sierra Tequila Silver 38% 0,7 l",
+   "prices": {
+    "kaufland": 19.99,
+    "konzum": 20.79,
+    "lidl": 17.99,
+    "plodine": 19.99,
+    "spar": 19.99
+   }
+  },
+  {
+   "gtin": "05900300856794",
+   "name": "Signal Pasta za zube Daily white 75 ml",
+   "prices": {
+    "kaufland": 2.69,
+    "konzum": 2.99,
+    "lidl": 2.69,
+    "plodine": 2.69,
+    "spar": 2.09
+   }
+  },
+  {
+   "gtin": "09000101581539",
+   "name": "Silan Omekšivač Fresh Sky 76pr 1672ml",
+   "prices": {
+    "kaufland": 5.99,
+    "konzum": 3.29,
+    "lidl": 4.95,
+    "plodine": 3.29,
+    "spar": 3.29
+   }
+  },
+  {
+   "gtin": "09000101590272",
+   "name": "Silan Omekšivač Sensitiv Baby76pr.1672ml",
+   "prices": {
+    "kaufland": 5.99,
+    "konzum": 3.29,
+    "lidl": 4.95,
+    "plodine": 3.29,
+    "spar": 3.29
+   }
+  },
+  {
+   "gtin": "09000101838886",
+   "name": "Silan Omekšivač rublja Mald.126pr.2,772L",
+   "prices": {
+    "kaufland": 5.99,
+    "konzum": 8.99,
+    "lidl": 5.99,
+    "plodine": 4.99,
+    "spar": 6.99
+   }
+  },
+  {
+   "gtin": "03859888214019",
+   "name": "Skaramuča Dingač vrhunsko vino 0,75 l",
+   "prices": {
+    "kaufland": 15.59,
+    "konzum": 11.49,
+    "lidl": 15.69,
+    "plodine": 15.99,
+    "spar": 16.19
+   }
+  },
+  {
+   "gtin": "03859888214026",
+   "name": "Skaramuča Plavac kvalitetno vino 0,75 l",
+   "prices": {
+    "kaufland": 5.99,
+    "konzum": 4.29,
+    "lidl": 5.99,
+    "plodine": 5.99,
+    "spar": 5.99
+   }
+  },
+  {
+   "gtin": "03871059000481",
+   "name": "Sky cola 2 l PET",
+   "prices": {
+    "kaufland": 1.79,
+    "konzum": 1.79,
+    "lidl": 1.79,
+    "plodine": 1.79,
+    "spar": 1.79
+   }
+  },
+  {
+   "gtin": "05410316671118",
+   "name": "Smirnoff vodka Red Label 37,50% 0,7 l",
+   "prices": {
+    "kaufland": 16.62,
+    "konzum": 17.19,
+    "lidl": 16.59,
+    "plodine": 17.19,
+    "spar": 17.19
+   }
+  },
+  {
+   "gtin": "08600939507094",
+   "name": "Smoki flips party pack 225 g",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.99,
+    "lidl": 1.49,
+    "plodine": 1.99,
+    "spar": 2.19
+   }
+  },
+  {
+   "gtin": "08600939508374",
+   "name": "Smokice Flips Chilli&lime 85 g",
+   "prices": {
+    "kaufland": 1.39,
+    "konzum": 1.39,
+    "lidl": 0.99,
+    "plodine": 1.39,
+    "spar": 1.09
+   }
+  },
+  {
+   "gtin": "08600939508343",
+   "name": "Smokice Flips Salty butter 85 g",
+   "prices": {
+    "kaufland": 1.39,
+    "konzum": 1.39,
+    "lidl": 0.99,
+    "plodine": 1.39,
+    "spar": 1.09
+   }
+  },
+  {
+   "gtin": "08600939508367",
+   "name": "Smokice Flips Teriyaki piletina 85 g",
+   "prices": {
+    "kaufland": 1.39,
+    "konzum": 1.39,
+    "lidl": 0.99,
+    "plodine": 1.39,
+    "spar": 1.09
+   }
+  },
+  {
+   "gtin": "08600939508350",
+   "name": "Smokice Flips Yummy cheese 85 g",
+   "prices": {
+    "kaufland": 1.39,
+    "konzum": 1.39,
+    "lidl": 0.99,
+    "plodine": 1.39,
+    "spar": 1.09
+   }
+  },
+  {
+   "gtin": "05000159560061",
+   "name": "Snickers Čokoladica 3x50g",
+   "prices": {
+    "kaufland": 2.99,
+    "konzum": 2.99,
+    "lidl": 1.99,
+    "plodine": 2.99,
+    "spar": 2.99
+   }
+  },
+  {
+   "gtin": "09000101850024",
+   "name": "Somat Det.za posuđe 5u1 Duo Gel 2x684ml",
+   "prices": {
+    "kaufland": 28.99,
+    "konzum": 28.99,
+    "lidl": 14.99,
+    "plodine": 14.49,
+    "spar": 25.99
+   }
+  },
+  {
+   "gtin": "09000101831559",
+   "name": "Somat Deterdž.za pranje posuđa4u1 88/1",
+   "prices": {
+    "kaufland": 17.99,
+    "konzum": 17.99,
+    "lidl": 14.99,
+    "plodine": 14.99,
+    "spar": 24.99
+   }
+  },
+  {
+   "gtin": "09000101808087",
+   "name": "Somat Kapsule za pranje posuđa 4in1 60/1",
+   "prices": {
+    "kaufland": 28.99,
+    "konzum": 28.99,
+    "lidl": 14.49,
+    "plodine": 14.49,
+    "spar": 25.99
+   }
+  },
+  {
+   "gtin": "09000101807936",
+   "name": "Somat Kapsule za pranje posuđa 5in1 54/1",
+   "prices": {
+    "kaufland": 28.99,
+    "konzum": 28.99,
+    "lidl": 14.49,
+    "plodine": 14.49,
+    "spar": 25.99
+   }
+  },
+  {
+   "gtin": "03858887586172",
+   "name": "Somersby Cider višnja 4,5%alk.0,5L LIM",
+   "prices": {
+    "kaufland": 1.79,
+    "konzum": 1.79,
+    "lidl": 1.79,
+    "plodine": 1.78,
+    "spar": 1.78
+   }
+  },
+  {
+   "gtin": "03858887584161",
+   "name": "Somersby borovnica 0,5 l LIM",
+   "prices": {
+    "kaufland": 1.79,
+    "konzum": 1.79,
+    "lidl": 1.79,
+    "plodine": 1.78,
+    "spar": 1.88
+   }
+  },
+  {
+   "gtin": "03850131483374",
+   "name": "Stella Artois sv.pivo 5% alk 4x0,5 l lim",
+   "prices": {
+    "kaufland": 6.79,
+    "konzum": 6.39,
+    "lidl": 6.39,
+    "plodine": 6.39,
+    "spar": 6.39
+   }
+  },
+  {
+   "gtin": "08000440396383",
+   "name": "Stock 84 38% 1 l",
+   "prices": {
+    "kaufland": 17.99,
+    "konzum": 18.05,
+    "lidl": 13.99,
+    "plodine": 17.99,
+    "spar": 18.49
+   }
+  },
+  {
+   "gtin": "03856022301802",
+   "name": "Studena izvor.voda neg 4+2 gratis 6x1,5l",
+   "prices": {
+    "kaufland": 3.49,
+    "konzum": 3.56,
+    "lidl": 3.49,
+    "plodine": 3.49,
+    "spar": 3.49
+   }
+  },
+  {
+   "gtin": "03856022301826",
+   "name": "Studenac min.gazi 1,5l 4+2 gratis 6x1,5l",
+   "prices": {
+    "kaufland": 3.49,
+    "konzum": 3.56,
+    "lidl": 3.49,
+    "plodine": 3.49,
+    "spar": 3.49
+   }
+  },
+  {
+   "gtin": "03856022300836",
+   "name": "Studenac mineralna voda gaz. 1,5L PET",
+   "prices": {
+    "kaufland": 0.89,
+    "konzum": 0.89,
+    "lidl": 0.89,
+    "plodine": 0.69,
+    "spar": 0.89
+   }
+  },
+  {
+   "gtin": "03850114243674",
+   "name": "Sudocrem Krema zaštitna za bebe 125 g",
+   "prices": {
+    "kaufland": 9.45,
+    "konzum": 9.45,
+    "lidl": 7.25,
+    "plodine": 9.45,
+    "spar": 9.45
+   }
+  },
+  {
+   "gtin": "03857500104311",
+   "name": "Sunce Vinkovaca suncokretovo ulje 1l",
+   "prices": {
+    "kaufland": 3.19,
+    "konzum": 3.59,
+    "lidl": 2.29,
+    "plodine": 3.19,
+    "spar": 2.79
+   }
+  },
+  {
+   "gtin": "03850111503382",
+   "name": "Super Jon za staklo alkohol + ocat650 ml",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.99,
+    "lidl": 1.99,
+    "plodine": 1.99,
+    "spar": 2.09
+   }
+  },
+  {
+   "gtin": "03856020269319",
+   "name": "Talianetta Tjestenina Mac`n`Cheese 160g",
+   "prices": {
+    "kaufland": 2.49,
+    "konzum": 2.49,
+    "lidl": 1.49,
+    "plodine": 2.49,
+    "spar": 2.59
+   }
+  },
+  {
+   "gtin": "03856020269340",
+   "name": "Talianetta Tjestenina Milaneze 155g",
+   "prices": {
+    "kaufland": 2.49,
+    "konzum": 2.49,
+    "lidl": 1.49,
+    "plodine": 2.49,
+    "spar": 2.49
+   }
+  },
+  {
+   "gtin": "03850104230950",
+   "name": "Talianetta makaroni bolognese 160g",
+   "prices": {
+    "kaufland": 2.49,
+    "konzum": 2.49,
+    "lidl": 1.49,
+    "plodine": 2.49,
+    "spar": 2.59
+   }
+  },
+  {
+   "gtin": "03850104231025",
+   "name": "Talianetta tjest. sa 4 sira 145 g",
+   "prices": {
+    "kaufland": 2.49,
+    "konzum": 2.49,
+    "lidl": 1.49,
+    "plodine": 2.49,
+    "spar": 2.59
+   }
+  },
+  {
+   "gtin": "03850104230943",
+   "name": "Talianetta tjestenina carbonara 160 g",
+   "prices": {
+    "kaufland": 2.49,
+    "konzum": 2.49,
+    "lidl": 1.49,
+    "plodine": 2.49,
+    "spar": 2.59
+   }
+  },
+  {
+   "gtin": "05000281015248",
+   "name": "Tanqueray dry gin 43,1% alk 0,70 l",
+   "prices": {
+    "kaufland": 25.99,
+    "konzum": 26.99,
+    "lidl": 22.99,
+    "plodine": 19.99,
+    "spar": 26.99
+   }
+  },
+  {
+   "gtin": "08607100571137",
+   "name": "Thomy majoneza 611 g staklo",
+   "prices": {
+    "kaufland": 5.49,
+    "konzum": 3.49,
+    "lidl": 3.49,
+    "plodine": 5.49,
+    "spar": 5.49
+   }
+  },
+  {
+   "gtin": "07613287084606",
+   "name": "Thomy majoneza tuba 165g",
+   "prices": {
+    "kaufland": 2.69,
+    "konzum": 2.69,
+    "lidl": 1.79,
+    "plodine": 2.69,
+    "spar": 2.69
+   }
+  },
+  {
+   "gtin": "07613287084163",
+   "name": "Thomy senf tuba 200 g",
+   "prices": {
+    "kaufland": 2.29,
+    "konzum": 2.29,
+    "lidl": 2.29,
+    "plodine": 2.39,
+    "spar": 2.29
+   }
+  },
+  {
+   "gtin": "03858890878974",
+   "name": "Toco crv. naranča avokado cikla 1,5l PET",
+   "prices": {
+    "kaufland": 1.79,
+    "konzum": 1.75,
+    "lidl": 1.45,
+    "plodine": 1.75,
+    "spar": 1.45
+   }
+  },
+  {
+   "gtin": "03858890878615",
+   "name": "Toco multivitamin 1,5l PET",
+   "prices": {
+    "kaufland": 1.79,
+    "konzum": 1.75,
+    "lidl": 1.75,
+    "plodine": 1.75,
+    "spar": 1.45
+   }
+  },
+  {
+   "gtin": "03858890878790",
+   "name": "Toco naranča,mrkva,nektarina 1,5l PET",
+   "prices": {
+    "kaufland": 1.79,
+    "konzum": 1.75,
+    "lidl": 1.45,
+    "plodine": 1.75,
+    "spar": 1.45
+   }
+  },
+  {
+   "gtin": "04014400400007",
+   "name": "Toffifee bombonijera 15 /1 125 g",
+   "prices": {
+    "kaufland": 2.69,
+    "konzum": 2.99,
+    "lidl": 2.69,
+    "plodine": 2.69,
+    "spar": 3.39
+   }
+  },
+  {
+   "gtin": "07622300570293",
+   "name": "Tuc krekeri špek 100 g",
+   "prices": {
+    "kaufland": 1.15,
+    "konzum": 0.85,
+    "lidl": 1.15,
+    "plodine": 1.25,
+    "spar": 0.89
+   }
+  },
+  {
+   "gtin": "05000159484695",
+   "name": "Twix Sladoled prutić 6x43,1 ml",
+   "prices": {
+    "kaufland": 4.99,
+    "konzum": 5.49,
+    "lidl": 3.99,
+    "plodine": 5.49,
+    "spar": 4.99
+   }
+  },
+  {
+   "gtin": "05000159559362",
+   "name": "Twix Čokoladica 3x50g",
+   "prices": {
+    "kaufland": 2.99,
+    "konzum": 2.99,
+    "lidl": 1.99,
+    "plodine": 2.99,
+    "spar": 2.99
+   }
+  },
+  {
+   "gtin": "05000159608794",
+   "name": "Twix Čokoladni prutić lješnjak 2x23 g",
+   "prices": {
+    "kaufland": 1.19,
+    "konzum": 1.19,
+    "lidl": 0.79,
+    "plodine": 1.19,
+    "spar": 1.19
+   }
+  },
+  {
+   "gtin": "03838999050013",
+   "name": "Union sv. pivo 4,9% 0,5 l limenka",
+   "prices": {
+    "kaufland": 1.29,
+    "konzum": 1.25,
+    "lidl": 1.25,
+    "plodine": 1.25,
+    "spar": 1.39
+   }
+  },
+  {
+   "gtin": "03850104008054",
+   "name": "Vegeta  vrećica 75 g",
+   "prices": {
+    "kaufland": 1.09,
+    "konzum": 1.09,
+    "lidl": 1.19,
+    "plodine": 1.09,
+    "spar": 1.09
+   }
+  },
+  {
+   "gtin": "03850104008597",
+   "name": "Vegeta 250 g",
+   "prices": {
+    "kaufland": 2.19,
+    "konzum": 1.95,
+    "lidl": 2.19,
+    "plodine": 2.19,
+    "spar": 2.19
+   }
+  },
+  {
+   "gtin": "03870128037359",
+   "name": "Vesh Kapsule za rublje color power 42/1",
+   "prices": {
+    "kaufland": 14.99,
+    "konzum": 17.89,
+    "lidl": 8.49,
+    "plodine": 13.99,
+    "spar": 13.29
+   }
+  },
+  {
+   "gtin": "03870128037298",
+   "name": "Vesh Kapsule za rublje white power 42/1",
+   "prices": {
+    "kaufland": 14.99,
+    "konzum": 17.89,
+    "lidl": 8.49,
+    "plodine": 13.99,
+    "spar": 13.29
+   }
+  },
+  {
+   "gtin": "03858881190443",
+   "name": "Vina Laguna Malvazija kv. vino 0,75 l",
+   "prices": {
+    "kaufland": 8.99,
+    "konzum": 7.79,
+    "lidl": 8.99,
+    "plodine": 8.99,
+    "spar": 9.49
+   }
+  },
+  {
+   "gtin": "03858881194151",
+   "name": "Vina Laguna Vino kv. Terra Rossa 0,75 l",
+   "prices": {
+    "kaufland": 7.58,
+    "konzum": 7.79,
+    "lidl": 7.55,
+    "plodine": 7.57,
+    "spar": 7.99
+   }
+  },
+  {
+   "gtin": "03850108072792",
+   "name": "Vindi B+C+E 2 l brick",
+   "prices": {
+    "kaufland": 2.49,
+    "konzum": 1.99,
+    "lidl": 1.99,
+    "plodine": 2.49,
+    "spar": 2.59
+   }
+  },
+  {
+   "gtin": "03850108073164",
+   "name": "Vindi Iso-Sport limun grejp neg 0,5l PET",
+   "prices": {
+    "kaufland": 1.29,
+    "konzum": 1.39,
+    "lidl": 1.29,
+    "plodine": 1.19,
+    "spar": 1.39
+   }
+  },
+  {
+   "gtin": "03850108078398",
+   "name": "Vindi Nektar od naranče 2L",
+   "prices": {
+    "kaufland": 2.59,
+    "konzum": 1.99,
+    "lidl": 1.99,
+    "plodine": 2.49,
+    "spar": 2.59
+   }
+  },
+  {
+   "gtin": "03850108073379",
+   "name": "Vindi multi  A+C+E  2 L brick",
+   "prices": {
+    "kaufland": 2.49,
+    "konzum": 1.99,
+    "lidl": 1.99,
+    "plodine": 2.49,
+    "spar": 2.49
+   }
+  },
+  {
+   "gtin": "00000038500022",
+   "name": "Vindija mliječni puding vanilija 125 g",
+   "prices": {
+    "kaufland": 0.65,
+    "konzum": 0.49,
+    "lidl": 0.65,
+    "plodine": 0.65,
+    "spar": 0.69
+   }
+  },
+  {
+   "gtin": "00000038500039",
+   "name": "Vindija mliječni puding čokolada 125 g",
+   "prices": {
+    "kaufland": 0.65,
+    "konzum": 0.49,
+    "lidl": 0.65,
+    "plodine": 0.65,
+    "spar": 0.69
+   }
+  },
+  {
+   "gtin": "03850159128332",
+   "name": "Vindon Pureća posebna kob. 500 g",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.59,
+    "lidl": 1.99,
+    "plodine": 1.99,
+    "spar": 2.09
+   }
+  },
+  {
+   "gtin": "03850159128349",
+   "name": "Vindon Pureća posebna kobasica 1000 g",
+   "prices": {
+    "kaufland": 3.69,
+    "konzum": 3.78,
+    "lidl": 2.49,
+    "plodine": 3.69,
+    "spar": 3.69
+   }
+  },
+  {
+   "gtin": "03850159128813",
+   "name": "Vindon deLuxe šunka classic 100g",
+   "prices": {
+    "kaufland": 2.59,
+    "konzum": 2.59,
+    "lidl": 2.59,
+    "plodine": 2.59,
+    "spar": 2.99
+   }
+  },
+  {
+   "gtin": "03850339413043",
+   "name": "Vindon pureće mljeveno meso svj. 500g",
+   "prices": {
+    "kaufland": 5.15,
+    "konzum": 5.49,
+    "lidl": 5.49,
+    "plodine": 5.39,
+    "spar": 5.99
+   }
+  },
+  {
+   "gtin": "03859892866884",
+   "name": "Vinea Venus Vino crno 1L",
+   "prices": {
+    "kaufland": 4.75,
+    "konzum": 4.75,
+    "lidl": 4.69,
+    "plodine": 4.69,
+    "spar": 4.75
+   }
+  },
+  {
+   "gtin": "03859890650119",
+   "name": "Vinoplod Travarica 38% 0,1 l",
+   "prices": {
+    "kaufland": 1.75,
+    "konzum": 1.79,
+    "lidl": 1.33,
+    "plodine": 1.75,
+    "spar": 1.85
+   }
+  },
+  {
+   "gtin": "03870128010291",
+   "name": "Violeta DC Pelene air dry jun.5 52/1_OC",
+   "prices": {
+    "kaufland": 13.99,
+    "konzum": 11.99,
+    "lidl": 14.79,
+    "plodine": 11.99,
+    "spar": 11.99
+   }
+  },
+  {
+   "gtin": "03870128010253",
+   "name": "Violeta DC Pelene air dry maxi4 60/1_OC",
+   "prices": {
+    "kaufland": 14.99,
+    "konzum": 11.99,
+    "lidl": 14.99,
+    "plodine": 11.99,
+    "spar": 11.99
+   }
+  },
+  {
+   "gtin": "03870128017085",
+   "name": "Violeta Deterdžent tek.Color 45pr. 2,7L",
+   "prices": {
+    "kaufland": 8.49,
+    "konzum": 9.29,
+    "lidl": 7.49,
+    "plodine": 5.99,
+    "spar": 5.99
+   }
+  },
+  {
+   "gtin": "03870128036543",
+   "name": "Violeta Maram.vlaž.med i kam5x51kom",
+   "prices": {
+    "kaufland": 3.49,
+    "konzum": 6.39,
+    "lidl": 3.49,
+    "plodine": 5.59,
+    "spar": 4.89
+   }
+  },
+  {
+   "gtin": "03870128039810",
+   "name": "Violeta Omekšivač Mystic51pr. 1550ml",
+   "prices": {
+    "kaufland": 3.99,
+    "konzum": 4.95,
+    "lidl": 3.19,
+    "plodine": 3.79,
+    "spar": 3.59
+   }
+  },
+  {
+   "gtin": "03870128035294",
+   "name": "Violeta Omekšivač Ul.Int.Gol.51pr.1550ml",
+   "prices": {
+    "kaufland": 3.99,
+    "konzum": 4.95,
+    "lidl": 3.19,
+    "plodine": 3.79,
+    "spar": 3.59
+   }
+  },
+  {
+   "gtin": "03870128035324",
+   "name": "Violeta Omekšivač Ul.Int.Lux 51pr.1550ml",
+   "prices": {
+    "kaufland": 3.99,
+    "konzum": 4.95,
+    "lidl": 2.79,
+    "plodine": 3.79,
+    "spar": 3.59
+   }
+  },
+  {
+   "gtin": "03859892288624",
+   "name": "Violeta Papir.ručnici lemon XXL 2sl. 2/1",
+   "prices": {
+    "kaufland": 2.65,
+    "konzum": 2.79,
+    "lidl": 2.65,
+    "plodine": 2.29,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "03870128040830",
+   "name": "Violeta Ulošci hig.cotton super+ 20/1_OC",
+   "prices": {
+    "kaufland": 2.39,
+    "konzum": 1.99,
+    "lidl": 2.39,
+    "plodine": 2.49,
+    "spar": 2.49
+   }
+  },
+  {
+   "gtin": "03870128018198",
+   "name": "Violeta baby vl.maramice water care 3x56",
+   "prices": {
+    "kaufland": 4.95,
+    "konzum": 4.95,
+    "lidl": 5.49,
+    "plodine": 6.99,
+    "spar": 6.49
+   }
+  },
+  {
+   "gtin": "03859892288136",
+   "name": "Violeta kuh. role Xxl 2 /1 3 sl",
+   "prices": {
+    "kaufland": 3.25,
+    "konzum": 2.49,
+    "lidl": 1.89,
+    "plodine": 2.99,
+    "spar": 2.49
+   }
+  },
+  {
+   "gtin": "03859892288952",
+   "name": "Violeta papirnati ručnik Love 3 sl. 3/1",
+   "prices": {
+    "kaufland": 3.49,
+    "konzum": 3.65,
+    "lidl": 2.29,
+    "plodine": 2.99,
+    "spar": 2.89
+   }
+  },
+  {
+   "gtin": "03859892288488",
+   "name": "Violeta papirnati ručnik Picnic 3sl. 2/1",
+   "prices": {
+    "kaufland": 1.59,
+    "konzum": 1.79,
+    "lidl": 1.59,
+    "plodine": 1.59,
+    "spar": 1.59
+   }
+  },
+  {
+   "gtin": "03850108058482",
+   "name": "Vivis svježi krem sir 69% mm 200 g",
+   "prices": {
+    "kaufland": 2.19,
+    "konzum": 2.19,
+    "lidl": 2.19,
+    "plodine": 2.19,
+    "spar": 2.19
+   }
+  },
+  {
+   "gtin": "05900951301841",
+   "name": "Whiskas Hr.za mač.mokra klas.obr.4x85",
+   "prices": {
+    "kaufland": 2.89,
+    "konzum": 2.89,
+    "lidl": 2.89,
+    "plodine": 2.89,
+    "spar": 2.89
+   }
+  },
+  {
+   "gtin": "03850108030488",
+   "name": "Z bregov Kefir 3,5% 1 kg T-REX",
+   "prices": {
+    "kaufland": 2.49,
+    "konzum": 2.09,
+    "lidl": 2.09,
+    "plodine": 2.49,
+    "spar": 2.49
+   }
+  },
+  {
+   "gtin": "03850108037388",
+   "name": "Z bregov jogurt 2,8% mm 1000 g PET",
+   "prices": {
+    "kaufland": 2.49,
+    "konzum": 2.49,
+    "lidl": 2.49,
+    "plodine": 1.99,
+    "spar": 2.49
+   }
+  },
+  {
+   "gtin": "03850108060102",
+   "name": "Z bregov maslac 84% mm 250 g_OC",
+   "prices": {
+    "kaufland": 2.99,
+    "konzum": 2.99,
+    "lidl": 2.99,
+    "plodine": 2.99,
+    "spar": 2.99
+   }
+  },
+  {
+   "gtin": "03850108011845",
+   "name": "Z bregov svježe mlijeko 21 3,2% 1 l PET",
+   "prices": {
+    "kaufland": 1.49,
+    "konzum": 1.55,
+    "lidl": 1.49,
+    "plodine": 1.49,
+    "spar": 1.35
+   }
+  },
+  {
+   "gtin": "03858886768746",
+   "name": "ZG Vrećica za miješ.komun.otpad 10L 10/1",
+   "prices": {
+    "kaufland": 2.64,
+    "konzum": 2.64,
+    "lidl": 2.64,
+    "plodine": 2.64,
+    "spar": 2.64
+   }
+  },
+  {
+   "gtin": "03858886760429",
+   "name": "ZG Vrećica za miješ.komun.otpad 20L 10/1",
+   "prices": {
+    "kaufland": 5.31,
+    "konzum": 5.31,
+    "lidl": 5.31,
+    "plodine": 5.31,
+    "spar": 5.31
+   }
+  },
+  {
+   "gtin": "03858886760528",
+   "name": "ZG Vrećica za miješ.komun.otpad 40L 10/1",
+   "prices": {
+    "kaufland": 10.62,
+    "konzum": 10.62,
+    "lidl": 10.62,
+    "plodine": 10.62,
+    "spar": 10.62
+   }
+  },
+  {
+   "gtin": "03850108023763",
+   "name": "Z`bregov Napitak Prot.čoko.0,1%mm 0,3L",
+   "prices": {
+    "kaufland": 1.79,
+    "konzum": 1.79,
+    "lidl": 1.79,
+    "plodine": 1.79,
+    "spar": 1.79
+   }
+  },
+  {
+   "gtin": "03850108023756",
+   "name": "Z`bregov Napitak Protein noug.0,1%mm0,3L",
+   "prices": {
+    "kaufland": 1.79,
+    "konzum": 1.79,
+    "lidl": 1.79,
+    "plodine": 1.79,
+    "spar": 1.79
+   }
+  },
+  {
+   "gtin": "03850108023985",
+   "name": "Z`bregov Napitak Protein pist.0,1%mm0,3L",
+   "prices": {
+    "kaufland": 1.79,
+    "konzum": 1.79,
+    "lidl": 1.29,
+    "plodine": 1.79,
+    "spar": 1.79
+   }
+  },
+  {
+   "gtin": "03850108023978",
+   "name": "Z`bregov Napitak Protein vani.0,1%mm0,3L",
+   "prices": {
+    "kaufland": 1.79,
+    "konzum": 1.79,
+    "lidl": 1.49,
+    "plodine": 1.79,
+    "spar": 1.79
+   }
+  },
+  {
+   "gtin": "03850108020922",
+   "name": "Zbregov Mlijeko trajno UHT 2,8% 6x1L_OC",
+   "prices": {
+    "kaufland": 4.74,
+    "konzum": 5.34,
+    "lidl": 4.69,
+    "plodine": 4.99,
+    "spar": 5.99
+   }
+  },
+  {
+   "gtin": "03850108023718",
+   "name": "Zbregov Prot.nap.čok.ban.bez la.0,5l PET",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 2.55,
+    "lidl": 2.49,
+    "plodine": 2.49,
+    "spar": 2.59
+   }
+  },
+  {
+   "gtin": "03850108040890",
+   "name": "Zbregov Puding Prot.karame.bez lakt.180g",
+   "prices": {
+    "kaufland": 1.29,
+    "konzum": 1.29,
+    "lidl": 1.09,
+    "plodine": 1.29,
+    "spar": 1.29
+   }
+  },
+  {
+   "gtin": "03850108040913",
+   "name": "Zbregov prot. pud. čoko. bez lakt. 180g",
+   "prices": {
+    "kaufland": 1.29,
+    "konzum": 1.29,
+    "lidl": 1.29,
+    "plodine": 1.29,
+    "spar": 1.39
+   }
+  },
+  {
+   "gtin": "03850108040906",
+   "name": "Zbregov prot.pud.vanilija bez lakt.180 g",
+   "prices": {
+    "kaufland": 1.29,
+    "konzum": 1.29,
+    "lidl": 1.29,
+    "plodine": 1.29,
+    "spar": 1.39
+   }
+  },
+  {
+   "gtin": "03858888590147",
+   "name": "Zdenka Specijal sir 45% mm 140 g",
+   "prices": {
+    "kaufland": 2.19,
+    "konzum": 2.25,
+    "lidl": 2.19,
+    "plodine": 1.55,
+    "spar": 2.19
+   }
+  },
+  {
+   "gtin": "03856020275730",
+   "name": "Zik Zak Umak od paprike ljuti 310g vg.",
+   "prices": {
+    "kaufland": 2.49,
+    "konzum": 2.49,
+    "lidl": 1.99,
+    "plodine": 2.49,
+    "spar": 2.49
+   }
+  },
+  {
+   "gtin": "03859894008114",
+   "name": "Zorina mast Krema za lice Lardo 30 ml",
+   "prices": {
+    "kaufland": 12.99,
+    "konzum": 13.49,
+    "lidl": 10.45,
+    "plodine": 12.99,
+    "spar": 12.99
+   }
+  },
+  {
+   "gtin": "00000040145389",
+   "name": "Zott Desert mliječ.Monte čok.lješ4x100g",
+   "prices": {
+    "kaufland": 2.59,
+    "konzum": 2.59,
+    "lidl": 2.59,
+    "plodine": 2.59,
+    "spar": 2.59
+   }
+  },
+  {
+   "gtin": "03856015300331",
+   "name": "Zvijezda Francuska salata 500 g",
+   "prices": {
+    "kaufland": 4.49,
+    "konzum": 4.49,
+    "lidl": 4.49,
+    "plodine": 4.49,
+    "spar": 4.49
+   }
+  },
+  {
+   "gtin": "03856015328472",
+   "name": "Zvijezda Hren 260g",
+   "prices": {
+    "kaufland": 2.49,
+    "konzum": 2.49,
+    "lidl": 1.59,
+    "plodine": 2.49,
+    "spar": 2.49
+   }
+  },
+  {
+   "gtin": "03856015303240",
+   "name": "Zvijezda Krastavci delikates 670g/350g",
+   "prices": {
+    "kaufland": 2.99,
+    "konzum": 2.99,
+    "lidl": 2.79,
+    "plodine": 2.99,
+    "spar": 2.99
+   }
+  },
+  {
+   "gtin": "03856015325228",
+   "name": "Zvijezda Majoneza delikates vrećica 85 g",
+   "prices": {
+    "kaufland": 1.19,
+    "konzum": 0.89,
+    "lidl": 0.75,
+    "plodine": 0.89,
+    "spar": 1.19
+   }
+  },
+  {
+   "gtin": "03856015332523",
+   "name": "Zvijezda Senf delikates 290 g",
+   "prices": {
+    "kaufland": 1.79,
+    "konzum": 1.79,
+    "lidl": 1.59,
+    "plodine": 1.79,
+    "spar": 1.79
+   }
+  },
+  {
+   "gtin": "03856015332493",
+   "name": "Zvijezda Senf delikates tuba 190 g",
+   "prices": {
+    "kaufland": 1.49,
+    "konzum": 1.49,
+    "lidl": 1.39,
+    "plodine": 1.49,
+    "spar": 1.49
+   }
+  },
+  {
+   "gtin": "03856015313249",
+   "name": "Zvijezda Ulje suncokretovo 1,2 l",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.99,
+    "lidl": 1.85,
+    "plodine": 1.99,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "03858882210010",
+   "name": "Zvijezda Ulje suncokretovo 1L_OC",
+   "prices": {
+    "kaufland": 1.69,
+    "konzum": 1.59,
+    "lidl": 1.69,
+    "plodine": 1.59,
+    "spar": 1.69
+   }
+  },
+  {
+   "gtin": "03856015328441",
+   "name": "Zvijezda Umak tartar 260 g",
+   "prices": {
+    "kaufland": 2.49,
+    "konzum": 2.49,
+    "lidl": 2.49,
+    "plodine": 2.49,
+    "spar": 2.49
+   }
+  },
+  {
+   "gtin": "03856015321879",
+   "name": "Zvijezda delikates majoneza stakl. 620 g",
+   "prices": {
+    "kaufland": 5.29,
+    "konzum": 5.29,
+    "lidl": 5.29,
+    "plodine": 5.29,
+    "spar": 5.29
+   }
+  },
+  {
+   "gtin": "03858882211550",
+   "name": "Zvijezda extra djev. maslinovo ulje 1 l",
+   "prices": {
+    "kaufland": 13.99,
+    "konzum": 13.99,
+    "lidl": 10.99,
+    "plodine": 13.99,
+    "spar": 13.99
+   }
+  },
+  {
+   "gtin": "03858882210874",
+   "name": "Zvijezda ketchup blagi 500 g",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.99,
+    "lidl": 1.99,
+    "plodine": 1.99,
+    "spar": 1.39
+   }
+  },
+  {
+   "gtin": "03858882210898",
+   "name": "Zvijezda ketchup ljuti 500 g",
+   "prices": {
+    "kaufland": 1.99,
+    "konzum": 1.99,
+    "lidl": 1.59,
+    "plodine": 1.99,
+    "spar": 1.39
+   }
+  },
+  {
+   "gtin": "03856015322098",
+   "name": "Zvijezda majoneza doypack 270 g",
+   "prices": {
+    "kaufland": 2.99,
+    "konzum": 3.29,
+    "lidl": 2.99,
+    "plodine": 3.29,
+    "spar": 3.29
+   }
+  },
+  {
+   "gtin": "03856015322180",
+   "name": "Zvijezda majoneza s prženim lukom 85 g",
+   "prices": {
+    "kaufland": 1.19,
+    "konzum": 0.89,
+    "lidl": 0.85,
+    "plodine": 0.89,
+    "spar": 1.19
+   }
+  },
+  {
+   "gtin": "03858882210263",
+   "name": "Zvijezda majoneza tuba 165 g",
+   "prices": {
+    "kaufland": 2.49,
+    "konzum": 2.49,
+    "lidl": 2.49,
+    "plodine": 2.49,
+    "spar": 2.49
+   }
+  },
+  {
+   "gtin": "03850108036619",
+   "name": "zbregov Fortia natur jogurt probi. 1000g",
+   "prices": {
+    "kaufland": 2.49,
+    "konzum": 2.49,
+    "lidl": 2.49,
+    "plodine": 2.49,
+    "spar": 1.99
+   }
+  },
+  {
+   "gtin": "03850111304132",
+   "name": "Čarli classic 900ml",
+   "prices": {
+    "kaufland": 2.99,
+    "konzum": 2.95,
+    "lidl": 2.55,
+    "plodine": 2.95,
+    "spar": 2.99
+   }
+  },
+  {
+   "gtin": "03856021306549",
+   "name": "Čipi Čips Paprika 120g",
+   "prices": {
+    "kaufland": 1.75,
+    "konzum": 2.19,
+    "lidl": 1.79,
+    "plodine": 2.19,
+    "spar": 2.29
+   }
+  },
+  {
+   "gtin": "03856021306501",
+   "name": "Čipi Čips slani 130g",
+   "prices": {
+    "kaufland": 1.75,
+    "konzum": 2.19,
+    "lidl": 1.79,
+    "plodine": 2.19,
+    "spar": 2.29
+   }
+  },
+  {
+   "gtin": "03856021300646",
+   "name": "Čipi čips paprika 190 g",
+   "prices": {
+    "kaufland": 2.99,
+    "konzum": 2.99,
+    "lidl": 2.99,
+    "plodine": 2.99,
+    "spar": 2.99
+   }
+  },
+  {
+   "gtin": "03850104210259",
+   "name": "Čokolino 500 g",
+   "prices": {
+    "kaufland": 3.49,
+    "konzum": 4.99,
+    "lidl": 4.99,
+    "plodine": 4.89,
+    "spar": 4.99
+   }
+  },
+  {
+   "gtin": "03856020288976",
+   "name": "Čokolino Pahuljice pšenične Fit 350 g",
+   "prices": {
+    "kaufland": 4.39,
+    "konzum": 4.39,
+    "lidl": 3.29,
+    "plodine": 4.39,
+    "spar": 4.39
+   }
+  },
+  {
+   "gtin": "03856020290245",
+   "name": "Čokolino Zobene pahulj.mix Toffee 330g",
+   "prices": {
+    "kaufland": 5.49,
+    "konzum": 5.49,
+    "lidl": 4.19,
+    "plodine": 5.49,
+    "spar": 5.49
+   }
+  },
+  {
+   "gtin": "03856020289065",
+   "name": "Čokolino Zobene pahuljice Dark 330 g",
+   "prices": {
+    "kaufland": 5.49,
+    "konzum": 5.49,
+    "lidl": 4.19,
+    "plodine": 5.49,
+    "spar": 5.49
+   }
+  },
+  {
+   "gtin": "03856020289003",
+   "name": "Čokolino Žit.pah.MultiGrain Plus 350g",
+   "prices": {
+    "kaufland": 4.39,
+    "konzum": 4.39,
+    "lidl": 3.29,
+    "plodine": 4.39,
+    "spar": 4.39
+   }
+  },
+  {
+   "gtin": "03856020289034",
+   "name": "Čokolino Žit.pahulj.Protein Pow.Whey330g",
+   "prices": {
+    "kaufland": 5.49,
+    "konzum": 5.49,
+    "lidl": 4.19,
+    "plodine": 5.49,
+    "spar": 5.49
+   }
+  },
+  {
+   "gtin": "03850102001613",
+   "name": "Čoksa čokolada mlijeko 68 g",
+   "prices": {
+    "kaufland": 1.39,
+    "konzum": 1.39,
+    "lidl": 1.39,
+    "plodine": 1.39,
+    "spar": 1.39
+   }
+  },
+  {
+   "gtin": "03850102001606",
+   "name": "Čoksa čokolada s bananom 68 g",
+   "prices": {
+    "kaufland": 1.39,
+    "konzum": 1.39,
+    "lidl": 1.39,
+    "plodine": 1.39,
+    "spar": 1.39
+   }
+  },
+  {
+   "gtin": "03859892782009",
+   "name": "Čvarci 200 g Silma",
+   "prices": {
+    "kaufland": 2.99,
+    "konzum": 3.99,
+    "lidl": 2.99,
+    "plodine": 3.98,
+    "spar": 3.89
+   }
+  },
+  {
+   "gtin": "08600102938076",
+   "name": "Ždrepčeva Krv Vino crno 1L",
+   "prices": {
+    "kaufland": 4.29,
+    "konzum": 4.29,
+    "lidl": 4.25,
+    "plodine": 4.28,
+    "spar": 4.49
+   }
+  }
+ ],
  "cheapest": [
   {
    "chain": "lidl",
@@ -142,5 +8559,560 @@
   }
  ],
  "daily_changes": [],
- "shrinkflation": []
+ "shrinkflation": [],
+ "categories": [
+  {
+   "category": "Djeca i bebe",
+   "chain": "kaufland",
+   "products": 191,
+   "index_vs_average": -0.0009,
+   "cheapest_share": 0.5288
+  },
+  {
+   "category": "Djeca i bebe",
+   "chain": "konzum",
+   "products": 213,
+   "index_vs_average": -0.0138,
+   "cheapest_share": 0.4601
+  },
+  {
+   "category": "Djeca i bebe",
+   "chain": "lidl",
+   "products": 29,
+   "index_vs_average": -0.0041,
+   "cheapest_share": 0.5517
+  },
+  {
+   "category": "Djeca i bebe",
+   "chain": "plodine",
+   "products": 198,
+   "index_vs_average": -0.0375,
+   "cheapest_share": 0.5101
+  },
+  {
+   "category": "Djeca i bebe",
+   "chain": "spar",
+   "products": 216,
+   "index_vs_average": 0.0201,
+   "cheapest_share": 0.4861
+  },
+  {
+   "category": "Dom i slobodno vrijeme",
+   "chain": "kaufland",
+   "products": 3,
+   "index_vs_average": -0.0029,
+   "cheapest_share": 1.0
+  },
+  {
+   "category": "Dom i slobodno vrijeme",
+   "chain": "konzum",
+   "products": 3,
+   "index_vs_average": 0.0058,
+   "cheapest_share": 0.6667
+  },
+  {
+   "category": "Dom i slobodno vrijeme",
+   "chain": "plodine",
+   "products": 2,
+   "index_vs_average": 0.0,
+   "cheapest_share": 1.0
+  },
+  {
+   "category": "Dom i slobodno vrijeme",
+   "chain": "spar",
+   "products": 2,
+   "index_vs_average": -0.0044,
+   "cheapest_share": 1.0
+  },
+  {
+   "category": "Gotova jela",
+   "chain": "kaufland",
+   "products": 63,
+   "index_vs_average": 0.0181,
+   "cheapest_share": 0.4762
+  },
+  {
+   "category": "Gotova jela",
+   "chain": "konzum",
+   "products": 103,
+   "index_vs_average": -0.0428,
+   "cheapest_share": 0.4951
+  },
+  {
+   "category": "Gotova jela",
+   "chain": "lidl",
+   "products": 10,
+   "index_vs_average": -0.1015,
+   "cheapest_share": 0.6
+  },
+  {
+   "category": "Gotova jela",
+   "chain": "plodine",
+   "products": 99,
+   "index_vs_average": 0.0583,
+   "cheapest_share": 0.3838
+  },
+  {
+   "category": "Gotova jela",
+   "chain": "spar",
+   "products": 100,
+   "index_vs_average": -0.0475,
+   "cheapest_share": 0.62
+  },
+  {
+   "category": "Higijena i kozmetika",
+   "chain": "kaufland",
+   "products": 1978,
+   "index_vs_average": 0.0101,
+   "cheapest_share": 0.3655
+  },
+  {
+   "category": "Higijena i kozmetika",
+   "chain": "konzum",
+   "products": 2001,
+   "index_vs_average": 0.0025,
+   "cheapest_share": 0.3708
+  },
+  {
+   "category": "Higijena i kozmetika",
+   "chain": "lidl",
+   "products": 147,
+   "index_vs_average": -0.0926,
+   "cheapest_share": 0.4966
+  },
+  {
+   "category": "Higijena i kozmetika",
+   "chain": "plodine",
+   "products": 1975,
+   "index_vs_average": -0.0181,
+   "cheapest_share": 0.4132
+  },
+  {
+   "category": "Higijena i kozmetika",
+   "chain": "spar",
+   "products": 1875,
+   "index_vs_average": -0.0555,
+   "cheapest_share": 0.5189
+  },
+  {
+   "category": "Kava i čaj",
+   "chain": "kaufland",
+   "products": 396,
+   "index_vs_average": -0.0041,
+   "cheapest_share": 0.6919
+  },
+  {
+   "category": "Kava i čaj",
+   "chain": "konzum",
+   "products": 500,
+   "index_vs_average": -0.0046,
+   "cheapest_share": 0.578
+  },
+  {
+   "category": "Kava i čaj",
+   "chain": "lidl",
+   "products": 38,
+   "index_vs_average": -0.1484,
+   "cheapest_share": 0.8421
+  },
+  {
+   "category": "Kava i čaj",
+   "chain": "plodine",
+   "products": 507,
+   "index_vs_average": -0.0107,
+   "cheapest_share": 0.6726
+  },
+  {
+   "category": "Kava i čaj",
+   "chain": "spar",
+   "products": 512,
+   "index_vs_average": 0.0149,
+   "cheapest_share": 0.4961
+  },
+  {
+   "category": "Kruh i pekarski",
+   "chain": "kaufland",
+   "products": 68,
+   "index_vs_average": -0.0305,
+   "cheapest_share": 0.5882
+  },
+  {
+   "category": "Kruh i pekarski",
+   "chain": "konzum",
+   "products": 86,
+   "index_vs_average": -0.0136,
+   "cheapest_share": 0.407
+  },
+  {
+   "category": "Kruh i pekarski",
+   "chain": "lidl",
+   "products": 7,
+   "index_vs_average": -0.1298,
+   "cheapest_share": 0.5714
+  },
+  {
+   "category": "Kruh i pekarski",
+   "chain": "plodine",
+   "products": 88,
+   "index_vs_average": 0.0159,
+   "cheapest_share": 0.5114
+  },
+  {
+   "category": "Kruh i pekarski",
+   "chain": "spar",
+   "products": 79,
+   "index_vs_average": 0.0095,
+   "cheapest_share": 0.481
+  },
+  {
+   "category": "Kućanstvo",
+   "chain": "kaufland",
+   "products": 704,
+   "index_vs_average": 0.0499,
+   "cheapest_share": 0.2827
+  },
+  {
+   "category": "Kućanstvo",
+   "chain": "konzum",
+   "products": 850,
+   "index_vs_average": -0.0095,
+   "cheapest_share": 0.3906
+  },
+  {
+   "category": "Kućanstvo",
+   "chain": "lidl",
+   "products": 118,
+   "index_vs_average": -0.151,
+   "cheapest_share": 0.6441
+  },
+  {
+   "category": "Kućanstvo",
+   "chain": "plodine",
+   "products": 841,
+   "index_vs_average": -0.0474,
+   "cheapest_share": 0.4982
+  },
+  {
+   "category": "Kućanstvo",
+   "chain": "spar",
+   "products": 781,
+   "index_vs_average": -0.0447,
+   "cheapest_share": 0.443
+  },
+  {
+   "category": "Kućni ljubimci",
+   "chain": "kaufland",
+   "products": 240,
+   "index_vs_average": 0.0203,
+   "cheapest_share": 0.4
+  },
+  {
+   "category": "Kućni ljubimci",
+   "chain": "konzum",
+   "products": 260,
+   "index_vs_average": -0.1253,
+   "cheapest_share": 0.8538
+  },
+  {
+   "category": "Kućni ljubimci",
+   "chain": "lidl",
+   "products": 10,
+   "index_vs_average": -0.0788,
+   "cheapest_share": 0.5
+  },
+  {
+   "category": "Kućni ljubimci",
+   "chain": "plodine",
+   "products": 274,
+   "index_vs_average": 0.0564,
+   "cheapest_share": 0.3066
+  },
+  {
+   "category": "Kućni ljubimci",
+   "chain": "spar",
+   "products": 268,
+   "index_vs_average": 0.0253,
+   "cheapest_share": 0.3619
+  },
+  {
+   "category": "Meso i riba",
+   "chain": "kaufland",
+   "products": 398,
+   "index_vs_average": -0.0128,
+   "cheapest_share": 0.5678
+  },
+  {
+   "category": "Meso i riba",
+   "chain": "konzum",
+   "products": 477,
+   "index_vs_average": 0.007,
+   "cheapest_share": 0.4403
+  },
+  {
+   "category": "Meso i riba",
+   "chain": "lidl",
+   "products": 96,
+   "index_vs_average": -0.1718,
+   "cheapest_share": 0.7083
+  },
+  {
+   "category": "Meso i riba",
+   "chain": "plodine",
+   "products": 482,
+   "index_vs_average": 0.0036,
+   "cheapest_share": 0.4793
+  },
+  {
+   "category": "Meso i riba",
+   "chain": "spar",
+   "products": 496,
+   "index_vs_average": 0.0061,
+   "cheapest_share": 0.5504
+  },
+  {
+   "category": "Mlijeko i mliječni",
+   "chain": "kaufland",
+   "products": 449,
+   "index_vs_average": -0.0088,
+   "cheapest_share": 0.6303
+  },
+  {
+   "category": "Mlijeko i mliječni",
+   "chain": "konzum",
+   "products": 472,
+   "index_vs_average": -0.0011,
+   "cheapest_share": 0.5106
+  },
+  {
+   "category": "Mlijeko i mliječni",
+   "chain": "lidl",
+   "products": 70,
+   "index_vs_average": -0.1148,
+   "cheapest_share": 0.7143
+  },
+  {
+   "category": "Mlijeko i mliječni",
+   "chain": "plodine",
+   "products": 520,
+   "index_vs_average": 0.0021,
+   "cheapest_share": 0.5865
+  },
+  {
+   "category": "Mlijeko i mliječni",
+   "chain": "spar",
+   "products": 518,
+   "index_vs_average": 0.0049,
+   "cheapest_share": 0.5907
+  },
+  {
+   "category": "Osnovne namirnice",
+   "chain": "kaufland",
+   "products": 914,
+   "index_vs_average": 0.0013,
+   "cheapest_share": 0.5996
+  },
+  {
+   "category": "Osnovne namirnice",
+   "chain": "konzum",
+   "products": 1134,
+   "index_vs_average": -0.014,
+   "cheapest_share": 0.5185
+  },
+  {
+   "category": "Osnovne namirnice",
+   "chain": "lidl",
+   "products": 119,
+   "index_vs_average": -0.1699,
+   "cheapest_share": 0.7731
+  },
+  {
+   "category": "Osnovne namirnice",
+   "chain": "plodine",
+   "products": 1158,
+   "index_vs_average": 0.01,
+   "cheapest_share": 0.532
+  },
+  {
+   "category": "Osnovne namirnice",
+   "chain": "spar",
+   "products": 1156,
+   "index_vs_average": -0.002,
+   "cheapest_share": 0.5346
+  },
+  {
+   "category": "Ostalo",
+   "chain": "kaufland",
+   "products": 441,
+   "index_vs_average": -0.0205,
+   "cheapest_share": 0.6327
+  },
+  {
+   "category": "Ostalo",
+   "chain": "konzum",
+   "products": 561,
+   "index_vs_average": 0.0,
+   "cheapest_share": 0.4492
+  },
+  {
+   "category": "Ostalo",
+   "chain": "lidl",
+   "products": 48,
+   "index_vs_average": -0.1165,
+   "cheapest_share": 0.7292
+  },
+  {
+   "category": "Ostalo",
+   "chain": "plodine",
+   "products": 563,
+   "index_vs_average": 0.0094,
+   "cheapest_share": 0.5027
+  },
+  {
+   "category": "Ostalo",
+   "chain": "spar",
+   "products": 544,
+   "index_vs_average": -0.0072,
+   "cheapest_share": 0.5699
+  },
+  {
+   "category": "Pića",
+   "chain": "kaufland",
+   "products": 1612,
+   "index_vs_average": -0.0136,
+   "cheapest_share": 0.5552
+  },
+  {
+   "category": "Pića",
+   "chain": "konzum",
+   "products": 1561,
+   "index_vs_average": -0.0197,
+   "cheapest_share": 0.5234
+  },
+  {
+   "category": "Pića",
+   "chain": "lidl",
+   "products": 225,
+   "index_vs_average": -0.0684,
+   "cheapest_share": 0.7556
+  },
+  {
+   "category": "Pića",
+   "chain": "plodine",
+   "products": 1719,
+   "index_vs_average": 0.0071,
+   "cheapest_share": 0.5369
+  },
+  {
+   "category": "Pića",
+   "chain": "spar",
+   "products": 1747,
+   "index_vs_average": 0.0167,
+   "cheapest_share": 0.4213
+  },
+  {
+   "category": "Slatkiši i grickalice",
+   "chain": "kaufland",
+   "products": 1033,
+   "index_vs_average": -0.0113,
+   "cheapest_share": 0.5247
+  },
+  {
+   "category": "Slatkiši i grickalice",
+   "chain": "konzum",
+   "products": 1178,
+   "index_vs_average": -0.0082,
+   "cheapest_share": 0.4525
+  },
+  {
+   "category": "Slatkiši i grickalice",
+   "chain": "lidl",
+   "products": 216,
+   "index_vs_average": -0.1423,
+   "cheapest_share": 0.75
+  },
+  {
+   "category": "Slatkiši i grickalice",
+   "chain": "plodine",
+   "products": 1168,
+   "index_vs_average": 0.0032,
+   "cheapest_share": 0.5094
+  },
+  {
+   "category": "Slatkiši i grickalice",
+   "chain": "spar",
+   "products": 1178,
+   "index_vs_average": 0.0104,
+   "cheapest_share": 0.4406
+  },
+  {
+   "category": "Smrznuto",
+   "chain": "kaufland",
+   "products": 263,
+   "index_vs_average": -0.0247,
+   "cheapest_share": 0.7186
+  },
+  {
+   "category": "Smrznuto",
+   "chain": "konzum",
+   "products": 289,
+   "index_vs_average": 0.0187,
+   "cheapest_share": 0.4844
+  },
+  {
+   "category": "Smrznuto",
+   "chain": "lidl",
+   "products": 32,
+   "index_vs_average": -0.1108,
+   "cheapest_share": 0.875
+  },
+  {
+   "category": "Smrznuto",
+   "chain": "plodine",
+   "products": 295,
+   "index_vs_average": 0.0038,
+   "cheapest_share": 0.6
+  },
+  {
+   "category": "Smrznuto",
+   "chain": "spar",
+   "products": 307,
+   "index_vs_average": -0.0095,
+   "cheapest_share": 0.6221
+  },
+  {
+   "category": "Voće i povrće",
+   "chain": "kaufland",
+   "products": 139,
+   "index_vs_average": 0.0052,
+   "cheapest_share": 0.5036
+  },
+  {
+   "category": "Voće i povrće",
+   "chain": "konzum",
+   "products": 161,
+   "index_vs_average": 0.0001,
+   "cheapest_share": 0.5093
+  },
+  {
+   "category": "Voće i povrće",
+   "chain": "lidl",
+   "products": 18,
+   "index_vs_average": -0.0868,
+   "cheapest_share": 0.8333
+  },
+  {
+   "category": "Voće i povrće",
+   "chain": "plodine",
+   "products": 175,
+   "index_vs_average": -0.0036,
+   "cheapest_share": 0.5486
+  },
+  {
+   "category": "Voće i povrće",
+   "chain": "spar",
+   "products": 164,
+   "index_vs_average": -0.0082,
+   "cheapest_share": 0.5671
+  }
+ ]
 }
