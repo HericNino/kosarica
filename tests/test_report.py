@@ -4,7 +4,7 @@ from kosarica.ingest import ingest
 from kosarica.report import build
 from kosarica.state import apply_day
 
-CHAINS = ["spar", "lidl", "studenac", "plodine"]
+CHAINS = ["spar", "lidl", "studenac", "plodine", "kaufland"]
 
 
 def test_report_over_two_days(tmp_path):
@@ -17,13 +17,14 @@ def test_report_over_two_days(tmp_path):
 
     summary = report["summary"]
     assert summary["as_of"] == "2026-10-15"
-    assert summary["chains"] == 3
+    assert summary["chains"] == 4
     assert summary["days_collected"] == 2
 
-    # milk (3850102123452) is the only product all three chains sell
+    # milk (3850102123452) is the only product all four chains sell
     basket = {row["chain"]: row for row in report["basket"]}
     assert {c: (b["items"], b["total"]) for c, b in basket.items()} == {
         "lidl": (1, 1.09),
+        "kaufland": (1, 1.15),
         "studenac": (1, 1.25),
         "spar": (1, 1.24),  # median of 1.29 (store 1, day 2) and 1.19 (store 2 kept from day 1)
     }

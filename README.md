@@ -1,6 +1,6 @@
 # kosarica
 
-How much does the same shopping basket cost in Konzum, Lidl, Spar, Plodine and Studenac, and how are prices moving? Since May 2025 every supermarket chain in Croatia has to publish its full price list every day, per store (Odluka o objavi cjenika, NN 75/2025). kosarica collects those lists for stores in the Zagreb area and turns them into a price history.
+How much does the same shopping basket cost in Konzum, Lidl, Kaufland, Spar, Plodine and Studenac, and how are prices moving? Since May 2025 every supermarket chain in Croatia has to publish its full price list every day, per store (Odluka o objavi cjenika, NN 75/2025). kosarica collects those lists for stores in the Zagreb area and turns them into a price history.
 
 It's built as a small lakehouse, the way the same job would be done on Azure or Databricks, but running on DuckDB and GitHub Actions for free.
 

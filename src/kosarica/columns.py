@@ -77,7 +77,8 @@ def canonical(header: str) -> str | None:
         return "quantity"
     if "jedinica mjere" in h or h in ("jm", "jmj"):
         return "unit"
-    if "kategorija" in words or "kategorije" in words:
+    # Kaufland labels the category column "WG" (Warengruppe) in some stores
+    if "kategorija" in words or "kategorije" in words or h == "wg":
         return "category"
     return None
 

@@ -28,19 +28,19 @@ class RemoteFile:
     archive: bool = False  # a zip with one price list per store
 
 
-def anchors(page: str) -> list[dict[str, str]]:
-    """Attributes of every <a> tag, e.g. [{'href': '/x.csv', 'format': 'csv'}]."""
+def tags(page: str, name: str) -> list[dict[str, str]]:
+    """Attributes of every tag with that name, e.g. tags(page, "a") -> [{'href': '/x.csv', 'format': 'csv'}]."""
     found = []
-    for tag in re.findall(r"<a\b([^>]*)>", page, flags=re.IGNORECASE):
+    for tag in re.findall(rf"<{name}\b([^>]*)>", page, flags=re.IGNORECASE):
         attributes = re.findall(r"""([\w:-]+)\s*=\s*(?:"([^"]*)"|'([^']*)')""", tag)
-        found.append({name.lower(): html.unescape(double or single) for name, double, single in attributes})
+        found.append({attr.lower(): html.unescape(double or single) for attr, double, single in attributes})
     return found
 
 
 def links(page: str, base: str, **wanted: str) -> list[str]:
     """Absolute hrefs of links, optionally only those with the given attributes."""
     urls = []
-    for a in anchors(page):
+    for a in tags(page, "a"):
         href = a.get("href")
         if href and all(a.get(k) == v for k, v in wanted.items()):
             # hrefs sometimes contain raw spaces and diacritics
@@ -78,6 +78,25 @@ def konzum(client: httpx.Client, day: date, max_pages: int = 100) -> list[Remote
     return list(found.values())
 
 
+def kaufland(client: httpx.Client, day: date) -> list[RemoteFile]:
+    """The page embeds a component whose settings point to a JSON list of CSV files, one per store."""
+    base = "https://www.kaufland.hr"
+    response = client.get(f"{base}/akcije-novosti/popis-mpc.html")
+    response.raise_for_status()
+    component = next((d for d in tags(response.text, "div") if d.get("data-component") == "AssetList"), None)
+    if component is None or "data-props" not in component:
+        raise ValueError("price list component not found on the page")
+    assets = json.loads(component["data-props"])["settings"]["dataUrlAssets"]
+    listing = client.get(urljoin(base, assets))
+    listing.raise_for_status()
+    stamps = (f"_{day:%d_%m_%Y}_", f"_{day:%d%m%Y}_")
+    return [
+        RemoteFile("kaufland", item["label"], urljoin(base, item["path"]))
+        for item in listing.json()
+        if item.get("label") and item.get("path") and any(stamp in item["label"] for stamp in stamps)
+    ]
+
+
 def lidl(client: httpx.Client, day: date) -> list[RemoteFile]:
     """One page listing a CSV per store for roughly the last 30 days; the date is in the file name."""
     url = "https://www.lidl.hr/c/cijene/s10073252"
@@ -110,6 +129,7 @@ def studenac(client: httpx.Client, day: date) -> list[RemoteFile]:
 
 
 CHAINS: dict[str, Callable[[httpx.Client, date], list[RemoteFile]]] = {
+    "kaufland": kaufland,
     "konzum": konzum,
     "lidl": lidl,
     "plodine": plodine,

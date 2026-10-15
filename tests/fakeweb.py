@@ -8,6 +8,7 @@ upper-case headers, and Plodine's zip of CSVs with a failing store.
 from __future__ import annotations
 
 import io
+import json
 import zipfile
 from datetime import date
 
@@ -60,6 +61,13 @@ def spar_csv(milk: str, bread: str | None, coffee_special: str = "") -> bytes:
 def lidl_csv(milk: str) -> bytes:
     rows = [LIDL_HEADER, f'"Mlijeko 2,8%",501,Pilos,1,l,"{milk}","{milk}",,"1,05","0,99",3850102123452,Mlijeko']
     return "\r\n".join(rows).encode("cp1250")
+
+
+def kaufland_csv(milk: str) -> bytes:
+    columns = ["naziv proizvoda", "šifra proizvoda", "marka proizvoda", "neto količina", "jedinica mjere"]
+    columns += ["maloprodajna cijena", "cijena za jedinicu mjere", "barkod", "WG"]
+    header = "\t".join(columns)
+    return f"{header}\nMlijeko 2,8% 1 l\t9001\tDukat\t1\tl\t{milk}\t{milk}\t3850102123452\tMlijeko\n".encode()
 
 
 def studenac_xml(milk: str) -> bytes:
@@ -153,6 +161,18 @@ class FakeWeb:
         if url.startswith("https://www.plodine.hr/cjenici/cjenici_14_10_2026"):
             bad = b"Naziv;Kolicina\nMlijeko;1\n"
             return httpx.Response(200, content=zip_of({"SUPERMARKET_ILICA_5_10000_ZAGREB_001_1_14102026070000.csv": bad}))
+
+        if url == "https://www.kaufland.hr/akcije-novosti/popis-mpc.html":
+            props = json.dumps({"settings": {"dataUrlAssets": "/data/assets.json"}}).replace('"', "&quot;")
+            return httpx.Response(200, text=f'<div class="x" data-component="AssetList" data-props="{props}"></div>')
+        if url == "https://www.kaufland.hr/data/assets.json":
+            items = [
+                {"label": f"Hipermarket_Zagreb_Jankomir_31_4050_{d:%d_%m_%Y}_7_30.csv", "path": f"/f/zg_{d:%d%m}.csv"}
+                for d in (self.DAY1, self.DAY2)
+            ] + [{"label": f"Supermarket_Put_Gaceleza_1D_Vodice_6730_{self.DAY2:%d_%m_%Y}_7_30.csv", "path": "/f/vodice.csv"}]
+            return httpx.Response(200, json=items)
+        if url.startswith("https://www.kaufland.hr/f/zg_"):
+            return httpx.Response(200, content=kaufland_csv("1,15"))
 
         return httpx.Response(404)
 

@@ -32,6 +32,7 @@ from kosarica.columns import HeaderMap, canonical, normalize_header
         ("NETO_KOLIČINA", "quantity"),
         ("jedinica mjere", "unit"),
         ("KategorijeProizvoda", "category"),
+        ("WG", "category"),
         # present in some files, deliberately not kept
         ("Naziv posebnog oblika prodaje", "sale_type"),
         ("Dostupno nedostupno", "available"),

@@ -7,7 +7,7 @@ from fakeweb import FakeWeb
 from kosarica.ingest import ingest
 from kosarica.state import OutOfOrder, apply_day
 
-CHAINS = ["spar", "lidl", "studenac", "plodine"]
+CHAINS = ["spar", "lidl", "studenac", "plodine", "kaufland"]
 
 
 def history(lake):
@@ -43,6 +43,7 @@ def test_day_one_reports(two_days):
     assert day1["spar"].rows_skipped == 2
     assert day1["lidl"].rows == 1  # only the Zagreb file for the day, cp1250 decoded
     assert day1["studenac"].stores == 1  # Split XML filtered out of the zip
+    assert (day1["kaufland"].files_listed, day1["kaufland"].rows) == (1, 1)  # tab separated, "WG" read as category
     # a file without the required columns is rejected and reported, not guessed at
     assert day1["plodine"].status == "empty"
     assert day1["plodine"].files_rejected == 1
@@ -52,7 +53,7 @@ def test_day_one_reports(two_days):
 
 def test_history_after_day_one(two_days):
     *_, after_day1 = two_days
-    assert len(after_day1) == 8  # 6 Spar + 1 Lidl + 1 Studenac
+    assert len(after_day1) == 9  # 6 Spar + 1 Lidl + 1 Studenac + 1 Kaufland
     assert all(row[-1] is None for row in after_day1)  # all current
 
 
