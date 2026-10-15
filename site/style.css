@@ -918,6 +918,14 @@ select option {
   letter-spacing: 0.06em;
   color: var(--ink-2);
 }
+.psize {
+  font-family: var(--mono);
+  font-size: 0.76rem;
+  color: var(--ink-2);
+}
+.punit {
+  color: var(--muted);
+}
 .drift-up {
   color: var(--dearer);
 }

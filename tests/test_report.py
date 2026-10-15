@@ -56,6 +56,7 @@ def test_report_over_two_days(tmp_path):
     assert catalog["categories"][milk[2]] == "Mlijeko i mliječni"
     assert milk[3] == [1.15, 1.09, 1.24, 1.25]
     assert milk[4] == [1.09, 0.99, 1.09, 1.05]  # anchor prices
+    assert milk[5] == [1.0, "l"]  # package size from the name
     coffee = by_name["Kava 250 g"]  # Kaufland and Spar
     assert coffee[3][1] is None and coffee[3][0] == 3.79
     categories = {(c["category"], c["chain"]): c for c in report["categories"]}

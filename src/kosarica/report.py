@@ -11,6 +11,8 @@ from pathlib import Path
 
 import duckdb
 
+from .sizes import package_size
+
 TRANSFORM_DIR = Path(os.environ.get("KOSARICA_TRANSFORM_DIR", Path(__file__).resolve().parents[2] / "transform"))
 
 
@@ -102,7 +104,8 @@ def products(db: duckdb.DuckDBPyConnection) -> dict:
     """The product catalog in a compact form: ~20,000 products as arrays, not objects.
 
     {"chains": [...], "categories": [...],
-     "products": [[gtin, name, category index, [price per chain or null], [anchor per chain or null]], ...]}
+     "products": [[gtin, name, category index, [price per chain or null], [anchor per chain or null],
+                   [package size, "kg" | "l" | "kom"] or null], ...]}
     """
     chains = [r["chain"] for r in rows(db, "select distinct chain from mart_products order by chain")]
     categories = [r["category"] for r in rows(db, "select category from mart_products group by category order by count(*) desc")]
@@ -111,8 +114,14 @@ def products(db: duckdb.DuckDBPyConnection) -> dict:
     catalog: dict[str, list] = {}
     for r in rows(db, "select gtin, name, category, chain, price, anchor_price from mart_products order by name, gtin"):
         entry = catalog.setdefault(
-            r["gtin"], [r["gtin"], r["name"], category_index[r["category"]], [None] * len(chains), [None] * len(chains)]
+            r["gtin"],
+            [r["gtin"], r["name"], category_index[r["category"]], [None] * len(chains), [None] * len(chains), _size(r["name"])],
         )
         entry[3][position[r["chain"]]] = r["price"]
         entry[4][position[r["chain"]]] = r["anchor_price"]
     return {"chains": chains, "categories": categories, "products": list(catalog.values())}
+
+
+def _size(name: str) -> list | None:
+    size = package_size(name)
+    return list(size) if size else None

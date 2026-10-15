@@ -120,7 +120,7 @@ const favorites = {
 // ---- tooltip ----
 const tooltip = document.getElementById('tooltip');
 function showTip(lines, x, y) {
-  tooltip.replaceChildren(h('strong', {}, lines[0]), ...lines.slice(1).map((l) => h('div', {}, l)));
+  tooltip.replaceChildren(h('strong', {}, lines[0]), ...lines.slice(1).filter(Boolean).map((l) => h('div', {}, l)));
   tooltip.hidden = false;
   const w = tooltip.offsetWidth;
   tooltip.style.left = `${Math.min(Math.max(8, x - w / 2), window.innerWidth - w - 8)}px`;
@@ -151,7 +151,7 @@ async function load() {
   catalog = {
     chains: p.chains,
     categories: p.categories,
-    products: p.products.map(([gtin, name, cat, prices, anchors]) => {
+    products: p.products.map(([gtin, name, cat, prices, anchors, size]) => {
       const present = prices.filter((x) => x != null);
       const min = Math.min(...present);
       const max = Math.max(...present);
@@ -170,6 +170,7 @@ async function load() {
         chainsCount: present.length,
         drift: drift.length ? median(drift) : null,
         search: normalize(name),
+        size, // [amount, 'kg' | 'l' | 'kom'] or null
       };
     }),
   };
@@ -443,7 +444,18 @@ function lineChart(days) {
 }
 
 // ---- Proizvodi ----
-const filters = { q: '', cat: null, sort: 'common', onlyFav: false, shown: PAGE };
+const filters = { q: '', cat: null, sort: 'size', onlyFav: false, shown: PAGE };
+
+// "1,24 kg", "750 ml", "20 kom": the package as it would be written on the shelf
+function sizeText([amount, unit]) {
+  if (unit === 'kom') return `${int.format(amount)} kom`;
+  const small = { kg: 'g', l: 'ml' }[unit];
+  if (amount < 1) return `${(amount * 1000).toLocaleString('hr-HR', { maximumFractionDigits: 1 })} ${small}`;
+  return `${amount.toLocaleString('hr-HR', { maximumFractionDigits: 3 })} ${unit}`;
+}
+const perUnit = (price, [amount, unit]) => `${eur.format(price / amount)}/${unit}`;
+// sort key: mass and volume first, largest first; pieces after; unknown sizes last
+const sizeRank = (p) => (!p.size ? -2 : p.size[1] === 'kom' ? -1 + p.size[0] / 1e6 : p.size[0]);
 
 function premiumTier(share) {
   if (share <= 0) return 0;
@@ -493,6 +505,7 @@ function matching() {
     (p) => (filters.cat == null || p.cat === filters.cat) && (!filters.onlyFav || favorites.has(p.gtin)) && words.every((w) => p.search.includes(w)),
   );
   const sorters = {
+    size: (a, b) => sizeRank(b) - sizeRank(a) || b.chainsCount - a.chainsCount || a.name.localeCompare(b.name, 'hr'),
     common: (a, b) => b.chainsCount - a.chainsCount || b.savingShare - a.savingShare,
     savings: (a, b) => b.savingShare - a.savingShare || b.saving - a.saving,
     cheap: (a, b) => a.min - b.min,
@@ -531,6 +544,9 @@ function productRow(p, { qty = null, onChange = null } = {}) {
   star.append(svg('0 0 24 24', '', false, STAR));
 
   const meta = h('div', { class: 'pmeta' }, h('span', { class: 'pcat' }, catalog.categories[p.cat]));
+  if (p.size) {
+    meta.append(h('span', { class: 'psize' }, sizeText(p.size), p.size[1] !== 'kom' ? h('span', { class: 'punit' }, ` · od ${perUnit(p.min, p.size)}`) : null));
+  }
   if (p.saving > 0.004) meta.append(h('span', { class: 'saving' }, `u ${inChain(catalog.chains[p.best])} ${eur.format(p.saving)} jeftinije`));
   if (p.drift != null && Math.abs(p.drift) >= 0.005) {
     meta.append(h('span', { class: p.drift > 0 ? 'drift-up' : 'drift-down' }, `od svibnja 2025. ${signedPct(p.drift)}`));
@@ -565,6 +581,7 @@ function productRow(p, { qty = null, onChange = null } = {}) {
       eur.format(price),
       `${chainName(chain)}, srednja cijena u trgovinama`,
       tier === 0 ? 'najniža cijena među lancima' : `${eur.format(price - p.min)} skuplje nego u ${inChain(catalog.chains[p.best])}`,
+      p.size && p.size[1] !== 'kom' ? `${perUnit(price, p.size)} (${sizeText(p.size)})` : null,
       anchor ? `2. svibnja 2025.: ${eur.format(anchor)} (${signedPct(price / anchor - 1, 1)})` : 'bez sidrene cijene',
     ]);
     return td;
