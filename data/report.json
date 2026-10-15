@@ -1,0 +1,146 @@
+{
+ "generated_at": "2026-10-15T15:07:42+00:00",
+ "summary": {
+  "as_of": "2026-10-15",
+  "chains": 5,
+  "stores": 169,
+  "prices": 2291594,
+  "products_with_barcode": 94853,
+  "products_in_several_chains": 18411,
+  "price_periods": 2291594,
+  "days_collected": 1
+ },
+ "chains": [
+  {
+   "chain": "kaufland",
+   "last_day": "2026-10-15",
+   "days": 1,
+   "stores": 13,
+   "products": 17820,
+   "offer_share": 0.0,
+   "compared": 184798,
+   "median_change_since_anchor": 0.0,
+   "share_up_since_anchor": 0.3377,
+   "share_down_since_anchor": 0.1968
+  },
+  {
+   "chain": "konzum",
+   "last_day": "2026-10-15",
+   "days": 1,
+   "stores": 50,
+   "products": 20913,
+   "offer_share": 0.1256,
+   "compared": 483574,
+   "median_change_since_anchor": 0.0,
+   "share_up_since_anchor": 0.3154,
+   "share_down_since_anchor": 0.0825
+  },
+  {
+   "chain": "lidl",
+   "last_day": "2026-10-15",
+   "days": 1,
+   "stores": 30,
+   "products": 7030,
+   "offer_share": 0.0157,
+   "compared": 154632,
+   "median_change_since_anchor": 0.0,
+   "share_up_since_anchor": 0.2753,
+   "share_down_since_anchor": 0.2793
+  },
+  {
+   "chain": "plodine",
+   "last_day": "2026-10-15",
+   "days": 1,
+   "stores": 21,
+   "products": 70184,
+   "offer_share": 0.0,
+   "compared": 918924,
+   "median_change_since_anchor": 0.0,
+   "share_up_since_anchor": 0.0876,
+   "share_down_since_anchor": 0.2156
+  },
+  {
+   "chain": "spar",
+   "last_day": "2026-10-15",
+   "days": 1,
+   "stores": 55,
+   "products": 21561,
+   "offer_share": 0.0568,
+   "compared": 399797,
+   "median_change_since_anchor": 0.0,
+   "share_up_since_anchor": 0.3172,
+   "share_down_since_anchor": 0.2234
+  }
+ ],
+ "basket": [
+  {
+   "chain": "lidl",
+   "items": 781,
+   "total": 2860.26,
+   "above_cheapest": 0.0
+  },
+  {
+   "chain": "plodine",
+   "items": 781,
+   "total": 3249.84,
+   "above_cheapest": 0.1362
+  },
+  {
+   "chain": "spar",
+   "items": 781,
+   "total": 3360.96,
+   "above_cheapest": 0.1751
+  },
+  {
+   "chain": "konzum",
+   "items": 781,
+   "total": 3381.99,
+   "above_cheapest": 0.1824
+  },
+  {
+   "chain": "kaufland",
+   "items": 781,
+   "total": 3382.34,
+   "above_cheapest": 0.1825
+  }
+ ],
+ "cheapest": [
+  {
+   "chain": "lidl",
+   "comparable_products": 1449,
+   "cheapest": 1032,
+   "cheapest_share": 0.7122,
+   "median_above_best": 0.0
+  },
+  {
+   "chain": "plodine",
+   "comparable_products": 15186,
+   "cheapest": 8558,
+   "cheapest_share": 0.5635,
+   "median_above_best": 0.0
+  },
+  {
+   "chain": "kaufland",
+   "comparable_products": 11513,
+   "cheapest": 6027,
+   "cheapest_share": 0.5235,
+   "median_above_best": 0.0
+  },
+  {
+   "chain": "spar",
+   "comparable_products": 13544,
+   "cheapest": 6914,
+   "cheapest_share": 0.5105,
+   "median_above_best": 0.0
+  },
+  {
+   "chain": "konzum",
+   "comparable_products": 13646,
+   "cheapest": 6619,
+   "cheapest_share": 0.4851,
+   "median_above_best": 0.005
+  }
+ ],
+ "daily_changes": [],
+ "shrinkflation": []
+}
