@@ -77,7 +77,10 @@ def ingest(day: date, chains: list[str], area: str, lake: Path, data: Path) -> i
 
 def probe(day: date, chains: list[str]) -> int:
     """For checking a chain by hand: what files exist, and how the first one's columns map."""
-    from .ingest import price_lists
+    import io
+    import zipfile
+
+    from .ingest import download, price_lists
     from .parse import parse
 
     with make_client() as client:
@@ -87,7 +90,11 @@ def probe(day: date, chains: list[str]) -> int:
             except Exception as error:
                 print(json.dumps({"chain": chain, "error": str(error)}, ensure_ascii=False))
                 continue
-            sample = None
+            sample = members = None
+            if remotes and remotes[0].archive:
+                with zipfile.ZipFile(io.BytesIO(download(client, remotes[0].url))) as archive:
+                    names = archive.namelist()
+                members = {"count": len(names), "first": names[:5], "zagreb": [n for n in names if "zagreb" in n.lower()][:10]}
             if remotes:
                 for store, name, data in price_lists(client, remotes[0], "all"):
                     parsed = parse(name, data)
@@ -101,11 +108,9 @@ def probe(day: date, chains: list[str]) -> int:
                         "head": data[:400].decode("utf-8", errors="replace"),
                     }
                     break
-            print(
-                json.dumps(
-                    {"chain": chain, "files": len(remotes), "names": [r.name for r in remotes[:5]], "sample": sample}, ensure_ascii=False
-                )
-            )
+            names = [r.name for r in remotes[:5]]
+            result = {"chain": chain, "files": len(remotes), "names": names, "members": members, "sample": sample}
+            print(json.dumps(result, ensure_ascii=False))
     return 0
 
 

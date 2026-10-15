@@ -11,6 +11,10 @@ on:
       chains:
         description: "Comma separated chains (empty: all)"
         required: false
+      fresh_state:
+        description: "Start the price history over (replaces the saved state)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -34,6 +38,7 @@ jobs:
 
       # The price history lives in a release, not in git: it is rewritten every day.
       - name: Restore state
+        if: ${{ !inputs.fresh_state }}
         run: |
           mkdir -p lake/state
           gh release download state --dir lake/state --pattern '*.parquet' || echo "No state yet; starting fresh."

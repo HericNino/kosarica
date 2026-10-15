@@ -28,13 +28,13 @@ import duckdb
 log = logging.getLogger("kosarica")
 
 KEY = ("chain", "store_key", "product_id")
-TRACKED = ("price", "special_price", "unit_price")
+TRACKED = ("price", "special_price", "unit_price", "on_offer", "available")
 
 SCHEMAS = {
     "price_history": """
         chain varchar, store_key varchar, product_id varchar,
         price decimal(10, 2), special_price decimal(10, 2), unit_price decimal(10, 2),
-        valid_from date, valid_to date
+        on_offer boolean, available boolean, valid_from date, valid_to date
     """,
     "products": """
         chain varchar, product_id varchar, barcode varchar, name varchar, brand varchar,
@@ -126,7 +126,7 @@ def _apply_chain(con: duckdb.DuckDBPyConnection, lake: Path, chain: str, day: da
     opened = con.execute(
         f"""
         insert into price_history
-        select s.chain, s.store_key, s.product_id, s.price, s.special_price, s.unit_price, ?::date, null
+        select s.chain, s.store_key, s.product_id, s.price, s.special_price, s.unit_price, s.on_offer, s.available, ?::date, null
         from snap s
         where not exists (select 1 from price_history h where h.valid_to is null and {same_key} and {same_values})
         """,

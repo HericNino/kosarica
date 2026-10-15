@@ -39,12 +39,12 @@ from kosarica.columns import HeaderMap, canonical, normalize_header
         ("MPC poseb.oblik prod", "special_price"),
         ("Najniža MPC u 30dana", "best_price_30"),
         ("neto količina(KG)", "quantity"),
-        ("akc.cijena, A=akcija", "sale_type"),
+        ("akc.cijena, A=akcija", "offer"),
         ("kol.jed.mj.", "pack"),
         ("jed.mj. (1 KOM/L/KG)", "pack"),
         ("Dostupan/Nedostupan", "available"),
-        # present in some files, deliberately not kept
-        ("Naziv posebnog oblika prodaje", "sale_type"),
+        # flags
+        ("Naziv posebnog oblika prodaje", "offer"),
         ("Dostupno nedostupno", "available"),
         ("Nešto sasvim novo", None),
     ],

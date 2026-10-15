@@ -11,6 +11,8 @@ from kosarica.stores import from_filename
         ("supermarket-Zvonarska_ulica_63-Vinkovci-32100-23.05.2025-7.30.csv", "32100", "Vinkovci", False),
         ("hipermarket_zagreb_avenija_dubrava_2_0202_interspar_zagreb_0002_20261015_0330.csv", None, None, True),
         ("SUPERMARKET,ILICA 1 10000 ZAGREB,0601,2026-10-15.csv", "10000", "Zagreb", True),
+        # "Zagrebačka" in a Zadar address: the postal code decides
+        ("HIPERMARKET_ZAGREBACKA_2_23000_ZADAR_015_520_15102026035454.csv", "23000", "Zadar", False),
     ],
 )
 def test_from_filename(name, postal, city, area):

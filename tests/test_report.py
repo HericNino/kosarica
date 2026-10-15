@@ -36,4 +36,8 @@ def test_report_over_two_days(tmp_path):
 
     chains = {row["chain"]: row for row in report["chains"]}
     assert chains["spar"]["stores"] == 2
+    assert chains["kaufland"]["offer_share"] == 0.5  # coffee on offer, milk not; the unavailable cheese doesn't count
+    # anchors read out of "MPC 2.5.2025=1,09€" and "=3,99€"; the cheese has none
+    assert chains["kaufland"]["compared"] == 2
+    assert chains["kaufland"]["median_change_since_anchor"] == round(((1.15 / 1.09 - 1) + (3.79 / 3.99 - 1)) / 2, 4)
     assert chains["lidl"]["median_change_since_anchor"] == round(1.09 / 0.99 - 1, 4)

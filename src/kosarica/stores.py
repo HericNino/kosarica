@@ -32,8 +32,11 @@ class Store:
         if area == "all":
             return True
         if area == "zagreb":
-            # Zagreb and its surroundings: postal codes 10xxx, or chains that only name the city
-            return (self.postal_code or "").startswith("10") or "zagreb" in self.key.lower()
+            # Zagreb and its surroundings: postal codes 10xxx. Chains that leave the postal
+            # code out are matched on the city name ("Zagrebačka ulica" in Zadar has a code).
+            if self.postal_code:
+                return self.postal_code.startswith("10")
+            return "zagreb" in self.key.lower()
         raise ValueError(f"unknown area {area!r}")
 
 

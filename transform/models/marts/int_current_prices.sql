@@ -18,4 +18,5 @@ from {{ ref('stg_price_history') }} as h
 join {{ ref('stg_stores') }} as s using (chain, store_key)
 join {{ ref('stg_products') }} as p using (chain, product_id)
 where h.is_current
+  and h.available
   and s.last_seen >= (select day from as_of) - {{ var('store_grace_days') }}

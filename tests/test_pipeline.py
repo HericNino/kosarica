@@ -42,8 +42,10 @@ def test_day_one_reports(two_days):
     assert day1["spar"].rows == 6  # 3 products x 2 stores; blank and price-less lines dropped
     assert day1["spar"].rows_skipped == 2
     assert day1["lidl"].rows == 1  # only the Zagreb file for the day, cp1250 decoded
+    assert day1["lidl"].rows_duplicate == 1  # the same product under a second barcode
     assert day1["studenac"].stores == 1  # Split XML filtered out of the zip
-    assert (day1["kaufland"].files_listed, day1["kaufland"].rows) == (1, 1)  # tab separated, "WG" read as category
+    assert (day1["kaufland"].files_listed, day1["kaufland"].rows) == (1, 3)
+    assert day1["kaufland"].unknown_columns == []
     # a file without the required columns is rejected and reported, not guessed at
     assert day1["plodine"].status == "empty"
     assert day1["plodine"].files_rejected == 1
@@ -53,7 +55,7 @@ def test_day_one_reports(two_days):
 
 def test_history_after_day_one(two_days):
     *_, after_day1 = two_days
-    assert len(after_day1) == 9  # 6 Spar + 1 Lidl + 1 Studenac + 1 Kaufland
+    assert len(after_day1) == 11  # 6 Spar + 1 Lidl + 1 Studenac + 3 Kaufland
     assert all(row[-1] is None for row in after_day1)  # all current
 
 
@@ -101,3 +103,19 @@ def test_older_day_is_refused(two_days):
     (dst / "data.parquet").write_bytes((src / "data.parquet").read_bytes())
     with pytest.raises(OutOfOrder):
         apply_day(lake, date(2026, 10, 13))
+
+
+def test_offer_flags_and_availability(two_days):
+    lake, *_ = two_days
+    con = duckdb.connect()
+    rows = con.execute(
+        f"""
+        select product_id, price, on_offer, available
+        from read_parquet('{lake}/state/price_history.parquet') where chain = 'kaufland' order by product_id
+        """
+    ).fetchall()
+    assert [(r[0], str(r[1]), r[2], r[3]) for r in rows] == [
+        ("9001", "1.15", False, True),
+        ("9002", "3.79", True, True),  # "A" flag: the offer price is in the normal column
+        ("9003", "7.99", False, False),  # "Nedostupan"
+    ]

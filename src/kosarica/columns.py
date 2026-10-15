@@ -25,13 +25,15 @@ FIELDS = (
     "special_price",
     "best_price_30",
     "anchor_price",
+    "offer",  # a yes/no flag or the name of the offer, for chains that mark offers without a separate price
+    "available",  # in stock or not, where the chain says
 )
 
 # a file without these can't be used at all
 REQUIRED = ("product_id", "name", "price")
 
 # columns that exist in some files and are deliberately not kept
-IGNORED = ("sale_type", "available", "pack")
+IGNORED = ("pack",)
 
 
 def normalize_header(header: str) -> str:
@@ -56,7 +58,7 @@ def canonical(header: str) -> str | None:
     if "najniza" in words:
         return "best_price_30"
     if "naziv posebnog" in h or h in ("poseban oblik prodaje", "vrsta akcije") or "akc" in words:
-        return "sale_type"  # the kind of offer, or a yes/no flag, not a price
+        return "offer"  # the kind of offer, or a yes/no flag, not a price
     if "posebnog oblika" in h or "poseb oblik" in h or "akcija" in words or "akcijska" in words:
         return "special_price"
     priced = "cijena" in words or "cijene" in words

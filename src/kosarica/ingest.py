@@ -48,7 +48,8 @@ class ChainReport:
     files_rejected: int = 0  # missing a required column
     stores: int = 0
     rows: int = 0
-    rows_skipped: int = 0  # no product id, no usable price, or a duplicate within a store
+    rows_skipped: int = 0  # no product id or no usable price
+    rows_duplicate: int = 0  # the same product listed again in the same store (Lidl lists one per barcode)
     unknown_columns: list[str] = field(default_factory=list)
     rejected: dict[str, list[str]] = field(default_factory=dict)  # file -> missing columns
     seconds: float = 0.0
@@ -125,8 +126,8 @@ def ingest_chain(client: httpx.Client, chain: str, day: date, area: str, lake: P
 
         report.unknown_columns = sorted(unknown)
         if stores:
-            kept, dropped = write_silver(rows_path, list(stores.values()), lake, chain, day)
-            report.rows, report.rows_skipped = kept, report.rows_skipped + dropped
+            kept, no_price, duplicates = write_silver(rows_path, list(stores.values()), lake, chain, day)
+            report.rows, report.rows_skipped, report.rows_duplicate = kept, report.rows_skipped + no_price, duplicates
             report.stores = len(stores)
         else:
             report.status = "empty" if report.files_failed == 0 else "failed"
@@ -149,8 +150,8 @@ create or replace macro money(s) as nullif(money_value(money_text(s)), 0);
 """
 
 
-def write_silver(rows_path: Path, stores: list[Store], lake: Path, chain: str, day: date) -> tuple[int, int]:
-    """Types and de-duplicates the rows; returns (rows kept, rows dropped)."""
+def write_silver(rows_path: Path, stores: list[Store], lake: Path, chain: str, day: date) -> tuple[int, int, int]:
+    """Types and de-duplicates the rows; returns (rows kept, rows without a price, duplicates)."""
     prices_dir = lake / "silver" / "prices" / f"day={day}" / f"chain={chain}"
     stores_dir = lake / "silver" / "stores" / f"day={day}" / f"chain={chain}"
     prices_dir.mkdir(parents=True, exist_ok=True)
@@ -174,21 +175,34 @@ def write_silver(rows_path: Path, stores: list[Store], lake: Path, chain: str, d
             money(unit_price) as unit_price,
             money(special_price) as special_price,
             money(best_price_30) as best_price_30,
-            money(anchor_price) as anchor_price
+            money(anchor_price) as anchor_price,
+            -- some chains mark offers with a flag ("DA", "A", the offer's name) and put the
+            -- offer price in the normal price column
+            money(special_price) is not null
+                or coalesce(upper(trim(offer)) not in ('', 'NE', 'N', '0', 'FALSE'), false) as on_offer,
+            -- "DOSTUPNO" / "NEDOSTUPNO", "Dostupan" / "Nedostupan"; no column means available
+            coalesce(not regexp_matches(upper(trim(available)), '^(NE|N$|0$|FALSE)'), true) as available
         from raw
         where money(price) is not null or money(special_price) is not null
-        qualify row_number() over (partition by store_key, product_id order by money(price) nulls last) = 1
+        """
+    )
+    priced = con.execute("select count(*) from typed").fetchone()[0]
+    con.execute(
+        """
+        create table deduplicated as
+        select * from typed
+        qualify row_number() over (partition by store_key, product_id order by available desc, price nulls last) = 1
         """
     )
     total = con.execute("select count(*) from raw").fetchone()[0]
-    kept = con.execute("select count(*) from typed").fetchone()[0]
-    con.execute(f"copy typed to '{prices_dir / 'data.parquet'}' (format parquet, compression zstd)")
+    kept = con.execute("select count(*) from deduplicated").fetchone()[0]
+    con.execute(f"copy deduplicated to '{prices_dir / 'data.parquet'}' (format parquet, compression zstd)")
 
     con.execute("create table stores (store_key varchar, store_type varchar, postal_code varchar, city varchar, label varchar)")
     con.executemany("insert into stores values (?, ?, ?, ?, ?)", [(s.key, s.store_type, s.postal_code, s.city, s.label) for s in stores])
     con.execute(f"copy stores to '{stores_dir / 'data.parquet'}' (format parquet)")
     con.close()
-    return kept, total - kept
+    return kept, total - priced, priced - kept
 
 
 def ingest(day: date, lake: Path, chains: list[str], area: str, client: httpx.Client) -> list[ChainReport]:

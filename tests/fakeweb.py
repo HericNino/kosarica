@@ -59,15 +59,53 @@ def spar_csv(milk: str, bread: str | None, coffee_special: str = "") -> bytes:
 
 
 def lidl_csv(milk: str) -> bytes:
-    rows = [LIDL_HEADER, f'"Mlijeko 2,8%",501,Pilos,1,l,"{milk}","{milk}",,"1,05","0,99",3850102123452,Mlijeko']
+    rows = [
+        LIDL_HEADER,
+        f'"Mlijeko 2,8%",501,Pilos,1,l,"{milk}","{milk}",,"1,05","0,99",3850102123452,Mlijeko',
+        f'"Mlijeko 2,8%",501,Pilos,1,l,"{milk}","{milk}",,"1,05","0,99",20501000,Mlijeko',  # same product, second barcode
+    ]
     return "\r\n".join(rows).encode("cp1250")
 
 
 def kaufland_csv(milk: str) -> bytes:
-    columns = ["naziv proizvoda", "šifra proizvoda", "marka proizvoda", "neto količina", "jedinica mjere"]
-    columns += ["maloprodajna cijena", "cijena za jedinicu mjere", "barkod", "WG"]
-    header = "\t".join(columns)
-    return f"{header}\nMlijeko 2,8% 1 l\t9001\tDukat\t1\tl\t{milk}\t{milk}\t3850102123452\tMlijeko\n".encode()
+    """Tab separated, abbreviated headers, padded prices, the offer as an "A" flag."""
+    columns = ["naziv proizvoda", "šifra proizvoda", "marka proizvoda", "neto količina(KG)", "jedinica mjere"]
+    columns += ["maloprod.cijena(EUR)", "akc.cijena, A=akcija", "cijena jed.mj.(EUR)", "MPC poseb.oblik prod"]
+    columns += ["Sidrena cijena", "barkod", "WG", "Dostupan/Nedostupan"]
+    rows = [
+        [
+            "Mlijeko 2,8% 1 l",
+            "9001",
+            "Dukat",
+            "1",
+            "l",
+            f"    {milk}",
+            "",
+            milk,
+            "",
+            "MPC 2.5.2025=1,09€",
+            "3850102123452",
+            "Mlijeko",
+            "Dostupan",
+        ],
+        [
+            "Kava 250 g",
+            "9002",
+            "Franck",
+            "0.250",
+            "KOM",
+            "    3,79",
+            "A",
+            "15,16",
+            "",
+            "MPC 2.5.2025=3,99€",
+            "3850104004009",
+            "Kava",
+            "Dostupan",
+        ],
+        ["Sir 1 kg", "9003", "Kaufland", "1", "KOM", "    7,99", "", "7,99", "", "", "3850999000001", "Sir", "Nedostupan"],
+    ]
+    return "\n".join("\t".join(r) for r in [columns, *rows]).encode()
 
 
 def studenac_xml(milk: str) -> bytes:
