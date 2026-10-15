@@ -44,6 +44,10 @@ def test_day_one_reports(two_days):
     assert day1["lidl"].rows == 2  # only the Zagreb file for the day, cp1250 decoded
     assert day1["lidl"].rows_duplicate == 1  # the same product under a second barcode
     assert day1["studenac"].stores == 1  # Split XML filtered out of the zip
+    # a broken XML file is rejected and the rest of the zip is still read
+    assert day1["studenac"].files_rejected == 1
+    assert [k.split("_")[0] for k in day1["studenac"].rejected] == ["T789"]
+    assert next(iter(day1["studenac"].rejected.values()))[0].startswith("unreadable")
     assert (day1["kaufland"].files_listed, day1["kaufland"].rows) == (1, 3)
     assert day1["kaufland"].unknown_columns == []
     # a file without the required columns is rejected and reported, not guessed at
@@ -93,6 +97,27 @@ def test_rerun_is_a_no_op(two_days):
     before = history(lake)
     assert apply_day(lake, FakeWeb.DAY2) == {}
     assert history(lake) == before
+
+
+def test_rerunning_an_older_applied_day_is_a_no_op(two_days):
+    lake, *_ = two_days
+    before = history(lake)
+    assert apply_day(lake, FakeWeb.DAY1) == {}
+    assert history(lake) == before
+
+
+def test_day_in_history_but_not_in_loads_changes_nothing(two_days):
+    # what an upload that stopped before loads.parquet leaves behind: the history has day 2, loads doesn't
+    lake, *_ = two_days
+    before = history(lake)
+    loads = lake / "state" / "loads.parquet"
+    con = duckdb.connect()
+    con.execute(f"create table kept as select * from read_parquet('{loads}') where day < ?", [FakeWeb.DAY2])
+    con.execute(f"copy kept to '{loads}' (format parquet)")
+    assert apply_day(lake, FakeWeb.DAY2) == {"kaufland": 0, "lidl": 0, "spar": 0, "studenac": 0}
+    assert history(lake) == before
+    days = con.execute(f"select chain, day from read_parquet('{loads}') where day = ? order by chain", [FakeWeb.DAY2]).fetchall()
+    assert [c for c, _ in days] == ["kaufland", "lidl", "spar", "studenac"]
 
 
 def test_older_day_is_refused(two_days):

@@ -56,15 +56,20 @@ jobs:
         run: |
           gh release view state >/dev/null 2>&1 || gh release create state --title "Pipeline state" \
             --notes "Price history and lookup tables, rewritten by every run. Not a software release." --latest=false
-          gh release upload state lake/state/*.parquet --clobber
-          for f in lake/silver/prices/day=*/chain=*/data.parquet; do
+          # loads.parquet goes last: if the upload stops partway, loads still says the day
+          # wasn't applied, and applying it again onto a history that has it changes nothing.
+          gh release upload state lake/state/price_history.parquet lake/state/products.parquet lake/state/stores.parquet --clobber
+          gh release upload state lake/state/loads.parquet --clobber
+          # prices-<day>-<chain>.parquet and stores-<day>-<chain>.parquet; rebuilding the history needs both
+          for f in lake/silver/*/day=*/chain=*/data.parquet; do
+            kind=$(echo "$f" | sed -E 's|lake/silver/([a-z]+)/.*|\1|')
             day=$(echo "$f" | sed -E 's|.*day=([0-9-]+)/chain=([a-z]+)/.*|\1|')
             chain=$(echo "$f" | sed -E 's|.*day=([0-9-]+)/chain=([a-z]+)/.*|\2|')
             month=${day:0:7}
             gh release view "silver-$month" >/dev/null 2>&1 || gh release create "silver-$month" --title "Silver $month" \
-              --notes "Cleaned daily prices per chain, for rebuilding the history." --latest=false
-            cp "$f" "prices-$day-$chain.parquet"
-            gh release upload "silver-$month" "prices-$day-$chain.parquet" --clobber
+              --notes "Cleaned daily prices and stores per chain, for rebuilding the history." --latest=false
+            cp "$f" "$kind-$day-$chain.parquet"
+            gh release upload "silver-$month" "$kind-$day-$chain.parquet" --clobber
           done
 
       - name: Commit report

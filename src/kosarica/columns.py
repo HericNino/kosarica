@@ -32,9 +32,6 @@ FIELDS = (
 # a file without these can't be used at all
 REQUIRED = ("product_id", "name", "price")
 
-# columns that exist in some files and are deliberately not kept
-IGNORED = ("pack",)
-
 
 def normalize_header(header: str) -> str:
     """'MPC_ZA_VRIJEME_POSEBNOG_OBLIKA_PRODAJE (EUR)' -> 'mpc za vrijeme posebnog oblika prodaje'."""

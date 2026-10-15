@@ -29,9 +29,9 @@ GitHub Actions, daily
 
 - Only stores in today's data can lose products. If a store's file fails to download, its prices stay current instead of looking like the store emptied overnight.
 - A chain and day are applied once, so re-running a day changes nothing.
-- Days are applied in order; an older day is refused, because it would rewrite periods later days already closed. Backfilling means rebuilding from the silver files.
+- Days are applied in order; an older day that wasn't applied is refused, because it would rewrite periods later days already closed. Backfilling means rebuilding from the silver files.
 
-This is what a dbt snapshot does, written by hand because dbt snapshots stamp periods with the time of the run, and a backfill needs the date of the data.
+This is what a dbt snapshot does, written by hand for the first two rules. A snapshot that no longer finds a row either keeps it or closes it everywhere; it can't close it only in the stores that published today. And `loads` makes each chain and day an explicit unit, applied once and in order. (The dates would be fine: the check strategy stamps periods with the time of the run, but with `updated_at` configured a snapshot uses the date of the data.)
 
 **Quality gates.** dbt data tests check that price periods never overlap, that each product has at most one current price, that prices are plausible, and that the barcode logic matches known EAN values. If one fails, the run stops before the state is uploaded, so bad data never replaces the good state.
 
@@ -99,11 +99,13 @@ The tests run the whole pipeline, dbt included, against a fake set of chain webs
 | Layer | Where | Why |
 |---|---|---|
 | Raw files | only during a run | a full day is gigabytes; the chains keep them online |
-| Silver | release `silver-YYYY-MM`, one Parquet file per chain and day | to rebuild the history or backfill |
+| Silver | release `silver-YYYY-MM`, one prices and one stores Parquet file per chain and day | to rebuild the history or backfill |
 | State | release `state` | rewritten daily, too big and too churny for git |
 | Report | `data/report.json`, `data/products.json` in git | what the site reads; one product per line, so each day's commit is a readable diff |
 
-On Azure the same layout maps directly: releases become a Data Lake container, the GitHub Actions schedule becomes a Data Factory pipeline, and the dbt project runs unchanged against Synapse or Databricks with a different adapter.
+To rebuild, the release files go back to the lake layout (`prices-2026-10-15-konzum.parquet` is `lake/silver/prices/day=2026-10-15/chain=konzum/data.parquet`, and the same for `stores-…`), then `kosarica state --day …` runs for each day in order.
+
+On Azure the same layout maps directly: releases become a Data Lake container and the GitHub Actions schedule becomes a Data Factory pipeline. The dbt project would need changes for Synapse or Databricks, not just a different adapter: the staging models read Parquet with DuckDB's `read_parquet`, which would become dbt sources, and the models use DuckDB functions (`list_transform` with a lambda in the barcode macro, `regexp_full_match`, `strip_accents`, `arg_min`) that need their counterparts in the other dialect.
 
 ## Layout
 

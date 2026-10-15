@@ -13,7 +13,7 @@ Three rules keep that honest:
 - Only stores that are in today's snapshot can lose products. A store whose file failed
   to download keeps its current prices instead of looking like it emptied overnight.
 - A chain/day is applied once (`loads`), so re-running a day changes nothing.
-- Days are applied in order. An older day than the last one loaded is refused, since it
+- Days are applied in order. An older day that hasn't been applied is refused, since it
   would rewrite periods that later days already closed; that needs a rebuild.
 """
 
@@ -88,10 +88,10 @@ def apply_day(lake: Path, day: date) -> dict[str, int]:
     con = _open(lake)
     applied: dict[str, int] = {}
     for chain in chains:
-        last = con.execute("select max(day) from loads where chain = ?", [chain]).fetchone()[0]
-        if last is not None and day == last:
+        if con.execute("select count(*) from loads where chain = ? and day = ?", [chain, day]).fetchone()[0]:
             log.info("state: %s %s already applied", chain, day)
             continue
+        last = con.execute("select max(day) from loads where chain = ?", [chain]).fetchone()[0]
         if last is not None and day < last:
             raise OutOfOrder(f"{chain}: {day} is before the last applied day {last}; rebuild the state to backfill")
         applied[chain] = _apply_chain(con, lake, chain, day)

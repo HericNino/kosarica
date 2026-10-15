@@ -22,6 +22,10 @@ from kosarica.sizes import package_size
         ("SALV PALOMA BOŽIĆ TREES 33X33 20/1", (20.0, "kom")),
         ("Jaja M 10 kom", (10.0, "kom")),
         ("VREĆE ZA SMEĆE UBOJI 60L 20/1", (20.0, "kom")),  # 60 L is what a bag holds
+        # with a count, the size is the whole pack: 5 x 25 g, 18 capsules, 4 x 75 ml
+        ("VAFEL KNOPPERS 5/1 125 g", (0.125, "kg")),
+        ("KAPSULE ILLY ETHIOPIA 120.6g 18/1", (0.1206, "kg")),
+        ("Gruvi Sladoled štap.Pistacchio 4/1 300ml", (0.3, "l")),
         ("SUPER MOČO VILEDA RESE S DRŠKOM 3D", None),
         ("BOŽ. LED ZVIJEZDA 30X30 CM 96 LAMPICA", None),
     ],

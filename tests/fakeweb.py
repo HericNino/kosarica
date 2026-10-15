@@ -1,7 +1,7 @@
 """A pretend internet with price lists in the formats the chains use, for tests.
 
 The files are made up but shaped like the real ones: Spar's JSON index with
-semicolon CSVs, Studenac's zip of XML files, Lidl's Windows-1250 CSVs with
+semicolon CSVs, Studenac's zip of XML files (one of them broken), Lidl's Windows-1250 CSVs with
 upper-case headers, and Plodine's zip of CSVs with a failing store.
 """
 
@@ -192,6 +192,7 @@ class FakeWeb:
                 200,
                 content=zip_of(
                     {
+                        f"T789_Ilica_5_10000_Zagreb_{day:%d%m%Y}.xml": b'<?xml version="1.0"?><Proizvodi><Proizvod>',  # cut off
                         f"T123_Ulica_grada_Vukovara_10_10000_Zagreb_{day:%d%m%Y}.xml": studenac_xml("1,25"),
                         f"T456_Riva_1_21000_Split_{day:%d%m%Y}.xml": studenac_xml("1,35"),
                     }

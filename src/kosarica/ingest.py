@@ -22,6 +22,7 @@ from collections import Counter
 from dataclasses import asdict, dataclass, field
 from datetime import date
 from pathlib import Path
+from xml.etree.ElementTree import ParseError
 
 import duckdb
 import httpx
@@ -47,13 +48,13 @@ class ChainReport:
     files_listed: int = 0
     files_in_area: int = 0
     files_failed: int = 0
-    files_rejected: int = 0  # missing a required column
+    files_rejected: int = 0  # missing a required column, or unreadable
     stores: int = 0
     rows: int = 0
     rows_skipped: int = 0  # no product id or no usable price
     rows_duplicate: int = 0  # the same product listed again in the same store (Lidl lists one per barcode)
     unknown_columns: list[str] = field(default_factory=list)
-    rejected: dict[str, list[str]] = field(default_factory=dict)  # file -> missing columns
+    rejected: dict[str, list[str]] = field(default_factory=dict)  # file -> missing columns, or why it couldn't be read
     seconds: float = 0.0
 
     def to_dict(self) -> dict:
@@ -118,7 +119,12 @@ def ingest_chain(client: httpx.Client, chain: str, day: date, area: str, lake: P
                         # downloads complete before anything is yielded, so a failed file adds no rows
                         for store, name, data in price_lists(client, remote, area):
                             report.files_in_area += 1
-                            parsed = parse(name, data)
+                            try:
+                                parsed = parse(name, data)
+                            except (ParseError, csv.Error, ValueError) as error:  # one broken file shouldn't stop the chain
+                                report.files_rejected += 1
+                                report.rejected[name] = [f"unreadable: {error}"]
+                                continue
                             unknown.update(parsed.unknown_columns)
                             if not parsed.usable:
                                 report.files_rejected += 1
