@@ -41,7 +41,7 @@ def test_day_one_reports(two_days):
     assert day1["spar"].files_in_area == 2  # Split is skipped before downloading
     assert day1["spar"].rows == 6  # 3 products x 2 stores; blank and price-less lines dropped
     assert day1["spar"].rows_skipped == 2
-    assert day1["lidl"].rows == 1  # only the Zagreb file for the day, cp1250 decoded
+    assert day1["lidl"].rows == 2  # only the Zagreb file for the day, cp1250 decoded
     assert day1["lidl"].rows_duplicate == 1  # the same product under a second barcode
     assert day1["studenac"].stores == 1  # Split XML filtered out of the zip
     assert (day1["kaufland"].files_listed, day1["kaufland"].rows) == (1, 3)
@@ -55,7 +55,7 @@ def test_day_one_reports(two_days):
 
 def test_history_after_day_one(two_days):
     *_, after_day1 = two_days
-    assert len(after_day1) == 11  # 6 Spar + 1 Lidl + 1 Studenac + 3 Kaufland
+    assert len(after_day1) == 12  # 6 Spar + 2 Lidl + 1 Studenac + 3 Kaufland
     assert all(row[-1] is None for row in after_day1)  # all current
 
 
@@ -83,8 +83,8 @@ def test_failed_store_keeps_its_prices(two_days):
 
 def test_unchanged_prices_stay_one_period(two_days):
     lake, *_ = two_days
-    lidl = [r for r in history(lake) if r[0] == "lidl"]
-    assert len(lidl) == 1 and lidl[0][-1] is None
+    lidl = [r for r in history(lake) if r[0] == "lidl"]  # same prices on both days
+    assert len(lidl) == 2 and all(r[-1] is None for r in lidl)
 
 
 def test_rerun_is_a_no_op(two_days):

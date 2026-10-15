@@ -160,7 +160,9 @@ def write_silver(rows_path: Path, stores: list[Store], lake: Path, chain: str, d
     con = duckdb.connect()
     con.execute(MONEY_MACROS)
     con.execute(
-        "create table raw as select * from read_csv(?, header = true, all_varchar = true, delim = ',', quote = '\"')",
+        # single-threaded: product names can contain line breaks inside quotes, which the
+        # parallel reader can't split on
+        "create table raw as select * from read_csv(?, header = true, all_varchar = true, delim = ',', quote = '\"', parallel = false)",
         [str(rows_path)],
     )
     con.execute(

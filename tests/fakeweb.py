@@ -63,6 +63,7 @@ def lidl_csv(milk: str) -> bytes:
         LIDL_HEADER,
         f'"Mlijeko 2,8%",501,Pilos,1,l,"{milk}","{milk}",,"1,05","0,99",3850102123452,Mlijeko',
         f'"Mlijeko 2,8%",501,Pilos,1,l,"{milk}","{milk}",,"1,05","0,99",20501000,Mlijeko',  # same product, second barcode
+        '"Svijeća\nmirisna",502,Lidl,1,kom,"2,99","2,99",,,,,Dom',  # a line break inside a quoted name
     ]
     return "\r\n".join(rows).encode("cp1250")
 
