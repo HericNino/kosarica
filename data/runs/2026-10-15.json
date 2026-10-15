@@ -9,55 +9,59 @@
   "files_rejected": 0,
   "stores": 13,
   "rows": 185088,
-  "rows_skipped": 5,
+  "rows_skipped": 0,
+  "rows_duplicate": 5,
   "unknown_columns": [],
   "rejected": {},
-  "seconds": 16.2
+  "seconds": 15.3
  },
  {
   "chain": "konzum",
   "status": "ok",
   "error": null,
   "files_listed": 188,
-  "files_in_area": 50,
-  "files_failed": 4,
+  "files_in_area": 41,
+  "files_failed": 10,
   "files_rejected": 0,
-  "stores": 50,
-  "rows": 553061,
+  "stores": 41,
+  "rows": 453668,
   "rows_skipped": 0,
+  "rows_duplicate": 0,
   "unknown_columns": [],
   "rejected": {},
-  "seconds": 160.9
+  "seconds": 239.1
  },
  {
   "chain": "lidl",
   "status": "ok",
   "error": null,
   "files_listed": 116,
-  "files_in_area": 30,
+  "files_in_area": 28,
   "files_failed": 0,
   "files_rejected": 0,
-  "stores": 30,
-  "rows": 210627,
-  "rows_skipped": 217401,
+  "stores": 28,
+  "rows": 196585,
+  "rows_skipped": 0,
+  "rows_duplicate": 202919,
   "unknown_columns": [],
   "rejected": {},
-  "seconds": 17.9
+  "seconds": 15.9
  },
  {
   "chain": "plodine",
   "status": "ok",
   "error": null,
   "files_listed": 1,
-  "files_in_area": 21,
+  "files_in_area": 16,
   "files_failed": 0,
   "files_rejected": 0,
-  "stores": 21,
-  "rows": 918925,
+  "stores": 16,
+  "rows": 689715,
   "rows_skipped": 0,
+  "rows_duplicate": 0,
   "unknown_columns": [],
   "rejected": {},
-  "seconds": 68.4
+  "seconds": 40.4
  },
  {
   "chain": "spar",
@@ -70,9 +74,10 @@
   "stores": 55,
   "rows": 423893,
   "rows_skipped": 14,
+  "rows_duplicate": 0,
   "unknown_columns": [],
   "rejected": {},
-  "seconds": 14.9
+  "seconds": 18.2
  },
  {
   "chain": "studenac",
@@ -85,8 +90,9 @@
   "stores": 0,
   "rows": 0,
   "rows_skipped": 0,
+  "rows_duplicate": 0,
   "unknown_columns": [],
   "rejected": {},
-  "seconds": 1.9
+  "seconds": 2.5
  }
 ]
