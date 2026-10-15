@@ -61,7 +61,8 @@ def test_history_after_day_one(two_days):
 
 def test_day_two_changes(two_days):
     lake, _, _, day2, _ = two_days
-    assert day2["spar"].files_failed == 1  # store 2 returned 503 three times
+    assert day2["spar"].files_failed == 1  # store 2 returned 503 on both passes
+    assert (day2["lidl"].files_failed, day2["lidl"].stores) == (0, 1)  # failed the first pass, worked on the second
     rows = history(lake)
     spar1 = [r for r in rows if r[0] == "spar" and "0101" in r[1]]
     milk = [r for r in spar1 if r[2] == "1001"]

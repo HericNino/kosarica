@@ -45,6 +45,33 @@ This is what a dbt snapshot does, written by hand because dbt snapshots stamp pe
 | `mart_daily_changes` | How many prices went up or down each day, and by how much? |
 | `mart_shrinkflation` | Which products got more expensive per kilo or litre while the price stayed the same? |
 
+## First numbers
+
+On 15 October 2026, in 153 stores in the Zagreb area (postal codes 10xxx), 765 products with the same barcode were on sale in all five chains that published that day. That basket cost:
+
+| Chain | Basket | Above the cheapest |
+|---|---|---|
+| Lidl | 2,818.73 € | |
+| Plodine | 3,224.42 € | +14.4% |
+| Spar | 3,298.72 € | +17.0% |
+| Konzum | 3,344.27 € | +18.6% |
+| Kaufland | 3,346.54 € | +18.7% |
+
+One day of data says nothing yet about trends; `data/report.json` is updated every morning.
+
+## What the real data showed
+
+The first runs against the live sites turned up things no sample file would have:
+
+- **Offers without an offer price.** Plodine and Kaufland put the offer price in the normal price column and mark it with a flag (`DA`, `A`), so reading only the offer price column showed 0% on offer. Flags are now kept and tracked.
+- **Out-of-stock products.** Plodine lists products it doesn't have, marked `NEDOSTUPNO`. They stay in the history but don't count as current prices.
+- **The same product many times.** Lidl lists a product once per barcode, about 200,000 extra rows a day. They are counted separately from rows without a price, so the run report still shows real data loss.
+- **A street name is not a city.** A Plodine store on Zagrebačka ulica in Zadar was counted as Zagreb. The postal code now decides when the file name has one.
+- **Prices written as sentences.** Kaufland's anchor price column holds `MPC 2.5.2025=7,99€`, Plodine writes `,75`. Prices are read as the last number in the cell.
+- **Line breaks inside product names.** DuckDB's parallel CSV reader refused one day's combined file, and the run stopped before saving anything, which is what the quality gate is for.
+- **Random failures.** Konzum answers some requests with 404 and the same file a minute later. Files that fail get a second pass at the end instead of more retries in a row.
+- **Partial days.** Studenac's daily archive held 20 stores, none in Zagreb. Stores missing from a day keep their prices, so a partial publication doesn't look like closed stores.
+
 ## Running locally
 
 Requires [uv](https://docs.astral.sh/uv/).

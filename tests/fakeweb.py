@@ -182,6 +182,9 @@ class FakeWeb:
             page = "".join(f'<a href="/files/{n}">{n}</a>' for n in names)
             return httpx.Response(200, text=f"<html><body>{page}</body></html>")
         if url.startswith("https://www.lidl.hr/files/"):
+            # day 2 fails a whole pass of retries, like Konzum does at random, then works
+            if "15.10.2026" in url and self.requests.count(url) <= 3:
+                return httpx.Response(404)
             return httpx.Response(200, content=lidl_csv("1,09"))
 
         if url.startswith("https://www.studenac.hr/cjenici/PROIZVODI-"):

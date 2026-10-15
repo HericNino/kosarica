@@ -35,6 +35,8 @@ log = logging.getLogger("kosarica")
 
 PRICE_LIST_SUFFIXES = (".csv", ".xml")
 RETRY_BASE_SECONDS = 2.0
+PASSES = 2
+PASS_PAUSE_SECONDS = 30.0
 
 
 @dataclass
@@ -106,23 +108,35 @@ def ingest_chain(client: httpx.Client, chain: str, day: date, area: str, lake: P
         with rows_path.open("w", newline="", encoding="utf-8") as out:
             writer = csv.writer(out)
             writer.writerow(["store_key", *FIELDS])
-            for remote in remotes:
-                try:
-                    for store, name, data in price_lists(client, remote, area):
-                        report.files_in_area += 1
-                        parsed = parse(name, data)
-                        unknown.update(parsed.unknown_columns)
-                        if not parsed.usable:
-                            report.files_rejected += 1
-                            report.rejected[name] = parsed.missing_columns
-                            continue
-                        stores[store.key] = store
-                        report.rows_skipped += parsed.skipped_rows
-                        for row in parsed.rows:
-                            writer.writerow([store.key, *(row[f] or "" for f in FIELDS)])
-                except (httpx.HTTPError, zipfile.BadZipFile) as error:
-                    report.files_failed += 1
-                    log.warning("%s: %s failed: %s", chain, remote.name, error)
+            # Some sites (Konzum) fail requests at random rather than per file, so what helps
+            # is a second, later pass over the files that failed, not more retries in a row.
+            pending = remotes
+            for attempt in range(1, PASSES + 1):
+                failed = []
+                for remote in pending:
+                    try:
+                        # downloads complete before anything is yielded, so a failed file adds no rows
+                        for store, name, data in price_lists(client, remote, area):
+                            report.files_in_area += 1
+                            parsed = parse(name, data)
+                            unknown.update(parsed.unknown_columns)
+                            if not parsed.usable:
+                                report.files_rejected += 1
+                                report.rejected[name] = parsed.missing_columns
+                                continue
+                            stores[store.key] = store
+                            report.rows_skipped += parsed.skipped_rows
+                            for row in parsed.rows:
+                                writer.writerow([store.key, *(row[f] or "" for f in FIELDS)])
+                    except (httpx.HTTPError, zipfile.BadZipFile) as error:
+                        failed.append(remote)
+                        log.warning("%s: %s failed (pass %d): %s", chain, remote.name, attempt, error)
+                if not failed:
+                    break
+                pending = failed
+                if attempt < PASSES:
+                    time.sleep(PASS_PAUSE_SECONDS)
+            report.files_failed = len(failed)
 
         report.unknown_columns = sorted(unknown)
         if stores:
