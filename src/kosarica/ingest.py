@@ -137,9 +137,10 @@ def ingest_chain(client: httpx.Client, chain: str, day: date, area: str, lake: P
     return report
 
 
-# Prices arrive as "1,99", "1.99", "1.234,56" or "€ 1,99". Zero means "not on offer".
+# Prices arrive as "1,99", "1.99", ",75", "1.234,56", "   9,39" or "MPC 2.5.2025=7,99€" (the
+# last number counts). Zero means "not on offer".
 MONEY_MACROS = """
-create or replace macro money_text(s) as regexp_replace(coalesce(s, ''), '[^0-9.,]', '', 'g');
+create or replace macro money_text(s) as regexp_extract(coalesce(s, ''), '([0-9.,]*[0-9])[^0-9]*$', 1);
 create or replace macro money_value(v) as try_cast(
     case when contains(v, ',') and contains(v, '.') then replace(replace(v, '.', ''), ',', '.')
          else replace(v, ',', '.') end

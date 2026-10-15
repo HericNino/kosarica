@@ -33,6 +33,16 @@ from kosarica.columns import HeaderMap, canonical, normalize_header
         ("jedinica mjere", "unit"),
         ("KategorijeProizvoda", "category"),
         ("WG", "category"),
+        # Kaufland's abbreviations
+        ("maloprod.cijena(EUR)", "price"),
+        ("cijena jed.mj.(EUR)", "unit_price"),
+        ("MPC poseb.oblik prod", "special_price"),
+        ("Najniža MPC u 30dana", "best_price_30"),
+        ("neto količina(KG)", "quantity"),
+        ("akc.cijena, A=akcija", "sale_type"),
+        ("kol.jed.mj.", "pack"),
+        ("jed.mj. (1 KOM/L/KG)", "pack"),
+        ("Dostupan/Nedostupan", "available"),
         # present in some files, deliberately not kept
         ("Naziv posebnog oblika prodaje", "sale_type"),
         ("Dostupno nedostupno", "available"),
